@@ -133,25 +133,56 @@ def generate_html(input_file: str = "README.md", output_file: str = "rules.html"
             color: #e74c3c;
         }}
 
-        /* Print styles */
+        /* Print styles - compact for tiny rulebook feel */
         @media print {{
+            @page {{
+                margin: 0.5in;
+            }}
+
             body {{
                 padding: 0;
                 background: white;
+                font-size: 9pt;
+                line-height: 1.4;
             }}
 
             h1 {{
+                font-size: 16pt;
+                margin: 0.75rem 0 0.5rem 0;
                 color: #000;
                 border-bottom-color: #333;
+                padding-bottom: 0.25rem;
             }}
 
             h2 {{
+                font-size: 12pt;
+                margin: 0.75rem 0 0.4rem 0;
                 color: #000;
                 border-bottom-color: #666;
+                padding-bottom: 0.2rem;
             }}
 
             h3 {{
+                font-size: 10pt;
+                margin: 0.5rem 0 0.3rem 0;
                 color: #000;
+            }}
+
+            p {{
+                margin: 0.3rem 0;
+            }}
+
+            ul, ol {{
+                margin: 0.3rem 0 0.3rem 1.5em;
+            }}
+
+            li {{
+                margin: 0.15rem 0;
+            }}
+
+            hr {{
+                margin: 0.75rem 0;
+                border-top-color: #999;
             }}
 
             strong {{
@@ -161,16 +192,27 @@ def generate_html(input_file: str = "README.md", output_file: str = "rules.html"
             code {{
                 background-color: #f0f0f0;
                 color: #000;
-            }}
-
-            hr {{
-                border-top-color: #999;
+                font-size: 0.85em;
             }}
 
             /* Ensure links are readable when printed */
             a {{
                 color: #000;
                 text-decoration: none;
+            }}
+
+            /* Hide the print button when printing */
+            .print-button {{
+                display: none;
+            }}
+
+            /* Quick reference formatting */
+            h2#one-page-quick-reference {{
+                page-break-before: always;
+            }}
+
+            h2#one-page-quick-reference ~ * {{
+                page-break-inside: avoid;
             }}
         }}
 

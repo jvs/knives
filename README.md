@@ -207,7 +207,7 @@ For younger or beginning players:
 
 ---
 
-## Quick Reference
+## Reminders
 
 **Must Remember:**
 - Follow suit if you can
@@ -217,6 +217,57 @@ For younger or beginning players:
 - Shadow banker is secret until Ghost is played
 
 **Star Values:** K=3, Q=2, J=1, Ace of Knives=1
+
+---
+
+## One-Page Quick Reference
+
+### Deck (32 cards)
+- **Knives (7):** 2, 3, 4, 5, 6, 7, Ace (Ace = highest)
+- **Each Suit (6):** Ghost, Thief, Maid, Jack, Queen, King (King = highest)
+- **Joker (1):** No suit, always wins
+
+### Stars (25 total)
+Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
+
+### Trump Hierarchy
+1. **Joker** (always wins)
+2. **Knives** (greater trump)
+3. **Strong suit** (lesser trump)
+4. **Leading suit** (if no trump played)
+
+### Turn Structure
+1. Lead player plays card
+2. All players follow suit if able
+3. Highest trump (or leading suit) wins trick
+4. Winner leads next trick (unless Thief played)
+
+### Banker & Shadow
+- **Banker:** Takes 2 bank cards, banks 2 cards (count toward their stars)
+- **Shadow:** Player with Ghost of strong suit (secret until played)
+- **Solo:** Banker has Ghost = no partner, double points
+
+### Special Cards
+- **Joker:** Always wins | When led: no suit required
+- **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
+- **Thief:** If only one played, that player leads next (no effect on trick 6)
+
+### Scoring
+
+**Banker + Shadow (combined):**
+- 13-16★ = +1 each | 17-20★ = +2 each | 21+★ = +3 each
+
+**Defenders (combined 13+★):**
+- +1 each
+
+**Solo Banker (double):**
+- 13-16★ = +2 | 17-20★ = +4 | 21+★ = +6
+
+**Leaster/Moster:**
+- Winner(s) = +2
+
+### Win Condition
+First to 10 (quick) | 15 (standard) | 20+ (long)
 
 ---
 
