@@ -1,0 +1,17 @@
+[project]
+name = "knives"
+version = "0.1.0"
+description = "A five-player trick-taking card game"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "markdown>=3.5",
+    "xhtml2pdf>=0.2.15",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
