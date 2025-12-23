@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Knives - A Five-Player Trick-Taking Game</title>
+    <style>
+        /* Print-specific styles */
+        @page {
+            size: letter;
+            margin: 0.75in;
+        }
+
+        @page :first {
+            margin-top: 0.5in;
+        }
+
+        /* Prevent page breaks inside important elements */
+        h1, h2, h3 {
+            page-break-after: avoid;
+        }
+
+        ul, ol {
+            page-break-inside: avoid;
+        }
+
+        /* Base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 1rem;
+            background: #ffffff;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 28pt;
+            font-weight: 700;
+            margin: 1.5rem 0 1rem 0;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+
+        h1:first-child {
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 18pt;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem 0;
+            color: #34495e;
+            border-bottom: 2px solid #95a5a6;
+            padding-bottom: 0.3rem;
+        }
+
+        h3 {
+            font-size: 14pt;
+            font-weight: 600;
+            margin: 1.25rem 0 0.5rem 0;
+            color: #2c3e50;
+        }
+
+        p {
+            margin: 0.5rem 0;
+        }
+
+        /* Horizontal rules */
+        hr {
+            border: none;
+            border-top: 2px solid #bdc3c7;
+            margin: 1.5rem 0;
+            page-break-after: avoid;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 0.5rem 0 0.5rem 2em;
+        }
+
+        li {
+            margin: 0.25rem 0;
+        }
+
+        /* Strong text */
+        strong {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        /* Code */
+        code {
+            background-color: #f8f9fa;
+            padding: 0.15em 0.4em;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #e74c3c;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                padding: 0;
+                background: white;
+            }
+
+            h1 {
+                color: #000;
+                border-bottom-color: #333;
+            }
+
+            h2 {
+                color: #000;
+                border-bottom-color: #666;
+            }
+
+            h3 {
+                color: #000;
+            }
+
+            strong {
+                color: #000;
+            }
+
+            code {
+                background-color: #f0f0f0;
+                color: #000;
+            }
+
+            hr {
+                border-top-color: #999;
+            }
+
+            /* Ensure links are readable when printed */
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+
+        /* Screen-only styles */
+        @media screen {
+            body {
+                background: #f5f6fa;
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+                padding: 2rem;
+                margin: 2rem auto;
+            }
+
+            .print-button {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 0.75rem 1.5rem;
+                background: #3498db;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 14pt;
+                font-weight: 600;
+                cursor: pointer;
+                box-shadow: 0 2px 10px rgba(52, 152, 219, 0.3);
+                transition: all 0.3s ease;
+            }
+
+            .print-button:hover {
+                background: #2980b9;
+                box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+                transform: translateY(-2px);
+            }
+
+            .print-button:active {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button" onclick="window.print()">🖨️ Print Rules</button>
+    <h1 id="knives">🗡️ Knives</h1>
+<h2 id="a-five-player-trick-taking-game">A Five-Player Trick-Taking Game</h2>
+<p>Knives is a five-player trick-taking game where players compete to collect stars (points on cards). One player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
+<h2 id="the-deck-32-cards">The Deck (32 cards)</h2>
+<h3 id="knives-suit-7-cards">Knives Suit (7 cards)</h3>
+<p>2, 3, 4, 5, 6, 7, Ace</p>
+<ul>
+<li>Ace is highest, 2 is lowest</li>
+<li>Knives are always <strong>greater trump</strong></li>
+</ul>
+<h3 id="four-traditional-suits-24-cards">Four Traditional Suits (24 cards)</h3>
+<p>Spades, Clubs, Diamonds, Hearts - each containing:</p>
+<ul>
+<li>Ghost (lowest)</li>
+<li>Thief</li>
+<li>Maid</li>
+<li>Jack</li>
+<li>Queen</li>
+<li>King (highest)</li>
+</ul>
+<h3 id="special-card">Special Card</h3>
+<ul>
+<li>1 Joker (no suit)</li>
+</ul>
+<h2 id="card-values-stars">Card Values (Stars)</h2>
+<ul>
+<li><strong>Kings:</strong> 3 stars each</li>
+<li><strong>Queens:</strong> 2 stars each</li>
+<li><strong>Jacks:</strong> 1 star each</li>
+<li><strong>Ace of Knives:</strong> 1 star</li>
+<li><strong>All other cards:</strong> 0 stars</li>
+<li><strong>Total in deck:</strong> 25 stars</li>
+</ul>
+<h2 id="setup">Setup</h2>
+<ol>
+<li><strong>Dealer shuffles</strong> and cards are cut</li>
+<li><strong>Deal 6 cards</strong> to each player (clockwise)</li>
+<li><strong>Deal 2 cards</strong> face-down to the bank</li>
+<li><strong>Dealer declares</strong> an initial strong suit</li>
+</ol>
+<h2 id="choosing-the-banker">Choosing the Banker</h2>
+<p>Starting with the player left of the dealer, each player in turn either:</p>
+<ul>
+<li><strong>Picks:</strong> Becomes the banker with the current strong suit</li>
+<li><strong>Passes:</strong> Names a new strong suit (overriding the previous one) and passes</li>
+</ul>
+<p>Once someone picks:</p>
+<ul>
+<li>They become the <strong>banker</strong></li>
+<li>They take the 2 bank cards (now have 8 cards)</li>
+<li>They <strong>bank</strong> 2 cards face-down from their hand (back to 6 cards)</li>
+<li>The banked cards count toward the banker's stars at the end</li>
+</ul>
+<h3 id="if-everyone-passes">If Everyone Passes</h3>
+<ol>
+<li>The last player names a final strong suit</li>
+<li>The dealer chooses <strong>leaster</strong> (fewest stars wins) or <strong>moster</strong> (most stars wins)</li>
+<li>The dealer discards the 2 bank cards face-down</li>
+<li>(Optional) The dealer may reveal the discarded cards (both, one, or neither)</li>
+<li>All players play for themselves</li>
+</ol>
+<h2 id="the-strong-suit-trump">The Strong Suit &amp; Trump</h2>
+<ul>
+<li><strong>Greater trump:</strong> Knives (always)</li>
+<li><strong>Lesser trump:</strong> The declared strong suit</li>
+<li><strong>Fail suits:</strong> The other three traditional suits</li>
+</ul>
+<h3 id="trump-hierarchy">Trump Hierarchy</h3>
+<ul>
+<li>Knives beat the strong suit</li>
+<li>The strong suit beats fail suits</li>
+<li>Among fail suits, only the leading suit can win the trick (unless trump is played)</li>
+</ul>
+<h2 id="finding-the-shadow-banker">Finding the Shadow Banker</h2>
+<ul>
+<li>If a player other than the banker holds the <strong>Ghost of the strong suit</strong>, they are the <strong>shadow banker</strong> (secret partner)</li>
+<li>The shadow banker's identity is discovered during play when the Ghost is revealed</li>
+<li>The banker may announce they are playing solo if they wish, but this helps the defenders</li>
+<li>The banker and shadow banker <strong>combine their won tricks</strong> to count stars together at the end of the round</li>
+<li>If the banker has the Ghost, they play solo (no partner)</li>
+</ul>
+<h2 id="special-card-abilities">Special Card Abilities</h2>
+<h3 id="joker">Joker</h3>
+<ul>
+<li>Can be played at any time (no need to follow suit)</li>
+<li>Always wins the trick</li>
+<li>When led: The trick has no leading suit, all players may play any card</li>
+</ul>
+<h3 id="ghost">Ghost</h3>
+<ul>
+<li>If a Ghost and King of the <strong>same suit</strong> are played in the same trick, the Ghost outranks the King</li>
+<li>The Ghost of the strong suit identifies the shadow banker</li>
+</ul>
+<h3 id="thief">Thief</h3>
+<ul>
+<li>If you play a Thief and <strong>no other player</strong> plays a Thief that trick, you lead the next trick (regardless of who won)</li>
+<li>If multiple Thieves are played, they cancel each other out</li>
+<li>Has no effect on the final (6th) trick</li>
+</ul>
+<h2 id="playing-tricks">Playing Tricks</h2>
+<h3 id="first-lead">First Lead</h3>
+<ul>
+<li><strong>With a banker:</strong> Player to the left of the banker leads</li>
+<li><strong>Leaster/Moster:</strong> Player to the left of the dealer leads</li>
+</ul>
+<h3 id="following-suit">Following Suit</h3>
+<ul>
+<li>Players must follow the leading suit if able</li>
+<li>If unable, they may play any card</li>
+</ul>
+<h3 id="winning-tricks">Winning Tricks</h3>
+<ul>
+<li>Highest trump card wins (Knives beat strong suit)</li>
+<li>If no trump, highest card of the leading suit wins</li>
+<li>Exception: Joker always wins</li>
+</ul>
+<h2 id="scoring">Scoring</h2>
+<h3 id="banker-shadow-banker-combined-stars">Banker + Shadow Banker (combined stars)</h3>
+<p>Both players receive the same points:</p>
+<ul>
+<li><strong>13-16 stars:</strong> +1 point each</li>
+<li><strong>17-20 stars:</strong> +2 points each</li>
+<li><strong>21+ stars:</strong> +3 points each</li>
+</ul>
+<h3 id="defenders-win-combined-stars-13">Defenders Win (combined stars 13+)</h3>
+<ul>
+<li>Each defender: +1 point</li>
+</ul>
+<h3 id="solo-banker-no-shadow-banker">Solo Banker (no shadow banker)</h3>
+<p>Double the normal payout:</p>
+<ul>
+<li><strong>13-16 stars:</strong> +2 points</li>
+<li><strong>17-20 stars:</strong> +4 points</li>
+<li><strong>21+ stars:</strong> +6 points</li>
+</ul>
+<h3 id="leaster-fewest-stars-wins">Leaster (fewest stars wins)</h3>
+<ul>
+<li>Player(s) with fewest stars: +2 points each</li>
+</ul>
+<h3 id="moster-most-stars-wins">Moster (most stars wins)</h3>
+<ul>
+<li>Player(s) with most stars: +2 points each</li>
+</ul>
+<h2 id="winning-the-game">Winning the Game</h2>
+<p>Players decide before the game starts how many points to play to:</p>
+<ul>
+<li><strong>Quick game:</strong> First to 10 points</li>
+<li><strong>Standard game:</strong> First to 15 points</li>
+<li><strong>Long game:</strong> First to 20+ points</li>
+</ul>
+<hr />
+<h2 id="variations">Variations</h2>
+<h3 id="simplified-scoring">Simplified Scoring</h3>
+<p>For faster, more casual play:</p>
+<p><strong>Banker + Shadow Banker:</strong><br />
+- Win (13+ stars): +2 points each<br />
+- Win with all 25 stars: +3 points each</p>
+<p><strong>Defenders Win:</strong><br />
+- +1 point each</p>
+<p><strong>Solo Banker:</strong><br />
+- Win (13+ stars): +4 points<br />
+- Win with all 25 stars: +6 points</p>
+<p><strong>Leaster/Moster:</strong> (unchanged)<br />
+- +2 points each to winner(s)</p>
+<h3 id="simplified-rules">Simplified Rules</h3>
+<p>For younger or beginning players:</p>
+<p><strong>Changes:</strong><br />
+- <strong>Spades is always the strong suit</strong> (no suit selection)<br />
+- The player with the <strong>Ghost of Spades</strong> is the shadow banker<br />
+- <strong>No Ghost/King power:</strong> Ghost does not beat King<br />
+- <strong>No Thief power:</strong> Thief is just a regular card<br />
+- <strong>If all other players pass, the dealer must be the banker</strong> (no leaster/moster)</p>
+<p><strong>Solo Banker:</strong> +4 points for any win</p>
+<p><strong>Recommended for ages 10+</strong></p>
+<hr />
+<h2 id="quick-reference">Quick Reference</h2>
+<p><strong>Must Remember:</strong><br />
+- Follow suit if you can<br />
+- Knives always trump<br />
+- Strong suit trumps fail suits<br />
+- Banker's banked cards count toward their stars<br />
+- Shadow banker is secret until Ghost is played</p>
+<p><strong>Star Values:</strong> K=3, Q=2, J=1, Ace of Knives=1</p>
+<hr />
+<h2 id="license">License</h2>
+<p>This game design is open source. Feel free to modify, share, and create your own versions!</p>
+
+    <script>
+        // Add keyboard shortcut for printing
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>

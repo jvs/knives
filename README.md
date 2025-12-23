@@ -2,13 +2,8 @@
 
 ## A Five-Player Trick-Taking Game
 
----
-
-## Overview
-
 Knives is a five-player trick-taking game where players compete to collect stars (points on cards). One player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.
 
----
 
 ## The Deck (32 cards)
 
@@ -31,7 +26,6 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 ### Special Card
 - 1 Joker (no suit)
 
----
 
 ## Card Values (Stars)
 
@@ -42,7 +36,6 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 - **All other cards:** 0 stars
 - **Total in deck:** 25 stars
 
----
 
 ## Setup
 
@@ -51,7 +44,6 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 3. **Deal 2 cards** face-down to the bank
 4. **Dealer declares** an initial strong suit
 
----
 
 ## Choosing the Banker
 
@@ -75,7 +67,6 @@ Once someone picks:
 4. (Optional) The dealer may reveal the discarded cards (both, one, or neither)
 5. All players play for themselves
 
----
 
 ## The Strong Suit & Trump
 
@@ -89,7 +80,6 @@ Once someone picks:
 - The strong suit beats fail suits
 - Among fail suits, only the leading suit can win the trick (unless trump is played)
 
----
 
 ## Finding the Shadow Banker
 
@@ -99,7 +89,6 @@ Once someone picks:
 - The banker and shadow banker **combine their won tricks** to count stars together at the end of the round
 - If the banker has the Ghost, they play solo (no partner)
 
----
 
 ## Special Card Abilities
 
@@ -120,7 +109,6 @@ Once someone picks:
 - If multiple Thieves are played, they cancel each other out
 - Has no effect on the final (6th) trick
 
----
 
 ## Playing Tricks
 
@@ -140,7 +128,6 @@ Once someone picks:
 - If no trump, highest card of the leading suit wins
 - Exception: Joker always wins
 
----
 
 ## Scoring
 
@@ -172,7 +159,6 @@ Double the normal payout:
 
 - Player(s) with most stars: +2 points each
 
----
 
 ## Winning the Game
 

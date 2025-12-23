@@ -2,17 +2,21 @@
 setup:
     @echo "Setting up Python environment with uv..."
     uv venv
-    uv pip install markdown xhtml2pdf
+    uv pip install markdown
     @echo "✓ Python environment ready"
     @echo "✓ All dependencies installed via uv"
 
-# Generate PDF from README.md
-pdf:
-    uv run --no-project python generate_pdf.py
+# Generate HTML from README.md
+html:
+    uv run --no-project python generate_html.py
+
+# Open generated HTML in browser
+view: html
+    open rules.html
 
 # Clean generated files
 clean:
-    rm -f README.pdf
+    rm -f rules.html
 
 # Show available commands
 help:

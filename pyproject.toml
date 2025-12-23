@@ -6,7 +6,6 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "markdown>=3.5",
-    "xhtml2pdf>=0.2.15",
 ]
 
 [build-system]
