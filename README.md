@@ -2,7 +2,7 @@
 
 ## A Five-Player Trick-Taking Game
 
-Knives is a five-player trick-taking game where players compete to collect stars (points on cards). One player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.
+Knives is a five-player trick-taking game where players compete to collect stars (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.
 
 
 ## The Deck (32 cards)
@@ -16,12 +16,7 @@ Knives is a five-player trick-taking game where players compete to collect stars
 ### Four Traditional Suits (24 cards)
 Spades, Clubs, Diamonds, Hearts - each containing:
 
-- Ghost (lowest)
-- Thief
-- Maid
-- Jack
-- Queen
-- King (highest)
+- Ghost (lowest), Thief, Maid, Jack, Queen, King (highest)
 
 ### Special Card
 - 1 Joker (no suit)
@@ -49,10 +44,10 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 
 Starting with the player left of the dealer, each player in turn either:
 
-- **Picks:** Becomes the banker with the current strong suit
+- **Takes:** Becomes the banker with the current strong suit
 - **Passes:** Names a new strong suit (overriding the previous one) and passes
 
-Once someone picks:
+Once someone takes:
 
 - They become the **banker**
 - They take the 2 bank cards (now have 8 cards)
@@ -116,6 +111,7 @@ Once someone picks:
 
 - **With a banker:** Player to the left of the banker leads
 - **Leaster/Moster:** Player to the left of the dealer leads
+- The player may lead with any card.
 
 ### Following Suit
 
@@ -223,51 +219,51 @@ For younger or beginning players:
 ## One-Page Quick Reference
 
 ### Deck (32 cards)
-- **Knives (7):** 2, 3, 4, 5, 6, 7, Ace (Ace = highest)
-- **Each Suit (6):** Ghost, Thief, Maid, Jack, Queen, King (King = highest)
-- **Joker (1):** No suit, always wins
+ **Knives (7):** 2, 3, 4, 5, 6, 7, Ace (Ace = highest)
+ **Each Suit (6):** Ghost, Thief, Maid, Jack, Queen, King (King = highest)
+ **Joker (1):** No suit, always wins
 
 ### Stars (25 total)
 Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
 
-### Trump Hierarchy
-1. **Joker** (always wins)
-2. **Knives** (greater trump)
-3. **Strong suit** (lesser trump)
-4. **Leading suit** (if no trump played)
-
-### Turn Structure
-1. Lead player plays card
-2. All players follow suit if able
-3. Highest trump (or leading suit) wins trick
-4. Winner leads next trick (unless Thief played)
+### Choosing Banker (each hand)
+1. Dealer deals 6 cards to each player + 2 to bank.
+2. Players look at their cards. Dealer names an initial strong suit.
+2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit)
+3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's stars)
+4. **If all pass:** Dealer picks leaster/moster, discards bank, all play solo
 
 ### Banker & Shadow
-- **Banker:** Takes 2 bank cards, banks 2 cards (count toward their stars)
-- **Shadow:** Player with Ghost of strong suit (secret until played)
-- **Solo:** Banker has Ghost = no partner, double points
+ **Banker:** Takes 2 bank cards, banks 2 cards (count toward their stars)
+ **Shadow:** Player with Ghost of strong suit (secret until played)
+ **Solo:** Banker has Ghost = no partner, double points
+
+### Trump & Tricks (each trick)
+ **Trump:** Joker > Knives > Strong suit > Leading suit
+ **Follow suit if able**
+ Highest trump wins (or leading suit if no trump)
+ Winner leads next (unless Thief)
 
 ### Special Cards
-- **Joker:** Always wins | When led: no suit required
-- **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
-- **Thief:** If only one played, that player leads next (no effect on trick 6)
+ **Joker:** Always wins | When led: no suit required
+ **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
+ **Thief:** If only one played, that player leads next (no effect on trick 6)
 
 ### Scoring
+ **Banker + Shadow (combined):** 13-16★ = +1 ea | 17-20★ = +2 ea | 21+★ = +3 ea
+ **Solo Banker:** Double points
+ **Defenders (13+★):** +1 ea
+ **Leaster/Moster:** +2 to winner(s)
 
-**Banker + Shadow (combined):**
-- 13-16★ = +1 each | 17-20★ = +2 each | 21+★ = +3 each
+### First Lead
+ **With banker:** Player left of banker
+ **Leaster/Moster:** Player left of dealer
 
-**Defenders (combined 13+★):**
-- +1 each
-
-**Solo Banker (double):**
-- 13-16★ = +2 | 17-20★ = +4 | 21+★ = +6
-
-**Leaster/Moster:**
-- Winner(s) = +2
-
-### Win Condition
-First to 10 (quick) | 15 (standard) | 20+ (long)
+### Reminders
+ * Must follow suit if able
+ * Banker's banked cards count toward their stars
+ * Shadow stays secret until Ghost played
+ * Thief has no effect on last trick of hand
 
 ---
 

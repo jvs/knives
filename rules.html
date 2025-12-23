@@ -112,7 +112,7 @@
         /* Print styles - compact for tiny rulebook feel */
         @media print {
             @page {
-                margin: 0.5in;
+                margin: 0.75in;
             }
 
             body {
@@ -187,8 +187,18 @@
                 page-break-before: always;
             }
 
-            h2#one-page-quick-reference ~ * {
-                page-break-inside: avoid;
+            /* License as small footnote on quick reference page */
+            h2#license {
+                font-size: 7pt;
+                margin-top: 1rem;
+                margin-bottom: 0.2rem;
+                border: none;
+            }
+
+            h2#license + p {
+                font-size: 7pt;
+                margin: 0;
+                font-style: italic;
             }
         }
 
@@ -233,7 +243,7 @@
     <button class="print-button" onclick="window.print()">🖨️ Print Rules</button>
     <h1 id="knives">🗡️ Knives</h1>
 <h2 id="a-five-player-trick-taking-game">A Five-Player Trick-Taking Game</h2>
-<p>Knives is a five-player trick-taking game where players compete to collect stars (points on cards). One player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
+<p>Knives is a five-player trick-taking game where players compete to collect stars (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
 <h2 id="the-deck-32-cards">The Deck (32 cards)</h2>
 <h3 id="knives-suit-7-cards">Knives Suit (7 cards)</h3>
 <p>2, 3, 4, 5, 6, 7, Ace</p>
@@ -244,12 +254,7 @@
 <h3 id="four-traditional-suits-24-cards">Four Traditional Suits (24 cards)</h3>
 <p>Spades, Clubs, Diamonds, Hearts - each containing:</p>
 <ul>
-<li>Ghost (lowest)</li>
-<li>Thief</li>
-<li>Maid</li>
-<li>Jack</li>
-<li>Queen</li>
-<li>King (highest)</li>
+<li>Ghost (lowest), Thief, Maid, Jack, Queen, King (highest)</li>
 </ul>
 <h3 id="special-card">Special Card</h3>
 <ul>
@@ -274,10 +279,10 @@
 <h2 id="choosing-the-banker">Choosing the Banker</h2>
 <p>Starting with the player left of the dealer, each player in turn either:</p>
 <ul>
-<li><strong>Picks:</strong> Becomes the banker with the current strong suit</li>
+<li><strong>Takes:</strong> Becomes the banker with the current strong suit</li>
 <li><strong>Passes:</strong> Names a new strong suit (overriding the previous one) and passes</li>
 </ul>
-<p>Once someone picks:</p>
+<p>Once someone takes:</p>
 <ul>
 <li>They become the <strong>banker</strong></li>
 <li>They take the 2 bank cards (now have 8 cards)</li>
@@ -335,6 +340,7 @@
 <ul>
 <li><strong>With a banker:</strong> Player to the left of the banker leads</li>
 <li><strong>Leaster/Moster:</strong> Player to the left of the dealer leads</li>
+<li>The player may lead with any card.</li>
 </ul>
 <h3 id="following-suit">Following Suit</h3>
 <ul>
@@ -417,50 +423,47 @@
 <hr />
 <h2 id="one-page-quick-reference">One-Page Quick Reference</h2>
 <h3 id="deck-32-cards">Deck (32 cards)</h3>
-<ul>
-<li><strong>Knives (7):</strong> 2, 3, 4, 5, 6, 7, Ace (Ace = highest)</li>
-<li><strong>Each Suit (6):</strong> Ghost, Thief, Maid, Jack, Queen, King (King = highest)</li>
-<li><strong>Joker (1):</strong> No suit, always wins</li>
-</ul>
+<p><strong>Knives (7):</strong> 2, 3, 4, 5, 6, 7, Ace (Ace = highest)<br />
+<strong>Each Suit (6):</strong> Ghost, Thief, Maid, Jack, Queen, King (King = highest)<br />
+<strong>Joker (1):</strong> No suit, always wins</p>
 <h3 id="stars-25-total">Stars (25 total)</h3>
 <p>Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★</p>
-<h3 id="trump-hierarchy_1">Trump Hierarchy</h3>
+<h3 id="choosing-banker-each-hand">Choosing Banker (each hand)</h3>
 <ol>
-<li><strong>Joker</strong> (always wins)</li>
-<li><strong>Knives</strong> (greater trump)</li>
-<li><strong>Strong suit</strong> (lesser trump)</li>
-<li><strong>Leading suit</strong> (if no trump played)</li>
-</ol>
-<h3 id="turn-structure">Turn Structure</h3>
-<ol>
-<li>Lead player plays card</li>
-<li>All players follow suit if able</li>
-<li>Highest trump (or leading suit) wins trick</li>
-<li>Winner leads next trick (unless Thief played)</li>
+<li>Dealer deals 6 cards to each player + 2 to bank.</li>
+<li>Players look at their cards. Dealer names an initial strong suit.</li>
+<li>Starting left of dealer: <strong>Take</strong> (become banker) or <strong>Pass</strong> (name new strong suit)</li>
+<li>Banker takes 2 bank cards, banks 2 cards back (count toward banker's stars)</li>
+<li><strong>If all pass:</strong> Dealer picks leaster/moster, discards bank, all play solo</li>
 </ol>
 <h3 id="banker-shadow">Banker &amp; Shadow</h3>
-<ul>
-<li><strong>Banker:</strong> Takes 2 bank cards, banks 2 cards (count toward their stars)</li>
-<li><strong>Shadow:</strong> Player with Ghost of strong suit (secret until played)</li>
-<li><strong>Solo:</strong> Banker has Ghost = no partner, double points</li>
-</ul>
+<p><strong>Banker:</strong> Takes 2 bank cards, banks 2 cards (count toward their stars)<br />
+<strong>Shadow:</strong> Player with Ghost of strong suit (secret until played)<br />
+<strong>Solo:</strong> Banker has Ghost = no partner, double points</p>
+<h3 id="trump-tricks-each-trick">Trump &amp; Tricks (each trick)</h3>
+<p><strong>Trump:</strong> Joker &gt; Knives &gt; Strong suit &gt; Leading suit<br />
+<strong>Follow suit if able</strong><br />
+ Highest trump wins (or leading suit if no trump)<br />
+ Winner leads next (unless Thief)</p>
 <h3 id="special-cards">Special Cards</h3>
-<ul>
-<li><strong>Joker:</strong> Always wins | When led: no suit required</li>
-<li><strong>Ghost:</strong> Beats King of same suit in same trick | Ghost of strong suit = shadow banker</li>
-<li><strong>Thief:</strong> If only one played, that player leads next (no effect on trick 6)</li>
-</ul>
+<p><strong>Joker:</strong> Always wins | When led: no suit required<br />
+<strong>Ghost:</strong> Beats King of same suit in same trick | Ghost of strong suit = shadow banker<br />
+<strong>Thief:</strong> If only one played, that player leads next (no effect on trick 6)</p>
 <h3 id="scoring_1">Scoring</h3>
-<p><strong>Banker + Shadow (combined):</strong><br />
-- 13-16★ = +1 each | 17-20★ = +2 each | 21+★ = +3 each</p>
-<p><strong>Defenders (combined 13+★):</strong><br />
-- +1 each</p>
-<p><strong>Solo Banker (double):</strong><br />
-- 13-16★ = +2 | 17-20★ = +4 | 21+★ = +6</p>
-<p><strong>Leaster/Moster:</strong><br />
-- Winner(s) = +2</p>
-<h3 id="win-condition">Win Condition</h3>
-<p>First to 10 (quick) | 15 (standard) | 20+ (long)</p>
+<p><strong>Banker + Shadow (combined):</strong> 13-16★ = +1 ea | 17-20★ = +2 ea | 21+★ = +3 ea<br />
+<strong>Solo Banker:</strong> Double points<br />
+<strong>Defenders (13+★):</strong> +1 ea<br />
+<strong>Leaster/Moster:</strong> +2 to winner(s)</p>
+<h3 id="first-lead_1">First Lead</h3>
+<p><strong>With banker:</strong> Player left of banker<br />
+<strong>Leaster/Moster:</strong> Player left of dealer</p>
+<h3 id="reminders_1">Reminders</h3>
+<ul>
+<li>Must follow suit if able</li>
+<li>Banker's banked cards count toward their stars</li>
+<li>Shadow stays secret until Ghost played</li>
+<li>Thief has no effect on last trick of hand</li>
+</ul>
 <hr />
 <h2 id="license">License</h2>
 <p>This game design is open source. Feel free to modify, share, and create your own versions!</p>

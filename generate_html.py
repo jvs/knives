@@ -136,7 +136,7 @@ def generate_html(input_file: str = "README.md", output_file: str = "rules.html"
         /* Print styles - compact for tiny rulebook feel */
         @media print {{
             @page {{
-                margin: 0.5in;
+                margin: 0.75in;
             }}
 
             body {{
@@ -211,8 +211,18 @@ def generate_html(input_file: str = "README.md", output_file: str = "rules.html"
                 page-break-before: always;
             }}
 
-            h2#one-page-quick-reference ~ * {{
-                page-break-inside: avoid;
+            /* License as small footnote on quick reference page */
+            h2#license {{
+                font-size: 7pt;
+                margin-top: 1rem;
+                margin-bottom: 0.2rem;
+                border: none;
+            }}
+
+            h2#license + p {{
+                font-size: 7pt;
+                margin: 0;
+                font-style: italic;
             }}
         }}
 
