@@ -1,17 +1,19 @@
-# 🗡️ Knives
+# 🐍 Snakeshead
 
 ## A Five-Player Trick-Taking Game
 
-Knives is a five-player trick-taking game where players compete to collect stars (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.
+Snakeshead is a five-player trick-taking game where players compete to collect stars
+(points on cards). Each hand, one player becomes the banker and secretly partners with
+a shadow banker. The other three players are defenders trying to stop them.
 
 
 ## The Deck (32 cards)
 
-### Knives Suit (7 cards)
+### Snakes Suit (7 cards)
 2, 3, 4, 5, 6, 7, Ace
 
 - Ace is highest, 2 is lowest
-- Knives are always **greater trump**
+- Snakes are always **greater trump**
 
 ### Four Traditional Suits (24 cards)
 Spades, Clubs, Diamonds, Hearts - each containing:
@@ -27,7 +29,7 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 - **Kings:** 3 stars each
 - **Queens:** 2 stars each
 - **Jacks:** 1 star each
-- **Ace of Knives:** 1 star
+- **Ace of Snakes:** 1 star
 - **All other cards:** 0 stars
 - **Total in deck:** 25 stars
 
@@ -65,13 +67,13 @@ Once someone takes:
 
 ## The Strong Suit & Trump
 
-- **Greater trump:** Knives (always)
+- **Greater trump:** Snakes (always)
 - **Lesser trump:** The declared strong suit
 - **Fail suits:** The other three traditional suits
 
 ### Trump Hierarchy
 
-- Knives beat the strong suit
+- Snakes beat the strong suit
 - The strong suit beats fail suits
 - Among fail suits, only the leading suit can win the trick (unless trump is played)
 
@@ -120,7 +122,7 @@ Once someone takes:
 
 ### Winning Tricks
 
-- Highest trump card wins (Knives beat strong suit)
+- Highest trump card wins (Snakes beat strong suit)
 - If no trump, highest card of the leading suit wins
 - Exception: Joker always wins
 
@@ -207,24 +209,24 @@ For younger or beginning players:
 
 **Must Remember:**
 - Follow suit if you can
-- Knives always trump
+- Snakes always trump
 - Strong suit trumps fail suits
 - Banker's banked cards count toward their stars
 - Shadow banker is secret until Ghost is played
 
-**Star Values:** K=3, Q=2, J=1, Ace of Knives=1
+**Star Values:** K=3, Q=2, J=1, Ace of Snakes=1
 
 ---
 
 ## One-Page Quick Reference
 
 ### Deck (32 cards)
- **Knives (7):** 2, 3, 4, 5, 6, 7, Ace (Ace = highest)
+ **Snakes (7):** 2, 3, 4, 5, 6, 7, Ace (Ace = highest)
  **Each Suit (6):** Ghost, Thief, Maid, Jack, Queen, King (King = highest)
  **Joker (1):** No suit, always wins
 
 ### Stars (25 total)
-Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
+Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Snakes = 1★
 
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
@@ -239,7 +241,7 @@ Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
  **Solo:** Banker has Ghost = no partner, double points
 
 ### Trump & Tricks (each trick)
- **Trump:** Joker > Knives > Strong suit > Leading suit
+ **Trump:** Joker > Snakes > Strong suit > Leading suit
  **Follow suit if able**
  Highest trump wins (or leading suit if no trump)
  Winner leads next (unless Thief)
