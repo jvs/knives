@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Snakeshead - A Five-Player Trick-Taking Game</title>
+    <title>Knives - A Five-Player Trick-Taking Game</title>
     <style>
         /* Print-specific styles */
         @page {
@@ -241,35 +241,37 @@
 </head>
 <body>
     <button class="print-button" onclick="window.print()">🖨️ Print Rules</button>
-    <h1 id="snakeshead">🐍 Snakeshead</h1>
+    <h1 id="knives">🗡 Knives</h1>
 <h2 id="a-five-player-trick-taking-game">A Five-Player Trick-Taking Game</h2>
-<p>Snakeshead is a five-player trick-taking game where players compete to collect stars<br />
-(points on cards). Each hand, one player becomes the banker and secretly partners with<br />
-a shadow banker. The other three players are defenders trying to stop them.</p>
+<p>Knives is a five-player trick-taking game where players compete to collect coins (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
 <h2 id="the-deck-32-cards">The Deck (32 cards)</h2>
-<h3 id="snakes-suit-7-cards">Snakes Suit (7 cards)</h3>
-<p>2, 3, 4, 5, 6, 7, Ace</p>
+<h3 id="knives-suit-8-cards">Knives Suit (8 cards)</h3>
+<p>2, 3, 4, 5, 6, 7, 8, Ace</p>
 <ul>
 <li>Ace is highest, 2 is lowest</li>
-<li>Snakes are always <strong>greater trump</strong></li>
+<li>Knives are always <strong>greater trump</strong></li>
 </ul>
 <h3 id="four-traditional-suits-24-cards">Four Traditional Suits (24 cards)</h3>
 <p>Spades, Clubs, Diamonds, Hearts - each containing:</p>
 <ul>
-<li>Ghost (lowest), Thief, Maid, Jack, Queen, King (highest)</li>
+<li>Ghost (lowest), Special, Maid, Jack, Queen, King (highest)</li>
 </ul>
-<h3 id="special-card">Special Card</h3>
+<h3 id="special-cards">Special Cards</h3>
 <ul>
-<li>1 Joker (no suit)</li>
+<li>Clubs: Cat</li>
+<li>Diamonds: Dance</li>
+<li>Hearts: Hound</li>
+<li>Spades: Snitch</li>
 </ul>
-<h2 id="card-values-stars">Card Values (Stars)</h2>
+<p>Each suit's Special card ranks between the Ghost and Maid.</p>
+<h2 id="card-values-coins">Card Values (Coins)</h2>
 <ul>
-<li><strong>Kings:</strong> 3 stars each</li>
-<li><strong>Queens:</strong> 2 stars each</li>
-<li><strong>Jacks:</strong> 1 star each</li>
-<li><strong>Ace of Snakes:</strong> 1 star</li>
-<li><strong>All other cards:</strong> 0 stars</li>
-<li><strong>Total in deck:</strong> 25 stars</li>
+<li><strong>Kings:</strong> 3 coins each</li>
+<li><strong>Queens:</strong> 2 coins each</li>
+<li><strong>Jacks:</strong> 1 coin each</li>
+<li><strong>Ace of Knives:</strong> 1 coin</li>
+<li><strong>All other cards:</strong> 0 coins</li>
+<li><strong>Total in deck:</strong> 25 coins</li>
 </ul>
 <h2 id="setup">Setup</h2>
 <ol>
@@ -289,25 +291,25 @@ a shadow banker. The other three players are defenders trying to stop them.</p>
 <li>They become the <strong>banker</strong></li>
 <li>They take the 2 bank cards (now have 8 cards)</li>
 <li>They <strong>bank</strong> 2 cards face-down from their hand (back to 6 cards)</li>
-<li>The banked cards count toward the banker's stars at the end</li>
+<li>The banked cards count toward the banker's coins at the end</li>
 </ul>
 <h3 id="if-everyone-passes">If Everyone Passes</h3>
 <ol>
 <li>The last player names a final strong suit</li>
-<li>The dealer chooses <strong>leaster</strong> (fewest stars wins) or <strong>moster</strong> (most stars wins)</li>
+<li>The dealer chooses <strong>leaster</strong> (fewest coins wins) or <strong>moster</strong> (most coins wins)</li>
 <li>The dealer discards the 2 bank cards face-down</li>
 <li>(Optional) The dealer may reveal the discarded cards (both, one, or neither)</li>
 <li>All players play for themselves</li>
 </ol>
 <h2 id="the-strong-suit-trump">The Strong Suit &amp; Trump</h2>
 <ul>
-<li><strong>Greater trump:</strong> Snakes (always)</li>
+<li><strong>Greater trump:</strong> Knives (always)</li>
 <li><strong>Lesser trump:</strong> The declared strong suit</li>
 <li><strong>Fail suits:</strong> The other three traditional suits</li>
 </ul>
 <h3 id="trump-hierarchy">Trump Hierarchy</h3>
 <ul>
-<li>Snakes beat the strong suit</li>
+<li>Knives beat the strong suit</li>
 <li>The strong suit beats fail suits</li>
 <li>Among fail suits, only the leading suit can win the trick (unless trump is played)</li>
 </ul>
@@ -316,26 +318,35 @@ a shadow banker. The other three players are defenders trying to stop them.</p>
 <li>If a player other than the banker holds the <strong>Ghost of the strong suit</strong>, they are the <strong>shadow banker</strong> (secret partner)</li>
 <li>The shadow banker's identity is discovered during play when the Ghost is revealed</li>
 <li>The banker may announce they are playing solo if they wish, but this helps the defenders</li>
-<li>The banker and shadow banker <strong>combine their won tricks</strong> to count stars together at the end of the round</li>
+<li>The banker and shadow banker <strong>combine their won tricks</strong> to count coins together at the end of the round</li>
 <li>If the banker has the Ghost, they play solo (no partner)</li>
 </ul>
 <h2 id="special-card-abilities">Special Card Abilities</h2>
-<h3 id="joker">Joker</h3>
-<ul>
-<li>Can be played at any time (no need to follow suit)</li>
-<li>Always wins the trick</li>
-<li>When led: The trick has no leading suit, all players may play any card</li>
-</ul>
 <h3 id="ghost">Ghost</h3>
 <ul>
 <li>If a Ghost and King of the <strong>same suit</strong> are played in the same trick, the Ghost outranks the King</li>
 <li>The Ghost of the strong suit identifies the shadow banker</li>
 </ul>
-<h3 id="thief">Thief</h3>
+<h3 id="cat-of-clubs">Cat of Clubs</h3>
 <ul>
-<li>If you play a Thief and <strong>no other player</strong> plays a Thief that trick, you lead the next trick (regardless of who won)</li>
-<li>If multiple Thieves are played, they cancel each other out</li>
+<li>When you play the Cat of Clubs, you lead the next trick (regardless of who wins the current trick)</li>
 <li>Has no effect on the final (6th) trick</li>
+</ul>
+<h3 id="dance-of-diamonds">Dance of Diamonds</h3>
+<ul>
+<li>Select one other player to swap a card with</li>
+<li>Each of you selects a card from your hand and exchanges them face-down</li>
+<li>Has no effect on the final (6th) trick</li>
+</ul>
+<h3 id="hound-of-hearts">Hound of Hearts</h3>
+<ul>
+<li>Select one other player</li>
+<li>They must reveal one card of their choice from their hand to all players</li>
+</ul>
+<h3 id="snitch-of-spades">Snitch of Spades</h3>
+<ul>
+<li>Name one non-ghost card (e.g., "King of Hearts")</li>
+<li>If any player has that card, they must reveal it to all players</li>
 </ul>
 <h2 id="playing-tricks">Playing Tricks</h2>
 <h3 id="first-lead">First Lead</h3>
@@ -351,39 +362,38 @@ a shadow banker. The other three players are defenders trying to stop them.</p>
 </ul>
 <h3 id="winning-tricks">Winning Tricks</h3>
 <ul>
-<li>Highest trump card wins (Snakes beat strong suit)</li>
+<li>Highest trump card wins (Knives beat strong suit)</li>
 <li>If no trump, highest card of the leading suit wins</li>
-<li>Exception: Joker always wins</li>
 </ul>
 <h2 id="scoring">Scoring</h2>
-<h3 id="banker-shadow-banker-combined-stars">Banker + Shadow Banker (combined stars)</h3>
+<h3 id="banker-shadow-banker-combined-coins">Banker + Shadow Banker (combined coins)</h3>
 <p>Both players receive the same points:</p>
 <ul>
-<li><strong>13-16 stars:</strong> +1 point each</li>
-<li><strong>17-20 stars:</strong> +2 points each</li>
-<li><strong>21+ stars:</strong> +3 points each</li>
+<li><strong>13-16 coins:</strong> +1 point each</li>
+<li><strong>17-20 coins:</strong> +2 points each</li>
+<li><strong>21+ coins:</strong> +3 points each</li>
 </ul>
-<h3 id="defenders-win-combined-stars-13">Defenders Win (combined stars 13+)</h3>
+<h3 id="defenders-win-combined-coins-13">Defenders Win (combined coins 13+)</h3>
 <ul>
 <li>Each defender: +1 point</li>
 </ul>
 <h3 id="solo-banker-no-shadow-banker">Solo Banker (no shadow banker)</h3>
 <p>Double the normal payout:</p>
 <ul>
-<li><strong>13-16 stars:</strong> +2 points</li>
-<li><strong>17-20 stars:</strong> +4 points</li>
-<li><strong>21+ stars:</strong> +6 points</li>
+<li><strong>13-16 coins:</strong> +2 points</li>
+<li><strong>17-20 coins:</strong> +4 points</li>
+<li><strong>21+ coins:</strong> +6 points</li>
 </ul>
-<h3 id="leaster-fewest-stars-wins">Leaster (fewest stars wins)</h3>
+<h3 id="leaster-fewest-coins-wins">Leaster (fewest coins wins)</h3>
 <ul>
-<li>Player(s) with fewest stars: +2 points each</li>
+<li>Player(s) with fewest coins: +2 points each</li>
 </ul>
-<h3 id="moster-most-stars-wins">Moster (most stars wins)</h3>
+<h3 id="moster-most-coins-wins">Moster (most coins wins)</h3>
 <ul>
-<li>Player(s) with most stars: +2 points each</li>
+<li>Player(s) with most coins: +2 points each</li>
 </ul>
 <h2 id="winning-the-game">Winning the Game</h2>
-<p>Players decide before the game starts how many points to play to:</p>
+<p>Players decide before the game coins how many points to play to:</p>
 <ul>
 <li><strong>Quick game:</strong> First to 10 points</li>
 <li><strong>Standard game:</strong> First to 15 points</li>
@@ -394,13 +404,13 @@ a shadow banker. The other three players are defenders trying to stop them.</p>
 <h3 id="simplified-scoring">Simplified Scoring</h3>
 <p>For faster, more casual play:</p>
 <p><strong>Banker + Shadow Banker:</strong><br />
-- Win (13+ stars): +2 points each<br />
-- Win with all 25 stars: +3 points each</p>
+- Win (13+ coins): +2 points each<br />
+- Win with all 25 coins: +3 points each</p>
 <p><strong>Defenders Win:</strong><br />
 - +1 point each</p>
 <p><strong>Solo Banker:</strong><br />
-- Win (13+ stars): +4 points<br />
-- Win with all 25 stars: +6 points</p>
+- Win (13+ coins): +4 points<br />
+- Win with all 25 coins: +6 points</p>
 <p><strong>Leaster/Moster:</strong> (unchanged)<br />
 - +2 points each to winner(s)</p>
 <h3 id="simplified-rules">Simplified Rules</h3>
@@ -409,48 +419,50 @@ a shadow banker. The other three players are defenders trying to stop them.</p>
 - <strong>Spades is always the strong suit</strong> (no suit selection)<br />
 - The player with the <strong>Ghost of Spades</strong> is the shadow banker<br />
 - <strong>No Ghost/King power:</strong> Ghost does not beat King<br />
-- <strong>No Thief power:</strong> Thief is just a regular card<br />
+- <strong>No special powers:</strong> The Cat, Dance, Hound, and Snitch have no effects<br />
 - <strong>If all other players pass, the dealer must be the banker</strong> (no leaster/moster)</p>
-<p><strong>Solo Banker:</strong> +4 points for any win</p>
+<p><strong>Banker + Shadow Banker:</strong>: +2 points for any win<br />
+<strong>Solo Banker:</strong> +4 points for any win</p>
 <p><strong>Recommended for ages 10+</strong></p>
 <hr />
 <h2 id="reminders">Reminders</h2>
 <p><strong>Must Remember:</strong><br />
 - Follow suit if you can<br />
-- Snakes always trump<br />
+- Knives always trump<br />
 - Strong suit trumps fail suits<br />
-- Banker's banked cards count toward their stars<br />
+- Banker's banked cards count toward their coins<br />
 - Shadow banker is secret until Ghost is played</p>
-<p><strong>Star Values:</strong> K=3, Q=2, J=1, Ace of Snakes=1</p>
+<p><strong>Coin Values:</strong> K=3, Q=2, J=1, Ace of Knives=1</p>
 <hr />
 <h2 id="one-page-quick-reference">One-Page Quick Reference</h2>
 <h3 id="deck-32-cards">Deck (32 cards)</h3>
-<p><strong>Snakes (7):</strong> 2, 3, 4, 5, 6, 7, Ace (Ace = highest)<br />
-<strong>Each Suit (6):</strong> Ghost, Thief, Maid, Jack, Queen, King (King = highest)<br />
-<strong>Joker (1):</strong> No suit, always wins</p>
-<h3 id="stars-25-total">Stars (25 total)</h3>
-<p>Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Snakes = 1★</p>
+<p><strong>Knives (8):</strong> 2, 3, 4, 5, 6, 7, 8, Ace (Ace = highest)<br />
+<strong>Each Suit (6):</strong> Ghost, Special, Maid, Jack, Queen, King (King = highest)</p>
+<h3 id="coins-25-total">Coins (25 total)</h3>
+<p>Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★</p>
 <h3 id="choosing-banker-each-hand">Choosing Banker (each hand)</h3>
 <ol>
 <li>Dealer deals 6 cards to each player + 2 to bank.</li>
 <li>Players look at their cards. Dealer names an initial strong suit.</li>
 <li>Starting left of dealer: <strong>Take</strong> (become banker) or <strong>Pass</strong> (name new strong suit)</li>
-<li>Banker takes 2 bank cards, banks 2 cards back (count toward banker's stars)</li>
+<li>Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)</li>
 <li><strong>If all pass:</strong> Dealer picks leaster/moster, discards bank, all play solo</li>
 </ol>
 <h3 id="banker-shadow">Banker &amp; Shadow</h3>
-<p><strong>Banker:</strong> Takes 2 bank cards, banks 2 cards (count toward their stars)<br />
+<p><strong>Banker:</strong> Takes 2 bank cards, banks 2 cards (count toward their coins)<br />
 <strong>Shadow:</strong> Player with Ghost of strong suit (secret until played)<br />
 <strong>Solo:</strong> Banker has Ghost = no partner, double points</p>
 <h3 id="trump-tricks-each-trick">Trump &amp; Tricks (each trick)</h3>
-<p><strong>Trump:</strong> Joker &gt; Snakes &gt; Strong suit &gt; Leading suit<br />
+<p><strong>Trump:</strong> Knives &gt; Strong suit &gt; Leading suit<br />
 <strong>Follow suit if able</strong><br />
  Highest trump wins (or leading suit if no trump)<br />
- Winner leads next (unless Thief)</p>
-<h3 id="special-cards">Special Cards</h3>
-<p><strong>Joker:</strong> Always wins | When led: no suit required<br />
-<strong>Ghost:</strong> Beats King of same suit in same trick | Ghost of strong suit = shadow banker<br />
-<strong>Thief:</strong> If only one played, that player leads next (no effect on trick 6)</p>
+ Winner leads next (unless Cat played)</p>
+<h3 id="special-cards_1">Special Cards</h3>
+<p><strong>Ghost:</strong> Beats King of same suit in same trick | Ghost of strong suit = shadow banker<br />
+<strong>Cat:</strong> That player leads next (no effect on trick 6)<br />
+<strong>Dance:</strong> Swap a card with another player<br />
+<strong>Hound:</strong> Choose a player to reveal a card<br />
+<strong>Snitch:</strong> Name a non-ghost card; if held, must be revealed</p>
 <h3 id="scoring_1">Scoring</h3>
 <p><strong>Banker + Shadow (combined):</strong> 13-16★ = +1 ea | 17-20★ = +2 ea | 21+★ = +3 ea<br />
 <strong>Solo Banker:</strong> Double points<br />
@@ -462,7 +474,7 @@ a shadow banker. The other three players are defenders trying to stop them.</p>
 <h3 id="reminders_1">Reminders</h3>
 <ul>
 <li>Must follow suit if able</li>
-<li>Banker's banked cards count toward their stars</li>
+<li>Banker's banked cards count toward their coins</li>
 <li>Shadow stays secret until Ghost played</li>
 <li>Thief has no effect on last trick of hand</li>
 </ul>

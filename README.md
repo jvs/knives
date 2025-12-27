@@ -1,37 +1,41 @@
-# 🐍 Snakeshead
+# 🗡 Knives
 
 ## A Five-Player Trick-Taking Game
 
-Snakeshead is a five-player trick-taking game where players compete to collect stars
-(points on cards). Each hand, one player becomes the banker and secretly partners with
-a shadow banker. The other three players are defenders trying to stop them.
+Knives is a five-player trick-taking game where players compete to collect coins (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.
 
 
 ## The Deck (32 cards)
 
-### Snakes Suit (7 cards)
-2, 3, 4, 5, 6, 7, Ace
+### Knives Suit (8 cards)
+2, 3, 4, 5, 6, 7, 8, Ace
 
 - Ace is highest, 2 is lowest
-- Snakes are always **greater trump**
+- Knives are always **greater trump**
 
 ### Four Traditional Suits (24 cards)
 Spades, Clubs, Diamonds, Hearts - each containing:
 
-- Ghost (lowest), Thief, Maid, Jack, Queen, King (highest)
+- Ghost (lowest), Special, Maid, Jack, Queen, King (highest)
 
-### Special Card
-- 1 Joker (no suit)
+### Special Cards
+
+- Clubs: Cat
+- Diamonds: Dance
+- Hearts: Hound
+- Spades: Snitch
+
+Each suit's Special card ranks between the Ghost and Maid.
 
 
-## Card Values (Stars)
+## Card Values (Coins)
 
-- **Kings:** 3 stars each
-- **Queens:** 2 stars each
-- **Jacks:** 1 star each
-- **Ace of Snakes:** 1 star
-- **All other cards:** 0 stars
-- **Total in deck:** 25 stars
+- **Kings:** 3 coins each
+- **Queens:** 2 coins each
+- **Jacks:** 1 coin each
+- **Ace of Knives:** 1 coin
+- **All other cards:** 0 coins
+- **Total in deck:** 25 coins
 
 
 ## Setup
@@ -54,12 +58,12 @@ Once someone takes:
 - They become the **banker**
 - They take the 2 bank cards (now have 8 cards)
 - They **bank** 2 cards face-down from their hand (back to 6 cards)
-- The banked cards count toward the banker's stars at the end
+- The banked cards count toward the banker's coins at the end
 
 ### If Everyone Passes
 
 1. The last player names a final strong suit
-2. The dealer chooses **leaster** (fewest stars wins) or **moster** (most stars wins)
+2. The dealer chooses **leaster** (fewest coins wins) or **moster** (most coins wins)
 3. The dealer discards the 2 bank cards face-down
 4. (Optional) The dealer may reveal the discarded cards (both, one, or neither)
 5. All players play for themselves
@@ -67,13 +71,13 @@ Once someone takes:
 
 ## The Strong Suit & Trump
 
-- **Greater trump:** Snakes (always)
+- **Greater trump:** Knives (always)
 - **Lesser trump:** The declared strong suit
 - **Fail suits:** The other three traditional suits
 
 ### Trump Hierarchy
 
-- Snakes beat the strong suit
+- Knives beat the strong suit
 - The strong suit beats fail suits
 - Among fail suits, only the leading suit can win the trick (unless trump is played)
 
@@ -83,28 +87,37 @@ Once someone takes:
 - If a player other than the banker holds the **Ghost of the strong suit**, they are the **shadow banker** (secret partner)
 - The shadow banker's identity is discovered during play when the Ghost is revealed
 - The banker may announce they are playing solo if they wish, but this helps the defenders
-- The banker and shadow banker **combine their won tricks** to count stars together at the end of the round
+- The banker and shadow banker **combine their won tricks** to count coins together at the end of the round
 - If the banker has the Ghost, they play solo (no partner)
 
 
 ## Special Card Abilities
-
-### Joker
-
-- Can be played at any time (no need to follow suit)
-- Always wins the trick
-- When led: The trick has no leading suit, all players may play any card
 
 ### Ghost
 
 - If a Ghost and King of the **same suit** are played in the same trick, the Ghost outranks the King
 - The Ghost of the strong suit identifies the shadow banker
 
-### Thief
+### Cat of Clubs
 
-- If you play a Thief and **no other player** plays a Thief that trick, you lead the next trick (regardless of who won)
-- If multiple Thieves are played, they cancel each other out
+- When you play the Cat of Clubs, you lead the next trick (regardless of who wins the current trick)
 - Has no effect on the final (6th) trick
+
+### Dance of Diamonds
+
+- Select one other player to swap a card with
+- Each of you selects a card from your hand and exchanges them face-down
+- Has no effect on the final (6th) trick
+
+### Hound of Hearts
+
+- Select one other player
+- They must reveal one card of their choice from their hand to all players
+
+### Snitch of Spades
+
+- Name one non-ghost card (e.g., "King of Hearts")
+- If any player has that card, they must reveal it to all players
 
 
 ## Playing Tricks
@@ -122,22 +135,21 @@ Once someone takes:
 
 ### Winning Tricks
 
-- Highest trump card wins (Snakes beat strong suit)
+- Highest trump card wins (Knives beat strong suit)
 - If no trump, highest card of the leading suit wins
-- Exception: Joker always wins
 
 
 ## Scoring
 
-### Banker + Shadow Banker (combined stars)
+### Banker + Shadow Banker (combined coins)
 
 Both players receive the same points:
 
-- **13-16 stars:** +1 point each
-- **17-20 stars:** +2 points each
-- **21+ stars:** +3 points each
+- **13-16 coins:** +1 point each
+- **17-20 coins:** +2 points each
+- **21+ coins:** +3 points each
 
-### Defenders Win (combined stars 13+)
+### Defenders Win (combined coins 13+)
 
 - Each defender: +1 point
 
@@ -145,22 +157,22 @@ Both players receive the same points:
 
 Double the normal payout:
 
-- **13-16 stars:** +2 points
-- **17-20 stars:** +4 points
-- **21+ stars:** +6 points
+- **13-16 coins:** +2 points
+- **17-20 coins:** +4 points
+- **21+ coins:** +6 points
 
-### Leaster (fewest stars wins)
+### Leaster (fewest coins wins)
 
-- Player(s) with fewest stars: +2 points each
+- Player(s) with fewest coins: +2 points each
 
-### Moster (most stars wins)
+### Moster (most coins wins)
 
-- Player(s) with most stars: +2 points each
+- Player(s) with most coins: +2 points each
 
 
 ## Winning the Game
 
-Players decide before the game starts how many points to play to:
+Players decide before the game coins how many points to play to:
 
 - **Quick game:** First to 10 points
 - **Standard game:** First to 15 points
@@ -175,15 +187,15 @@ Players decide before the game starts how many points to play to:
 For faster, more casual play:
 
 **Banker + Shadow Banker:**
-- Win (13+ stars): +2 points each
-- Win with all 25 stars: +3 points each
+- Win (13+ coins): +2 points each
+- Win with all 25 coins: +3 points each
 
 **Defenders Win:**
 - +1 point each
 
 **Solo Banker:**
-- Win (13+ stars): +4 points
-- Win with all 25 stars: +6 points
+- Win (13+ coins): +4 points
+- Win with all 25 coins: +6 points
 
 **Leaster/Moster:** (unchanged)
 - +2 points each to winner(s)
@@ -196,9 +208,10 @@ For younger or beginning players:
 - **Spades is always the strong suit** (no suit selection)
 - The player with the **Ghost of Spades** is the shadow banker
 - **No Ghost/King power:** Ghost does not beat King
-- **No Thief power:** Thief is just a regular card
+- **No special powers:** The Cat, Dance, Hound, and Snitch have no effects
 - **If all other players pass, the dealer must be the banker** (no leaster/moster)
 
+**Banker + Shadow Banker:**: +2 points for any win
 **Solo Banker:** +4 points for any win
 
 **Recommended for ages 10+**
@@ -209,47 +222,48 @@ For younger or beginning players:
 
 **Must Remember:**
 - Follow suit if you can
-- Snakes always trump
+- Knives always trump
 - Strong suit trumps fail suits
-- Banker's banked cards count toward their stars
+- Banker's banked cards count toward their coins
 - Shadow banker is secret until Ghost is played
 
-**Star Values:** K=3, Q=2, J=1, Ace of Snakes=1
+**Coin Values:** K=3, Q=2, J=1, Ace of Knives=1
 
 ---
 
 ## One-Page Quick Reference
 
 ### Deck (32 cards)
- **Snakes (7):** 2, 3, 4, 5, 6, 7, Ace (Ace = highest)
- **Each Suit (6):** Ghost, Thief, Maid, Jack, Queen, King (King = highest)
- **Joker (1):** No suit, always wins
+ **Knives (8):** 2, 3, 4, 5, 6, 7, 8, Ace (Ace = highest)
+ **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest)
 
-### Stars (25 total)
-Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Snakes = 1★
+### Coins (25 total)
+Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
 
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
 2. Players look at their cards. Dealer names an initial strong suit.
 2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit)
-3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's stars)
+3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
 4. **If all pass:** Dealer picks leaster/moster, discards bank, all play solo
 
 ### Banker & Shadow
- **Banker:** Takes 2 bank cards, banks 2 cards (count toward their stars)
+ **Banker:** Takes 2 bank cards, banks 2 cards (count toward their coins)
  **Shadow:** Player with Ghost of strong suit (secret until played)
  **Solo:** Banker has Ghost = no partner, double points
 
 ### Trump & Tricks (each trick)
- **Trump:** Joker > Snakes > Strong suit > Leading suit
+ **Trump:** Knives > Strong suit > Leading suit
  **Follow suit if able**
  Highest trump wins (or leading suit if no trump)
- Winner leads next (unless Thief)
+ Winner leads next (unless Cat played)
 
 ### Special Cards
- **Joker:** Always wins | When led: no suit required
  **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
- **Thief:** If only one played, that player leads next (no effect on trick 6)
+ **Cat:** That player leads next (no effect on trick 6)
+ **Dance:** Swap a card with another player
+ **Hound:** Choose a player to reveal a card
+ **Snitch:** Name a non-ghost card; if held, must be revealed
 
 ### Scoring
  **Banker + Shadow (combined):** 13-16★ = +1 ea | 17-20★ = +2 ea | 21+★ = +3 ea
@@ -263,7 +277,7 @@ Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Snakes = 1★
 
 ### Reminders
  * Must follow suit if able
- * Banker's banked cards count toward their stars
+ * Banker's banked cards count toward their coins
  * Shadow stays secret until Ghost played
  * Thief has no effect on last trick of hand
 

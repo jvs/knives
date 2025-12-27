@@ -27,7 +27,7 @@ def generate_html(input_file: str = "README.md", output_file: str = "rules.html"
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Snakeshead - A Five-Player Trick-Taking Game</title>
+    <title>Knives - A Five-Player Trick-Taking Game</title>
     <style>
         /* Print-specific styles */
         @page {{
