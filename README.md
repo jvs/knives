@@ -96,6 +96,7 @@ Once someone takes:
 ### Ghost
 
 - If a Ghost and King of the **same suit** are played in the same trick, the Ghost outranks the King
+- The Ghost does not necessarily win the trick; normal trump rules still apply
 - The Ghost of the strong suit identifies the shadow banker
 
 ### Cat of Clubs
@@ -105,7 +106,7 @@ Once someone takes:
 
 ### Dance of Diamonds
 
-- Select one other player to swap a card with
+- Immediately after playing the Dance card, before the next player acts, select one other player to swap a card with
 - Each of you selects a card from your hand and exchanges them face-down
 - Has no effect on the final (6th) trick
 
@@ -279,7 +280,7 @@ Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
  * Must follow suit if able
  * Banker's banked cards count toward their coins
  * Shadow stays secret until Ghost played
- * Thief has no effect on last trick of hand
+ * Cat and Dance cards have no effect on last trick of hand
 
 ---
 
