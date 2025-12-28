@@ -51,8 +51,8 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 
 Starting with the player left of the dealer, each player either:
 
-- **Takes:** Becomes the banker with the current strong suit
-- **Passes:** Names a new strong suit (overriding the previous) and passes
+- **Takes:** Becomes the banker with the current strong suit (or "Knives only")
+- **Passes:** Names a new strong suit OR declares "Knives only" and passes
 
 Once someone takes:
 
@@ -69,7 +69,7 @@ If the player to the right of the dealer passes, then the dealer has three optio
 2. Declare a **Leaster**: Fewest coins wins
 3. Declare a **Moster**: Most coins wins
 
-In each case, the round uses the strong suit named by the player to the right of the dealer
+The round uses the strong suit (or "Knives only") named by the player to the right of the dealer
 
 #### Leaster / Moster
 
@@ -82,7 +82,7 @@ In each case, the round uses the strong suit named by the player to the right of
 ## The Strong Suit & Trump
 
 - **Greater trump:** Knives (always)
-- **Lesser trump:** The declared strong suit
+- **Lesser trump:** The declared strong suit (if any)
 - **Fail suits:** The other three traditional suits
 
 ### Trump Hierarchy
@@ -91,10 +91,17 @@ In each case, the round uses the strong suit named by the player to the right of
 - The strong suit beats fail suits
 - Among fail suits, only the leading suit can win the trick (unless trump is played)
 
+### "Knives Only"
+
+- If "Knives only" is declared, only Knives are trump
+- No lesser trump exists
+- All four traditional suits are fail suits
+
 
 ## Finding the Shadow Banker
 
 - Player with **Ghost of the strong suit** is the shadow banker (secret partner)
+- If "Knives only": Player with **Ghost of Knives** is the shadow banker
 - Identity revealed when Ghost is played
 - Banker may announce playing solo (but this helps defenders)
 - Banker and shadow banker combine won tricks to count coins together
@@ -104,9 +111,9 @@ In each case, the round uses the strong suit named by the player to the right of
 ## Special Card Abilities
 
 ### Ghost
-- Beats King of same suit when played in same trick
+- Beats King of same suit when played in same trick (except Knives have no King)
 - Normal trump rules still apply
-- Ghost of strong suit identifies the shadow banker
+- Ghost of strong suit (or Ghost of Knives if "Knives only") identifies the shadow banker
 
 ### Cat of Clubs
 - You lead the next trick (regardless of who wins current trick)
@@ -254,7 +261,7 @@ For younger or beginning players:
 ## One-Page Quick Reference
 
 ### Deck (32 cards)
- **Knives (8):** 2, 3, 4, 5, 6, 7, 8, Ace (Ace = highest)
+ **Knives (8):** Ghost, 2, 3, 4, 5, 6, 7, Ace (Ace = highest, Ghost = lowest)
  **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest)
 
 ### Coins (25 total)
@@ -263,17 +270,18 @@ Kings = 3🪙 | Queens = 2🪙 | Jacks = 1🪙 | Ace of Knives = 1🪙
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
 2. Players look at their cards. Dealer names an initial strong suit.
-2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit)
+2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit or "Knives only")
 3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
 4. **If all pass:** Dealer picks leaster/moster, discards bank, all play solo
 
 ### Banker & Shadow
  **Banker:** Takes 2 bank cards, banks 2 cards (count toward their coins)
- **Shadow:** Player with Ghost of strong suit (secret until played)
+ **Shadow:** Player with Ghost of strong suit (or Ghost of Knives if "Knives only")
  **Solo:** Banker has Ghost = no partner, double points
 
 ### Trump & Tricks (each trick)
- **Trump:** Knives > Strong suit > Leading suit
+ **Trump:** Knives > Strong suit (if any) > Leading suit
+ **"Knives only":** Only Knives are trump, all other suits are fail
  **Follow suit if able**
  Highest trump wins (or leading suit if no trump)
  Winner leads next (unless Cat played)
