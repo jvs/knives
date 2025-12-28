@@ -316,9 +316,3 @@ Kings = 3¢ | Queens = 2¢ | Jacks = 1¢ | Ace of Knives = 1¢
  * Banker's banked cards count toward their coins
  * Shadow stays secret until Ghost played
  * Cat and Dance cards have no effect on last trick of hand
-
----
-
-## License
-
-This game design is open source. Feel free to modify, share, and create your own versions!
