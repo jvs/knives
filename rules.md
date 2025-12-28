@@ -82,7 +82,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 1. Dealer discards the two bank cards
 2. Player left of dealer leads first trick
 3. Everyone plays for themselves (no teams)
-4. After last trick, count coins won
+4. After last trick, count coins taken
 5. Assets = most coins wins, Liabilities = fewest coins wins
 
 
