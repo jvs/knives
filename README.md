@@ -43,7 +43,7 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 1. Dealer shuffles and cards are cut
 2. Deal 6 cards to each player (clockwise)
 3. Deal 2 cards face-down to the bank
-4. Dealer declares an initial strong suit (or declares "knives only")
+4. Dealer declares an initial strong suit (or declares “knives only”)
 5. Dealer rotates clockwise after each hand
 
 
@@ -52,19 +52,19 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 Starting with the player left of the dealer, each player either:
 
 - **Takes:** Becomes the banker with the current strong suit (if any)
-- **Passes:** Names a new strong suit OR declares "Knives only" and passes
+- **Passes:** Names a new strong suit OR declares “Knives only” and passes
 
 Once someone takes:
 
 - They become the banker
-- Optionally declare "going for broke"
+- Optionally declare “going for broke”
 - Take the 2 bank cards (now have 8 cards)
 - Bank 2 cards face-down from their hand (back to 6 cards)
 - Banked cards count toward banker's coins at the end (unless going for broke)
 
-If someone declares "Knives only":
+If someone declares “Knives only”:
 
-- If a player declares "Knives only" and the next player takes the bank, the round is play with no strong suit
+- If a player declares “Knives only” and the next player takes the bank, the round is play with no strong suit
 - Only knives are trump
 
 ### If Everyone Passes
@@ -72,23 +72,24 @@ If someone declares "Knives only":
 If the player to the right of the dealer passes, then the dealer has three options:
 
 1. **Take**: Become the banker
-2. Declare a **Leaster**: Fewest coins wins
-3. Declare a **Moster**: Most coins wins
+2. **Assets**: Fewest coins wins
+3. **Liabilities**: Most coins wins
 
 The round uses the strong suit (if any) named by the player to the right of the dealer
 
-#### Leaster / Moster
+#### Assets / Liabilities
 
 1. Dealer discards the two bank cards
 2. Player left of dealer leads first trick
 3. Everyone plays for themselves (no teams)
 4. After last trick, count coins won
+5. Assets = most coins wins, Liabilities = fewest coins wins
 
 
 ## The Strong Suit & Trump
 
 - **Greater trump:** Knives (always)
-- **Lesser trump:** The declared strong suit (if any)
+- **Lesser trump:** The declared strong suit
 - **Fail suits:** The other three traditional suits
 
 ### Trump Hierarchy
@@ -97,9 +98,9 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - The strong suit beats fail suits
 - Among fail suits, only the leading suit can win the trick (unless trump is played)
 
-### "Knives Only"
+### “Knives Only”
 
-- If "Knives only" is declared, only Knives are trump
+- If “Knives only” is declared, only Knives are trump
 - No lesser trump exists
 - All four traditional suits are fail suits
 
@@ -107,9 +108,8 @@ The round uses the strong suit (if any) named by the player to the right of the 
 ## Finding the Shadow Banker
 
 - Player with **Ghost of the strong suit** is the shadow banker (secret partner)
-- If "Knives only": Player with **Ghost of Knives** is the shadow banker
+- If “Knives only”: Player with **Ghost of Knives** is the shadow banker
 - Identity revealed when Ghost is played
-- Banker may announce playing solo (but this helps defenders)
 - Banker and shadow banker combine won tricks to count coins together
 - If banker has the Ghost, they play solo (no partner)
 
@@ -117,9 +117,10 @@ The round uses the strong suit (if any) named by the player to the right of the 
 ## Special Card Abilities
 
 ### Ghost
-- Beats King of same suit when played in same trick (except Knives have no King)
+- Beats King of same suit when played in same trick (except Knives, which has no King)
 - Normal trump rules still apply
-- Ghost of strong suit (or Ghost of Knives if "Knives only") identifies the shadow banker
+- Ghost of strong suit identifies the shadow banker
+- If “Knives Only”: Ghost of Knives identifies the shadow banker
 
 ### Cat of Clubs
 - You lead the next trick (regardless of who wins current trick)
@@ -135,7 +136,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - They reveal one card of their choice to all players
 
 ### Snitch of Spades
-- After playing Snitch, name one non-ghost card (e.g., "King of Hearts")
+- After playing Snitch, name one non-ghost card (e.g., “King of Hearts”)
 - If held, that player must reveal it
 
 
@@ -144,7 +145,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 ### First Lead
 
 - **With banker:** Player left of banker leads
-- **Leaster/Moster:** Player left of dealer leads
+- **Assets/Liabilities:** Player left of dealer leads
 - May lead with any card
 
 ### Following Suit
@@ -180,17 +181,17 @@ Double the normal payout:
 - **17-20 coins:** +4 points
 - **21+ coins:** +6 points
 
-### Leaster (fewest coins wins)
-
-- Player(s) with fewest coins: +2 points each
-
-### Moster (most coins wins)
+### Assets (most coins wins)
 
 - Player(s) with most coins: +2 points each
 
+### Liabilities (fewest coins wins)
+
+- Player(s) with fewest coins: +2 points each
+
 ## Going for Broke
 
-When taking the bank (before looking at the bank cards), a player may declare "going for broke" - attempting to win zero coins.
+When taking the bank (before looking at the bank cards), a player may declare “going for broke” - attempting to win zero coins.
 
 **Changes:**
 - Discard 2 cards face-down instead of banking them (don't count as coins)
@@ -230,7 +231,7 @@ For faster, more casual play:
 - Win (13+ coins): +4 points
 - Win with all 25 coins: +6 points
 
-**Leaster/Moster:** (unchanged)
+**Assets/Liabilities:** (unchanged)
 - +2 points each to winner(s)
 
 ### Simplified Rules
@@ -242,7 +243,7 @@ For younger or beginning players:
 - The player with the **Ghost of Spades** is the shadow banker
 - **No Ghost/King power:** Ghost does not beat King
 - **No special powers:** The Cat, Dance, Hound, and Snitch have no effects
-- **If all other players pass, the dealer must be the banker** (no leaster/moster)
+- **If all other players pass, the dealer must be the banker** (no assets/liabilities)
 
 **Banker + Shadow Banker:**: +2 points for any win
 **Solo Banker:** +4 points for any win
@@ -276,18 +277,19 @@ Kings = 3¢ | Queens = 2¢ | Jacks = 1¢ | Ace of Knives = 1¢
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
 2. Players look at their cards. Dealer names an initial strong suit.
-2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit or "Knives only")
+2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit or “Knives only”)
 3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
-4. **If all pass:** Dealer picks leaster/moster, discards bank, all play solo
+4. **If all pass:** Dealer picks Banker, Assets, or Liabilities
+5. If Assets or Liabilities: dealer discards bank, all play solo
 
 ### Banker & Shadow
  **Banker:** Takes 2 bank cards, banks 2 cards (count toward their coins)
- **Shadow:** Player with Ghost of strong suit (or Ghost of Knives if "Knives only")
+ **Shadow:** Player with Ghost of strong suit (or Ghost of Knives if “Knives only”)
  **Solo:** Banker has Ghost = no partner, double points
 
 ### Trump & Tricks (each trick)
  **Trump:** Knives > Strong suit (if any) > Leading suit
- **"Knives only":** Only Knives are trump, all other suits are fail
+ **“Knives only”:** Only Knives are trump, all other suits are fail
  **Follow suit if able**
  Highest trump wins (or leading suit if no trump)
  Winner leads next (unless Cat played)
