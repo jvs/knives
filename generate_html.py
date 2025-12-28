@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Generate styled HTML from README.md for viewing and printing."""
+"""Generate styled HTML from rules.md for viewing and printing."""
 
 import markdown
 from pathlib import Path
 
 
-def generate_html(input_file: str = "README.md", output_file: str = "rules.html"):
+def generate_html(input_file: str = "rules.md", output_file: str = "rules.html"):
     """Convert markdown file to styled HTML."""
 
     # Read the markdown file
