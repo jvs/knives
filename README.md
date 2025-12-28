@@ -8,9 +8,9 @@ Knives is a five-player trick-taking game where players compete to collect coins
 ## The Deck (32 cards)
 
 ### Knives Suit (8 cards)
-2, 3, 4, 5, 6, 7, 8, Ace (highest)
+Ghost, 2, 3, 4, 5, 6, 7, Ace (highest)
 
-- Ace is highest, 2 is lowest
+- Ace is highest, Ghost is lowest
 - Knives are always **greater trump**
 
 ### Four Traditional Suits (24 cards)
@@ -44,6 +44,7 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 2. Deal 6 cards to each player (clockwise)
 3. Deal 2 cards face-down to the bank
 4. Dealer declares an initial strong suit
+5. Dealer rotates clockwise after each hand
 
 
 ## Choosing the Banker
@@ -66,7 +67,7 @@ If the player to the right of the dealer passes, then the dealer has three optio
 
 1. **Take**: Become the banker
 2. Declare a **Leaster**: Fewest coins wins
-3. Declare a **Moster** Most coins wins
+3. Declare a **Moster**: Most coins wins
 
 In each case, the round uses the strong suit named by the player to the right of the dealer
 
@@ -117,11 +118,11 @@ In each case, the round uses the strong suit named by the player to the right of
 - No effect on final (6th) trick
 
 ### Hound of Hearts
-- Select another player
+- After playing Hound, select another player
 - They reveal one card of their choice to all players
 
 ### Snitch of Spades
-- Name one non-ghost card (e.g., "King of Hearts")
+- After playing Snitch, name one non-ghost card (e.g., "King of Hearts")
 - If held, that player must reveal it
 
 
@@ -184,7 +185,7 @@ Choose before starting:
 
 ## Optional Rule: Going for Broke
 
-When taking the bank (before picking up the bank cards), a player may declare "going for broke" - attempting to win zero coins.
+When taking the bank (before looking at the bank cards), a player may declare "going for broke" - attempting to win zero coins.
 
 **Changes:**
 - Discard 2 cards face-down instead of banking them (don't count as coins)
@@ -194,6 +195,8 @@ When taking the bank (before picking up the bank cards), a player may declare "g
 - Banker + Shadow: +2 points each
 - Solo Banker: +4 points
 
+**Scoring (if banker wins 1 or more coins):**
+- Defenders: +1 point each
 
 ---
 
