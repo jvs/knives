@@ -40,25 +40,24 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 
 ## Setup
 
-1. **Dealer shuffles** and cards are cut
-2. **Deal 6 cards** to each player (clockwise)
-3. **Deal 2 cards** face-down to the bank
-4. **Dealer declares** an initial strong suit
+1. Dealer shuffles and cards are cut
+2. Deal 6 cards to each player (clockwise)
+3. Deal 2 cards face-down to the bank
+4. Dealer declares an initial strong suit
 
 
 ## Choosing the Banker
 
-Starting with the player left of the dealer, each player in turn either:
+Starting with the player left of the dealer, each player either:
 
 - **Takes:** Becomes the banker with the current strong suit
-- **Passes:** Names a new strong suit (overriding the previous one) and passes to the next player
+- **Passes:** Names a new strong suit (overriding the previous) and passes
 
 Once someone takes:
-
-- They become the **banker**
-- They take the 2 bank cards (now have 8 cards)
-- They **bank** 2 cards face-down from their hand (back to 6 cards)
-- The banked cards count toward the banker's coins at the end
+- They become the banker
+- Take the 2 bank cards (now have 8 cards)
+- Bank 2 cards face-down from their hand (back to 6 cards)
+- Banked cards count toward banker's coins at the end
 
 ### If Everyone Passes
 
@@ -72,10 +71,10 @@ In each case, the round uses the strong suit named by the player to the right of
 
 #### Leaster / Moster
 
-1. The dealer discards the two face-down bank cards
-2. The player to the left of the dealer leads the first trick
-3. Every player plays for themselves, with no teams
-4. After the last trick, each player adds up how many coins they won
+1. Dealer discards the two bank cards
+2. Player left of dealer leads first trick
+3. Everyone plays for themselves (no teams)
+4. After last trick, count coins won
 
 
 ## The Strong Suit & Trump
@@ -93,55 +92,50 @@ In each case, the round uses the strong suit named by the player to the right of
 
 ## Finding the Shadow Banker
 
-- If a player other than the banker holds the **Ghost of the strong suit**, they are the **shadow banker** (secret partner)
-- The shadow banker's identity is discovered during play when the Ghost is revealed
-- The banker may announce they are playing solo if they wish, but this helps the defenders
-- The banker and shadow banker **combine their won tricks** to count coins together at the end of the round
-- If the banker has the Ghost, they play solo (no partner)
+- Player with **Ghost of the strong suit** is the shadow banker (secret partner)
+- Identity revealed when Ghost is played
+- Banker may announce playing solo (but this helps defenders)
+- Banker and shadow banker combine won tricks to count coins together
+- If banker has the Ghost, they play solo (no partner)
 
 
 ## Special Card Abilities
 
 ### Ghost
-
-- If a Ghost and King of the **same suit** are played in the same trick, the Ghost outranks the King
-- The Ghost does not necessarily win the trick; normal trump rules still apply
-- The Ghost of the strong suit identifies the shadow banker
+- Beats King of same suit when played in same trick
+- Normal trump rules still apply
+- Ghost of strong suit identifies the shadow banker
 
 ### Cat of Clubs
-
-- When you play the Cat of Clubs, you lead the next trick (regardless of who wins the current trick)
-- Has no effect on the final (6th) trick
+- You lead the next trick (regardless of who wins current trick)
+- No effect on final (6th) trick
 
 ### Dance of Diamonds
-
-- Immediately after playing the Dance card, before the next player acts, select one other player to swap a card with
-- Each of you selects a card from your hand and exchanges them face-down
-- Has no effect on the final (6th) trick
+- After playing Dance, select another player to swap cards with
+- Each selects a card and exchanges face-down
+- No effect on final (6th) trick
 
 ### Hound of Hearts
-
-- Select one other player
-- They must reveal one card of their choice from their hand to all players
+- Select another player
+- They reveal one card of their choice to all players
 
 ### Snitch of Spades
-
 - Name one non-ghost card (e.g., "King of Hearts")
-- If any player has that card, they must reveal it to all players
+- If held, that player must reveal it
 
 
 ## Playing Tricks
 
 ### First Lead
 
-- **With a banker:** Player to the left of the banker leads
-- **Leaster/Moster:** Player to the left of the dealer leads
-- The player may lead with any card.
+- **With banker:** Player left of banker leads
+- **Leaster/Moster:** Player left of dealer leads
+- May lead with any card
 
 ### Following Suit
 
-- Players must follow the leading suit if able
-- If unable, they may play any card
+- Must follow leading suit if able
+- Otherwise play any card
 
 ### Winning Tricks
 
@@ -182,20 +176,22 @@ Double the normal payout:
 
 ## Winning the Game
 
-Players decide before the game coins how many points to play to:
+Choose before starting:
+- **Quick:** First to 10 points
+- **Standard:** First to 15 points
+- **Long:** First to 20+ points
 
-- **Quick game:** First to 10 points
-- **Standard game:** First to 15 points
-- **Long game:** First to 20+ points
+## Optional Rule: Going for Broke
 
-## Optional Rule: Going for broke
+When taking the bank (before picking up the bank cards), a player may declare "going for broke" - attempting to win zero coins.
 
-After a player announce that they will take the bank's cards and play the banker, but before the player takes the bank's cards, they may announce that they're "going for broke". This means that they intend to win no coins during the round.
+**Changes:**
+- Discard 2 cards face-down instead of banking them (don't count as coins)
+- Shadow banker's coins don't count toward the banker's total
 
-- Instead of banking two cards, the player discards two cards face down. They do not count in the round.
-- At the end of the round, if the banker did not win any coins, then the banker and the shadow banker win +2 points.
-- If the banker did not have a shadow, then the banker wins +4 points.
-- Any coins won by the shadow banker during the round do not count towards the banker's total.
+**Scoring (if banker wins 0 coins):**
+- Banker + Shadow: +2 points each
+- Solo Banker: +4 points
 
 
 ---
@@ -258,7 +254,7 @@ For younger or beginning players:
  **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest)
 
 ### Coins (25 total)
-Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
+Kings = 3🪙 | Queens = 2🪙 | Jacks = 1🪙 | Ace of Knives = 1🪙
 
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
@@ -286,9 +282,9 @@ Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★
  **Snitch:** Name a non-ghost card; if held, must be revealed
 
 ### Scoring
- **Banker + Shadow (combined):** 13-16★ = +1 ea | 17-20★ = +2 ea | 21+★ = +3 ea
+ **Banker + Shadow (combined):** 13-16🪙 = +1 ea | 17-20🪙 = +2 ea | 21+🪙 = +3 ea
  **Solo Banker:** Double points
- **Defenders (13+★):** +1 ea
+ **Defenders (13+🪙):** +1 ea
  **Leaster/Moster:** +2 to winner(s)
 
 ### First Lead
