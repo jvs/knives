@@ -248,7 +248,7 @@ For younger or beginning players:
 
 ### Deck (32 cards)
  **Knives (8):** Ghost, 2, 3, 4, 5, 6, 7, Ace (Ace = highest, Ghost = lowest)
- **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest)
+ **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest, Ghost = lowest)
 
 ### Coins (25 total)
 Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
@@ -268,10 +268,10 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
 
 ### Trump & Tricks (each trick)
  **Trump:** Knives > Strong suit (if any) > Leading suit
- **“Knives only”:** Only Knives are trump, all other suits are fail
  **Follow suit if able**
  Highest trump wins (or leading suit if no trump)
  Winner leads next (unless Cat played)
+ **“Knives only”:** Only Knives are trump, all other suits are fail
 
 ### Special Cards
  **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
@@ -295,4 +295,4 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
  * Must follow suit if able
  * Banker's banked cards count toward their coins (unless going for broke)
  * Shadow stays secret until Ghost played
- * Must declare “going for broke” before looking at bank cards
+ * May only declare “going for broke” before looking at bank cards
