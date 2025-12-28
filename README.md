@@ -43,7 +43,7 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 1. Dealer shuffles and cards are cut
 2. Deal 6 cards to each player (clockwise)
 3. Deal 2 cards face-down to the bank
-4. Dealer declares an initial strong suit (or declares “knives only”)
+4. Dealer declares an initial strong suit (or declares “Knives only”)
 5. Dealer rotates clockwise after each hand
 
 
