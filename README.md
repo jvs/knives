@@ -51,15 +51,21 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 
 Starting with the player left of the dealer, each player either:
 
-- **Takes:** Becomes the banker with the current strong suit (or "Knives only")
+- **Takes:** Becomes the banker with the current strong suit (if any)
 - **Passes:** Names a new strong suit OR declares "Knives only" and passes
 
 Once someone takes:
 
 - They become the banker
+- Optionally declares "going for broke"
 - Take the 2 bank cards (now have 8 cards)
 - Bank 2 cards face-down from their hand (back to 6 cards)
-- Banked cards count toward banker's coins at the end
+- Banked cards count toward banker's coins at the end (unless going for broke)
+
+If someone declares "Knives only":
+
+- If a player declares "Knives only" and the next player takes the bank, the round is play with no strong suit
+- Only knives are trump
 
 ### If Everyone Passes
 
@@ -69,7 +75,7 @@ If the player to the right of the dealer passes, then the dealer has three optio
 2. Declare a **Leaster**: Fewest coins wins
 3. Declare a **Moster**: Most coins wins
 
-The round uses the strong suit (or "Knives only") named by the player to the right of the dealer
+The round uses the strong suit (if any) named by the player to the right of the dealer
 
 #### Leaster / Moster
 

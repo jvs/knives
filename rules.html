@@ -246,9 +246,9 @@
 <p>Knives is a five-player trick-taking game where players compete to collect coins (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
 <h2 id="the-deck-32-cards">The Deck (32 cards)</h2>
 <h3 id="knives-suit-8-cards">Knives Suit (8 cards)</h3>
-<p>2, 3, 4, 5, 6, 7, 8, Ace (highest)</p>
+<p>Ghost, 2, 3, 4, 5, 6, 7, Ace (highest)</p>
 <ul>
-<li>Ace is highest, 2 is lowest</li>
+<li>Ace is highest, Ghost is lowest</li>
 <li>Knives are always <strong>greater trump</strong></li>
 </ul>
 <h3 id="four-traditional-suits-24-cards">Four Traditional Suits (24 cards)</h3>
@@ -280,28 +280,35 @@
 <li>Deal 6 cards to each player (clockwise)</li>
 <li>Deal 2 cards face-down to the bank</li>
 <li>Dealer declares an initial strong suit</li>
+<li>Dealer rotates clockwise after each hand</li>
 </ol>
 <h2 id="choosing-the-banker">Choosing the Banker</h2>
 <p>Starting with the player left of the dealer, each player either:</p>
 <ul>
-<li><strong>Takes:</strong> Becomes the banker with the current strong suit</li>
-<li><strong>Passes:</strong> Names a new strong suit (overriding the previous) and passes</li>
+<li><strong>Takes:</strong> Becomes the banker with the current strong suit (if any)</li>
+<li><strong>Passes:</strong> Names a new strong suit OR declares "Knives only" and passes</li>
 </ul>
 <p>Once someone takes:</p>
 <ul>
 <li>They become the banker</li>
+<li>Optionally declares "going for broke"</li>
 <li>Take the 2 bank cards (now have 8 cards)</li>
 <li>Bank 2 cards face-down from their hand (back to 6 cards)</li>
-<li>Banked cards count toward banker's coins at the end</li>
+<li>Banked cards count toward banker's coins at the end (unless going for broke)</li>
+</ul>
+<p>If someone declares "Knives only":</p>
+<ul>
+<li>If a player declares "knives only" and the next player takes the bank, the round is play with no strong suit</li>
+<li>Only knives are trump</li>
 </ul>
 <h3 id="if-everyone-passes">If Everyone Passes</h3>
 <p>If the player to the right of the dealer passes, then the dealer has three options:</p>
 <ol>
 <li><strong>Take</strong>: Become the banker</li>
 <li>Declare a <strong>Leaster</strong>: Fewest coins wins</li>
-<li>Declare a <strong>Moster</strong> Most coins wins</li>
+<li>Declare a <strong>Moster</strong>: Most coins wins</li>
 </ol>
-<p>In each case, the round uses the strong suit named by the player to the right of the dealer</p>
+<p>The round uses the strong suit (if any) named by the player to the right of the dealer</p>
 <h4 id="leaster-moster">Leaster / Moster</h4>
 <ol>
 <li>Dealer discards the two bank cards</li>
@@ -312,7 +319,7 @@
 <h2 id="the-strong-suit-trump">The Strong Suit &amp; Trump</h2>
 <ul>
 <li><strong>Greater trump:</strong> Knives (always)</li>
-<li><strong>Lesser trump:</strong> The declared strong suit</li>
+<li><strong>Lesser trump:</strong> The declared strong suit (if any)</li>
 <li><strong>Fail suits:</strong> The other three traditional suits</li>
 </ul>
 <h3 id="trump-hierarchy">Trump Hierarchy</h3>
@@ -321,9 +328,16 @@
 <li>The strong suit beats fail suits</li>
 <li>Among fail suits, only the leading suit can win the trick (unless trump is played)</li>
 </ul>
+<h3 id="knives-only">"Knives Only"</h3>
+<ul>
+<li>If "Knives only" is declared, only Knives are trump</li>
+<li>No lesser trump exists</li>
+<li>All four traditional suits are fail suits</li>
+</ul>
 <h2 id="finding-the-shadow-banker">Finding the Shadow Banker</h2>
 <ul>
 <li>Player with <strong>Ghost of the strong suit</strong> is the shadow banker (secret partner)</li>
+<li>If "Knives only": Player with <strong>Ghost of Knives</strong> is the shadow banker</li>
 <li>Identity revealed when Ghost is played</li>
 <li>Banker may announce playing solo (but this helps defenders)</li>
 <li>Banker and shadow banker combine won tricks to count coins together</li>
@@ -332,9 +346,9 @@
 <h2 id="special-card-abilities">Special Card Abilities</h2>
 <h3 id="ghost">Ghost</h3>
 <ul>
-<li>Beats King of same suit when played in same trick</li>
+<li>Beats King of same suit when played in same trick (except Knives have no King)</li>
 <li>Normal trump rules still apply</li>
-<li>Ghost of strong suit identifies the shadow banker</li>
+<li>Ghost of strong suit (or Ghost of Knives if "Knives only") identifies the shadow banker</li>
 </ul>
 <h3 id="cat-of-clubs">Cat of Clubs</h3>
 <ul>
@@ -349,12 +363,12 @@
 </ul>
 <h3 id="hound-of-hearts">Hound of Hearts</h3>
 <ul>
-<li>Select another player</li>
+<li>After playing Hound, select another player</li>
 <li>They reveal one card of their choice to all players</li>
 </ul>
 <h3 id="snitch-of-spades">Snitch of Spades</h3>
 <ul>
-<li>Name one non-ghost card (e.g., "King of Hearts")</li>
+<li>After playing Snitch, name one non-ghost card (e.g., "King of Hearts")</li>
 <li>If held, that player must reveal it</li>
 </ul>
 <h2 id="playing-tricks">Playing Tricks</h2>
@@ -407,13 +421,15 @@
 - <strong>Standard:</strong> First to 15 points<br />
 - <strong>Long:</strong> First to 20+ points</p>
 <h2 id="optional-rule-going-for-broke">Optional Rule: Going for Broke</h2>
-<p>When taking the bank (before picking up the bank cards), a player may declare "going for broke" - attempting to win zero coins.</p>
+<p>When taking the bank (before looking at the bank cards), a player may declare "going for broke" - attempting to win zero coins.</p>
 <p><strong>Changes:</strong><br />
 - Discard 2 cards face-down instead of banking them (don't count as coins)<br />
 - Shadow banker's coins don't count toward the banker's total</p>
 <p><strong>Scoring (if banker wins 0 coins):</strong><br />
 - Banker + Shadow: +2 points each<br />
 - Solo Banker: +4 points</p>
+<p><strong>Scoring (if banker wins 1 or more coins):</strong><br />
+- Defenders: +1 point each</p>
 <hr />
 <h2 id="variations">Variations</h2>
 <h3 id="simplified-scoring">Simplified Scoring</h3>
@@ -451,7 +467,7 @@
 <hr />
 <h2 id="one-page-quick-reference">One-Page Quick Reference</h2>
 <h3 id="deck-32-cards">Deck (32 cards)</h3>
-<p><strong>Knives (8):</strong> 2, 3, 4, 5, 6, 7, 8, Ace (Ace = highest)<br />
+<p><strong>Knives (8):</strong> Ghost, 2, 3, 4, 5, 6, 7, Ace (Ace = highest, Ghost = lowest)<br />
 <strong>Each Suit (6):</strong> Ghost, Special, Maid, Jack, Queen, King (King = highest)</p>
 <h3 id="coins-25-total">Coins (25 total)</h3>
 <p>Kings = 3🪙 | Queens = 2🪙 | Jacks = 1🪙 | Ace of Knives = 1🪙</p>
@@ -459,16 +475,17 @@
 <ol>
 <li>Dealer deals 6 cards to each player + 2 to bank.</li>
 <li>Players look at their cards. Dealer names an initial strong suit.</li>
-<li>Starting left of dealer: <strong>Take</strong> (become banker) or <strong>Pass</strong> (name new strong suit)</li>
+<li>Starting left of dealer: <strong>Take</strong> (become banker) or <strong>Pass</strong> (name new strong suit or "Knives only")</li>
 <li>Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)</li>
 <li><strong>If all pass:</strong> Dealer picks leaster/moster, discards bank, all play solo</li>
 </ol>
 <h3 id="banker-shadow">Banker &amp; Shadow</h3>
 <p><strong>Banker:</strong> Takes 2 bank cards, banks 2 cards (count toward their coins)<br />
-<strong>Shadow:</strong> Player with Ghost of strong suit (secret until played)<br />
+<strong>Shadow:</strong> Player with Ghost of strong suit (or Ghost of Knives if "Knives only")<br />
 <strong>Solo:</strong> Banker has Ghost = no partner, double points</p>
 <h3 id="trump-tricks-each-trick">Trump &amp; Tricks (each trick)</h3>
-<p><strong>Trump:</strong> Knives &gt; Strong suit &gt; Leading suit<br />
+<p><strong>Trump:</strong> Knives &gt; Strong suit (if any) &gt; Leading suit<br />
+<strong>"Knives only":</strong> Only Knives are trump, all other suits are fail<br />
 <strong>Follow suit if able</strong><br />
  Highest trump wins (or leading suit if no trump)<br />
  Winner leads next (unless Cat played)</p>
