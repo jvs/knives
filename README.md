@@ -22,10 +22,10 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 
 ### Special Cards
 
-- Clubs: Cat - Lead the next trick
-- Diamonds: Dance - Swap a card with another player
-- Hearts: Hound - Choose a player to reveal a card
-- Spades: Snitch - Reveals a named card (except ghosts)
+- Cat of Clubs: Lead the next trick
+- Dance of Diamonds: Swap a card with another player
+- Hound of Hearts: Choose a player to reveal a card
+- Snitch of Spades: Reveals a named card (except ghosts)
 
 
 ## Card Values (Coins)
