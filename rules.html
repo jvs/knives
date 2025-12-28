@@ -246,7 +246,7 @@
 <p>Knives is a five-player trick-taking game where players compete to collect coins (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
 <h2 id="the-deck-32-cards">The Deck (32 cards)</h2>
 <h3 id="knives-suit-8-cards">Knives Suit (8 cards)</h3>
-<p>2, 3, 4, 5, 6, 7, 8, Ace</p>
+<p>2, 3, 4, 5, 6, 7, 8, Ace (highest)</p>
 <ul>
 <li>Ace is highest, 2 is lowest</li>
 <li>Knives are always <strong>greater trump</strong></li>
@@ -254,16 +254,17 @@
 <h3 id="four-traditional-suits-24-cards">Four Traditional Suits (24 cards)</h3>
 <p>Spades, Clubs, Diamonds, Hearts - each containing:</p>
 <ul>
-<li>Ghost (lowest), Special, Maid, Jack, Queen, King (highest)</li>
+<li>Ghost, Special, Maid, Jack, Queen, King (highest)</li>
+<li>King is highest, Ghost is lowest</li>
+<li>Special cards rank between the Ghost and Maid</li>
 </ul>
 <h3 id="special-cards">Special Cards</h3>
 <ul>
-<li>Clubs: Cat</li>
-<li>Diamonds: Dance</li>
-<li>Hearts: Hound</li>
-<li>Spades: Snitch</li>
+<li>Clubs: Cat - Lead the next trick</li>
+<li>Diamonds: Dance - Swap a card with another player</li>
+<li>Hearts: Hound - Choose a player to reveal a card</li>
+<li>Spades: Snitch - Reveals a named card (except ghosts)</li>
 </ul>
-<p>Each suit's Special card ranks between the Ghost and Maid.</p>
 <h2 id="card-values-coins">Card Values (Coins)</h2>
 <ul>
 <li><strong>Kings:</strong> 3 coins each</li>
@@ -275,31 +276,38 @@
 </ul>
 <h2 id="setup">Setup</h2>
 <ol>
-<li><strong>Dealer shuffles</strong> and cards are cut</li>
-<li><strong>Deal 6 cards</strong> to each player (clockwise)</li>
-<li><strong>Deal 2 cards</strong> face-down to the bank</li>
-<li><strong>Dealer declares</strong> an initial strong suit</li>
+<li>Dealer shuffles and cards are cut</li>
+<li>Deal 6 cards to each player (clockwise)</li>
+<li>Deal 2 cards face-down to the bank</li>
+<li>Dealer declares an initial strong suit</li>
 </ol>
 <h2 id="choosing-the-banker">Choosing the Banker</h2>
-<p>Starting with the player left of the dealer, each player in turn either:</p>
+<p>Starting with the player left of the dealer, each player either:</p>
 <ul>
 <li><strong>Takes:</strong> Becomes the banker with the current strong suit</li>
-<li><strong>Passes:</strong> Names a new strong suit (overriding the previous one) and passes</li>
+<li><strong>Passes:</strong> Names a new strong suit (overriding the previous) and passes</li>
 </ul>
 <p>Once someone takes:</p>
 <ul>
-<li>They become the <strong>banker</strong></li>
-<li>They take the 2 bank cards (now have 8 cards)</li>
-<li>They <strong>bank</strong> 2 cards face-down from their hand (back to 6 cards)</li>
-<li>The banked cards count toward the banker's coins at the end</li>
+<li>They become the banker</li>
+<li>Take the 2 bank cards (now have 8 cards)</li>
+<li>Bank 2 cards face-down from their hand (back to 6 cards)</li>
+<li>Banked cards count toward banker's coins at the end</li>
 </ul>
 <h3 id="if-everyone-passes">If Everyone Passes</h3>
+<p>If the player to the right of the dealer passes, then the dealer has three options:</p>
 <ol>
-<li>The last player names a final strong suit</li>
-<li>The dealer chooses <strong>leaster</strong> (fewest coins wins) or <strong>moster</strong> (most coins wins)</li>
-<li>The dealer discards the 2 bank cards face-down</li>
-<li>(Optional) The dealer may reveal the discarded cards (both, one, or neither)</li>
-<li>All players play for themselves</li>
+<li><strong>Take</strong>: Become the banker</li>
+<li>Declare a <strong>Leaster</strong>: Fewest coins wins</li>
+<li>Declare a <strong>Moster</strong> Most coins wins</li>
+</ol>
+<p>In each case, the round uses the strong suit named by the player to the right of the dealer</p>
+<h4 id="leaster-moster">Leaster / Moster</h4>
+<ol>
+<li>Dealer discards the two bank cards</li>
+<li>Player left of dealer leads first trick</li>
+<li>Everyone plays for themselves (no teams)</li>
+<li>After last trick, count coins won</li>
 </ol>
 <h2 id="the-strong-suit-trump">The Strong Suit &amp; Trump</h2>
 <ul>
@@ -315,51 +323,51 @@
 </ul>
 <h2 id="finding-the-shadow-banker">Finding the Shadow Banker</h2>
 <ul>
-<li>If a player other than the banker holds the <strong>Ghost of the strong suit</strong>, they are the <strong>shadow banker</strong> (secret partner)</li>
-<li>The shadow banker's identity is discovered during play when the Ghost is revealed</li>
-<li>The banker may announce they are playing solo if they wish, but this helps the defenders</li>
-<li>The banker and shadow banker <strong>combine their won tricks</strong> to count coins together at the end of the round</li>
-<li>If the banker has the Ghost, they play solo (no partner)</li>
+<li>Player with <strong>Ghost of the strong suit</strong> is the shadow banker (secret partner)</li>
+<li>Identity revealed when Ghost is played</li>
+<li>Banker may announce playing solo (but this helps defenders)</li>
+<li>Banker and shadow banker combine won tricks to count coins together</li>
+<li>If banker has the Ghost, they play solo (no partner)</li>
 </ul>
 <h2 id="special-card-abilities">Special Card Abilities</h2>
 <h3 id="ghost">Ghost</h3>
 <ul>
-<li>If a Ghost and King of the <strong>same suit</strong> are played in the same trick, the Ghost outranks the King</li>
-<li>The Ghost does not necessarily win the trick; normal trump rules still apply</li>
-<li>The Ghost of the strong suit identifies the shadow banker</li>
+<li>Beats King of same suit when played in same trick</li>
+<li>Normal trump rules still apply</li>
+<li>Ghost of strong suit identifies the shadow banker</li>
 </ul>
 <h3 id="cat-of-clubs">Cat of Clubs</h3>
 <ul>
-<li>When you play the Cat of Clubs, you lead the next trick (regardless of who wins the current trick)</li>
-<li>Has no effect on the final (6th) trick</li>
+<li>You lead the next trick (regardless of who wins current trick)</li>
+<li>No effect on final (6th) trick</li>
 </ul>
 <h3 id="dance-of-diamonds">Dance of Diamonds</h3>
 <ul>
-<li>Immediately after playing the Dance card, before the next player acts, select one other player to swap a card with</li>
-<li>Each of you selects a card from your hand and exchanges them face-down</li>
-<li>Has no effect on the final (6th) trick</li>
+<li>After playing Dance, select another player to swap cards with</li>
+<li>Each selects a card and exchanges face-down</li>
+<li>No effect on final (6th) trick</li>
 </ul>
 <h3 id="hound-of-hearts">Hound of Hearts</h3>
 <ul>
-<li>Select one other player</li>
-<li>They must reveal one card of their choice from their hand to all players</li>
+<li>Select another player</li>
+<li>They reveal one card of their choice to all players</li>
 </ul>
 <h3 id="snitch-of-spades">Snitch of Spades</h3>
 <ul>
 <li>Name one non-ghost card (e.g., "King of Hearts")</li>
-<li>If any player has that card, they must reveal it to all players</li>
+<li>If held, that player must reveal it</li>
 </ul>
 <h2 id="playing-tricks">Playing Tricks</h2>
 <h3 id="first-lead">First Lead</h3>
 <ul>
-<li><strong>With a banker:</strong> Player to the left of the banker leads</li>
-<li><strong>Leaster/Moster:</strong> Player to the left of the dealer leads</li>
-<li>The player may lead with any card.</li>
+<li><strong>With banker:</strong> Player left of banker leads</li>
+<li><strong>Leaster/Moster:</strong> Player left of dealer leads</li>
+<li>May lead with any card</li>
 </ul>
 <h3 id="following-suit">Following Suit</h3>
 <ul>
-<li>Players must follow the leading suit if able</li>
-<li>If unable, they may play any card</li>
+<li>Must follow leading suit if able</li>
+<li>Otherwise play any card</li>
 </ul>
 <h3 id="winning-tricks">Winning Tricks</h3>
 <ul>
@@ -394,12 +402,18 @@
 <li>Player(s) with most coins: +2 points each</li>
 </ul>
 <h2 id="winning-the-game">Winning the Game</h2>
-<p>Players decide before the game coins how many points to play to:</p>
-<ul>
-<li><strong>Quick game:</strong> First to 10 points</li>
-<li><strong>Standard game:</strong> First to 15 points</li>
-<li><strong>Long game:</strong> First to 20+ points</li>
-</ul>
+<p>Choose before starting:<br />
+- <strong>Quick:</strong> First to 10 points<br />
+- <strong>Standard:</strong> First to 15 points<br />
+- <strong>Long:</strong> First to 20+ points</p>
+<h2 id="optional-rule-going-for-broke">Optional Rule: Going for Broke</h2>
+<p>When taking the bank (before picking up the bank cards), a player may declare "going for broke" - attempting to win zero coins.</p>
+<p><strong>Changes:</strong><br />
+- Discard 2 cards face-down instead of banking them (don't count as coins)<br />
+- Shadow banker's coins don't count toward the banker's total</p>
+<p><strong>Scoring (if banker wins 0 coins):</strong><br />
+- Banker + Shadow: +2 points each<br />
+- Solo Banker: +4 points</p>
 <hr />
 <h2 id="variations">Variations</h2>
 <h3 id="simplified-scoring">Simplified Scoring</h3>
@@ -440,7 +454,7 @@
 <p><strong>Knives (8):</strong> 2, 3, 4, 5, 6, 7, 8, Ace (Ace = highest)<br />
 <strong>Each Suit (6):</strong> Ghost, Special, Maid, Jack, Queen, King (King = highest)</p>
 <h3 id="coins-25-total">Coins (25 total)</h3>
-<p>Kings = 3★ | Queens = 2★ | Jacks = 1★ | Ace of Knives = 1★</p>
+<p>Kings = 3🪙 | Queens = 2🪙 | Jacks = 1🪙 | Ace of Knives = 1🪙</p>
 <h3 id="choosing-banker-each-hand">Choosing Banker (each hand)</h3>
 <ol>
 <li>Dealer deals 6 cards to each player + 2 to bank.</li>
@@ -465,9 +479,9 @@
 <strong>Hound:</strong> Choose a player to reveal a card<br />
 <strong>Snitch:</strong> Name a non-ghost card; if held, must be revealed</p>
 <h3 id="scoring_1">Scoring</h3>
-<p><strong>Banker + Shadow (combined):</strong> 13-16★ = +1 ea | 17-20★ = +2 ea | 21+★ = +3 ea<br />
+<p><strong>Banker + Shadow (combined):</strong> 13-16🪙 = +1 ea | 17-20🪙 = +2 ea | 21+🪙 = +3 ea<br />
 <strong>Solo Banker:</strong> Double points<br />
-<strong>Defenders (13+★):</strong> +1 ea<br />
+<strong>Defenders (13+🪙):</strong> +1 ea<br />
 <strong>Leaster/Moster:</strong> +2 to winner(s)</p>
 <h3 id="first-lead_1">First Lead</h3>
 <p><strong>With banker:</strong> Player left of banker<br />

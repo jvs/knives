@@ -54,6 +54,7 @@ Starting with the player left of the dealer, each player either:
 - **Passes:** Names a new strong suit (overriding the previous) and passes
 
 Once someone takes:
+
 - They become the banker
 - Take the 2 bank cards (now have 8 cards)
 - Bank 2 cards face-down from their hand (back to 6 cards)
