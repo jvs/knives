@@ -293,6 +293,6 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
 
 ### Reminders
  * Must follow suit if able
- * Banker's banked cards count toward their coins
+ * Banker's banked cards count toward their coins (unless going for broke)
  * Shadow stays secret until Ghost played
  * Must declare “going for broke” before looking at bank cards
