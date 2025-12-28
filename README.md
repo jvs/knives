@@ -1,4 +1,4 @@
-# Knives
+# 🗡 Knives
 
 Knives is a five-player trick-taking game with special cards and secret roles.
 
