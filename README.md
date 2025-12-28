@@ -72,8 +72,8 @@ If someone declares “Knives only”:
 If the player to the right of the dealer passes, then the dealer has three options:
 
 1. **Take**: Become the banker
-2. **Assets**: Fewest coins wins
-3. **Liabilities**: Most coins wins
+2. Declare **Assets**: Fewest coins wins
+3. Declare **Liabilities**: Most coins wins
 
 The round uses the strong suit (if any) named by the player to the right of the dealer
 
@@ -191,7 +191,7 @@ Double the normal payout:
 
 ## Going for Broke
 
-When taking the bank (before looking at the bank cards), a player may declare “going for broke” - attempting to win zero coins.
+Before looking at the bank cards, the banker may declare “going for broke” - attempting to win zero coins.
 
 **Changes:**
 - Discard 2 cards face-down instead of banking them (don't count as coins)
@@ -272,7 +272,7 @@ For younger or beginning players:
  **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest)
 
 ### Coins (25 total)
-Kings = 3¢ | Queens = 2¢ | Jacks = 1¢ | Ace of Knives = 1¢
+Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
 
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
@@ -302,9 +302,9 @@ Kings = 3¢ | Queens = 2¢ | Jacks = 1¢ | Ace of Knives = 1¢
  **Snitch:** Name a non-ghost card; if held, must be revealed
 
 ### Scoring
- **Banker + Shadow (combined):** 13-16¢ = +1 ea | 17-20¢ = +2 ea | 21+¢ = +3 ea
+ **Banker + Shadow (combined):** 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea
  **Solo Banker:** Double points
- **Defenders (13¢ or more):** +1 ea
+ **Defenders (13 coins or more):** +1 ea
  **Leaster/Moster:** +2 to winner(s)
 
 ### First Lead
