@@ -225,7 +225,7 @@ For younger or beginning players:
 - **No special powers:** The Cat, Dance, Hound, and Snitch have no effects
 - **If all other players pass, the dealer must be the banker** (no assets/liabilities)
 
-**Banker + Shadow Banker:**: +2 points for any win
+**Banker + Shadow Banker:** +2 points for any win
 **Solo Banker:** +4 points for any win
 
 **Recommended for ages 10+**
