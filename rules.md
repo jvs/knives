@@ -57,7 +57,7 @@ Starting with the player left of the dealer, each player either:
 Once someone takes:
 
 - They become the banker
-- Optionally declare “going for broke”
+- Optionally declare “going for broke” (before looking at bank cards)
 - Take the 2 bank cards (now have 8 cards)
 - Bank 2 cards face-down from their hand (back to 6 cards)
 - Banked cards count toward banker's coins at the end (unless going for broke)
@@ -212,6 +212,18 @@ Choose before starting:
 - **Standard:** First to 15 points
 - **Long:** First to 20+ points
 
+
+## Reminders
+
+**Must Remember:**
+- Follow suit if you can
+- Knives always trump
+- Strong suit trumps fail suits
+- Banker's banked cards count toward their coins
+- Shadow banker is secret until Ghost is played
+
+**Coin Values:** K=3, Q=2, J=1, Ace of Knives=1
+
 ---
 
 ## Simplified Rules
@@ -229,19 +241,6 @@ For younger or beginning players:
 **Solo Banker:** +4 points for any win
 
 **Recommended for ages 10+**
-
----
-
-## Reminders
-
-**Must Remember:**
-- Follow suit if you can
-- Knives always trump
-- Strong suit trumps fail suits
-- Banker's banked cards count toward their coins
-- Shadow banker is secret until Ghost is played
-
-**Coin Values:** K=3, Q=2, J=1, Ace of Knives=1
 
 ---
 
@@ -285,14 +284,15 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
  **Banker + Shadow (combined):** 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea
  **Solo Banker:** Double points
  **Defenders (13 coins or more):** +1 ea
- **Leaster/Moster:** +2 to winner(s)
+ **Assets/Liabilities:** +2 to winner(s)
+ **Going for Broke**: +2 to Banker and Shadow if Banker wins no coins, else +1 to each defender
 
 ### First Lead
  **With banker:** Player left of banker
- **Leaster/Moster:** Player left of dealer
+ **Assets/Liabilities:** Player left of dealer
 
 ### Reminders
  * Must follow suit if able
  * Banker's banked cards count toward their coins
  * Shadow stays secret until Ghost played
- * Cat and Dance cards have no effect on last trick of hand
+ * Must declare “going for broke” before looking at bank cards
