@@ -8,7 +8,7 @@ Knives is a five-player trick-taking game where players compete to collect coins
 ## The Deck (32 cards)
 
 ### Knives Suit (8 cards)
-2, 3, 4, 5, 6, 7, 8, Ace
+2, 3, 4, 5, 6, 7, 8, Ace (highest)
 
 - Ace is highest, 2 is lowest
 - Knives are always **greater trump**
@@ -16,16 +16,16 @@ Knives is a five-player trick-taking game where players compete to collect coins
 ### Four Traditional Suits (24 cards)
 Spades, Clubs, Diamonds, Hearts - each containing:
 
-- Ghost (lowest), Special, Maid, Jack, Queen, King (highest)
+- Ghost, Special, Maid, Jack, Queen, King (highest)
+- King is highest, Ghost is lowest
+- Special cards rank between the Ghost and Maid
 
 ### Special Cards
 
-- Clubs: Cat
-- Diamonds: Dance
-- Hearts: Hound
-- Spades: Snitch
-
-Each suit's Special card ranks between the Ghost and Maid.
+- Clubs: Cat - Lead the next trick
+- Diamonds: Dance - Swap a card with another player
+- Hearts: Hound - Choose a player to reveal a card
+- Spades: Snitch - Reveals a named card (except ghosts)
 
 
 ## Card Values (Coins)
@@ -51,7 +51,7 @@ Each suit's Special card ranks between the Ghost and Maid.
 Starting with the player left of the dealer, each player in turn either:
 
 - **Takes:** Becomes the banker with the current strong suit
-- **Passes:** Names a new strong suit (overriding the previous one) and passes
+- **Passes:** Names a new strong suit (overriding the previous one) and passes to the next player
 
 Once someone takes:
 
@@ -62,11 +62,20 @@ Once someone takes:
 
 ### If Everyone Passes
 
-1. The last player names a final strong suit
-2. The dealer chooses **leaster** (fewest coins wins) or **moster** (most coins wins)
-3. The dealer discards the 2 bank cards face-down
-4. (Optional) The dealer may reveal the discarded cards (both, one, or neither)
-5. All players play for themselves
+If the player to the right of the dealer passes, then the dealer has three options:
+
+1. **Take**: Become the banker
+2. Declare a **Leaster**: Fewest coins wins
+3. Declare a **Moster** Most coins wins
+
+In each case, the round uses the strong suit named by the player to the right of the dealer
+
+#### Leaster / Moster
+
+1. The dealer discards the two face-down bank cards
+2. The player to the left of the dealer leads the first trick
+3. Every player plays for themselves, with no teams
+4. After the last trick, each player adds up how many coins they won
 
 
 ## The Strong Suit & Trump
@@ -178,6 +187,16 @@ Players decide before the game coins how many points to play to:
 - **Quick game:** First to 10 points
 - **Standard game:** First to 15 points
 - **Long game:** First to 20+ points
+
+## Optional Rule: Going for broke
+
+After a player announce that they will take the bank's cards and play the banker, but before the player takes the bank's cards, they may announce that they're "going for broke". This means that they intend to win no coins during the round.
+
+- Instead of banking two cards, the player discards two cards face down. They do not count in the round.
+- At the end of the round, if the banker did not win any coins, then the banker and the shadow banker win +2 points.
+- If the banker did not have a shadow, then the banker wins +4 points.
+- Any coins won by the shadow banker during the round do not count towards the banker's total.
+
 
 ---
 
