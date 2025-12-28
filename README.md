@@ -1,4 +1,8 @@
-# 🗡 Knives
+<p align="center">
+  <img src="dagger.svg" alt="Knives Dagger" width="150">
+</p>
+
+# Knives
 
 Knives is a five-player trick-taking game with special cards and secret roles.
 
