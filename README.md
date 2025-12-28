@@ -43,7 +43,7 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 1. Dealer shuffles and cards are cut
 2. Deal 6 cards to each player (clockwise)
 3. Deal 2 cards face-down to the bank
-4. Dealer declares an initial strong suit
+4. Dealer declares an initial strong suit (or declares "knives only")
 5. Dealer rotates clockwise after each hand
 
 
@@ -57,7 +57,7 @@ Starting with the player left of the dealer, each player either:
 Once someone takes:
 
 - They become the banker
-- Optionally declares "going for broke"
+- Optionally declare "going for broke"
 - Take the 2 bank cards (now have 8 cards)
 - Bank 2 cards face-down from their hand (back to 6 cards)
 - Banked cards count toward banker's coins at the end (unless going for broke)
@@ -188,15 +188,7 @@ Double the normal payout:
 
 - Player(s) with most coins: +2 points each
 
-
-## Winning the Game
-
-Choose before starting:
-- **Quick:** First to 10 points
-- **Standard:** First to 15 points
-- **Long:** First to 20+ points
-
-## Optional Rule: Going for Broke
+## Going for Broke
 
 When taking the bank (before looking at the bank cards), a player may declare "going for broke" - attempting to win zero coins.
 
@@ -210,6 +202,14 @@ When taking the bank (before looking at the bank cards), a player may declare "g
 
 **Scoring (if banker wins 1 or more coins):**
 - Defenders: +1 point each
+
+
+## Winning the Game
+
+Choose before starting:
+- **Quick:** First to 10 points
+- **Standard:** First to 15 points
+- **Long:** First to 20+ points
 
 ---
 
@@ -271,7 +271,7 @@ For younger or beginning players:
  **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest)
 
 ### Coins (25 total)
-Kings = 3🪙 | Queens = 2🪙 | Jacks = 1🪙 | Ace of Knives = 1🪙
+Kings = 3¢ | Queens = 2¢ | Jacks = 1¢ | Ace of Knives = 1¢
 
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
@@ -300,9 +300,9 @@ Kings = 3🪙 | Queens = 2🪙 | Jacks = 1🪙 | Ace of Knives = 1🪙
  **Snitch:** Name a non-ghost card; if held, must be revealed
 
 ### Scoring
- **Banker + Shadow (combined):** 13-16🪙 = +1 ea | 17-20🪙 = +2 ea | 21+🪙 = +3 ea
+ **Banker + Shadow (combined):** 13-16¢ = +1 ea | 17-20¢ = +2 ea | 21+¢ = +3 ea
  **Solo Banker:** Double points
- **Defenders (13+🪙):** +1 ea
+ **Defenders (13¢ or more):** +1 ea
  **Leaster/Moster:** +2 to winner(s)
 
 ### First Lead
