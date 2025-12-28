@@ -214,27 +214,7 @@ Choose before starting:
 
 ---
 
-## Variations
-
-### Simplified Scoring
-
-For faster, more casual play:
-
-**Banker + Shadow Banker:**
-- Win (13+ coins): +2 points each
-- Win with all 25 coins: +3 points each
-
-**Defenders Win:**
-- +1 point each
-
-**Solo Banker:**
-- Win (13+ coins): +4 points
-- Win with all 25 coins: +6 points
-
-**Assets/Liabilities:** (unchanged)
-- +2 points each to winner(s)
-
-### Simplified Rules
+## Simplified Rules
 
 For younger or beginning players:
 
