@@ -16,16 +16,19 @@ Ghost, 2, 3, 4, 5, 6, 7, Ace (highest)
 ### Four Traditional Suits (24 cards)
 Spades, Clubs, Diamonds, Hearts - each containing:
 
-- Ghost, Special, Maid, Jack, Queen, King (highest)
+- Ghost, Prank, Maid, Jack, Queen, King (highest)
 - King is highest, Ghost is lowest
-- Special cards rank between the Ghost and Maid
 
-### Special Cards
+### Prank Cards
 
-- Cat of Clubs: Lead the next trick
-- Dance of Diamonds: Swap a card with another player
-- Hound of Hearts: Choose a player to reveal a card
-- Snitch of Spades: Reveals a named card (except ghosts)
+Each Prank card has a special effect.
+
+- Clubs, “The Cat”: Lead the next trick
+- Diamonds, “The Dance”: Swap a card with another player
+- Hearts, “The Hound”: Choose a player to reveal a card
+- Spades, “The Snitch”: Reveals a named card (except ghosts)
+
+Prank cards have no effect on the final (6th) trick.
 
 
 ## Card Values (Coins)
@@ -114,30 +117,31 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - If banker has the Ghost, they play solo (no partner)
 
 
-## Special Card Abilities
+## Ghost Cards
 
-### Ghost
 - Beats King of same suit when played in same trick (except Knives, which has no King)
 - Normal trump rules still apply
 - Ghost of strong suit identifies the shadow banker
 - If “Knives Only”: Ghost of Knives identifies the shadow banker
 
-### Cat of Clubs
+## Prank Cards
+
+### Clubs: “The Cat”
 - You lead the next trick (regardless of who wins current trick)
-- No effect on final (6th) trick
 
-### Dance of Diamonds
-- After playing Dance, select another player to swap cards with
+### Diamonds: “The Dance”
+- Upon playing this card, select another player to swap cards with
 - Each selects a card and exchanges face-down
-- No effect on final (6th) trick
 
-### Hound of Hearts
-- After playing Hound, select another player
+### Hearts: “The Hound”
+- Upon playing Hound, select another player
 - They reveal one card of their choice to all players
 
-### Snitch of Spades
-- After playing Snitch, name one non-ghost card (e.g., “King of Hearts”)
+### Spades: “The Snitch”
+- Upon playing this card, name one non-ghost card (e.g., “King of Hearts”)
 - If held, that player must reveal it
+
+Prank cards have no effect on the final (6th) trick.
 
 
 ## Playing Tricks
@@ -234,7 +238,7 @@ For younger or beginning players:
 - **Spades is always the strong suit** (no suit selection)
 - The player with the **Ghost of Spades** is the shadow banker
 - **No Ghost/King power:** Ghost does not beat King
-- **No special powers:** The Cat, Dance, Hound, and Snitch have no effects
+- **No Pranks:** Prank cards have no effects
 - **If all other players pass, the dealer must be the banker** (no assets/liabilities)
 
 **Banker + Shadow Banker:** +2 points for any win
@@ -248,7 +252,7 @@ For younger or beginning players:
 
 ### Deck (32 cards)
  **Knives (8):** Ghost, 2, 3, 4, 5, 6, 7, Ace (Ace = highest, Ghost = lowest)
- **Each Suit (6):** Ghost, Special, Maid, Jack, Queen, King (King = highest, Ghost = lowest)
+ **Each Suit (6):** Ghost, Prank, Maid, Jack, Queen, King (King = highest, Ghost = lowest)
 
 ### Coins (25 total)
 Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
@@ -275,10 +279,10 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
 
 ### Special Cards
  **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
- **Cat:** That player leads next (no effect on trick 6)
- **Dance:** Swap a card with another player
- **Hound:** Choose a player to reveal a card
- **Snitch:** Name a non-ghost card; if held, must be revealed
+ **Prank of Clubs (The Cat):** That player leads next (no effect on trick 6)
+ **Prank of Diamonds (The Dance):** Swap a card with another player
+ **Prank of Hearts (The Hound):** Choose a player to reveal a card
+ **Prank of Spades (The Snitch):** Name a non-ghost card; if held, must be revealed
 
 ### Scoring
  **Banker + Shadow (combined):** 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea
