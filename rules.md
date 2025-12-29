@@ -119,7 +119,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 
 ## Ghost Cards
 
-- Beats King of same suit when played in same trick (except Knives, which has no King)
+- Beats King of same suit when played in same trick (note: Knives suit has no King)
 - Normal trump rules still apply
 - Ghost of strong suit identifies the shadow banker
 - If “Knives Only”: Ghost of Knives identifies the shadow banker
