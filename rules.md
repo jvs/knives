@@ -23,10 +23,10 @@ Spades, Clubs, Diamonds, Hearts - each containing:
 
 Each Prank card has a special effect.
 
-- Clubs, “The Cat”: Lead the next trick
-- Diamonds, “The Dance”: Swap a card with another player
-- Hearts, “The Hound”: Choose a player to reveal a card
-- Spades, “The Snitch”: Reveals a named card (except ghosts)
+- Clubs, "The Cat": Lead the next trick
+- Diamonds, "The Dance": Swap a card with another player
+- Hearts, "The Hound": Choose a player to reveal a card
+- Spades, "The Snitch": Reveals a named card (except ghosts)
 
 Prank cards have no effect on the final (6th) trick.
 
@@ -46,7 +46,7 @@ Prank cards have no effect on the final (6th) trick.
 1. Dealer shuffles and cards are cut
 2. Deal 6 cards to each player (clockwise)
 3. Deal 2 cards face-down to the bank
-4. Dealer declares an initial strong suit (or declares “Knives only”)
+4. Dealer declares an initial strong suit (or declares "Knives only")
 5. Dealer rotates clockwise after each hand
 
 
@@ -55,19 +55,19 @@ Prank cards have no effect on the final (6th) trick.
 Starting with the player left of the dealer, each player either:
 
 - **Takes:** Becomes the banker with the current strong suit (if any)
-- **Passes:** Names a new strong suit OR declares “Knives only” and passes
+- **Passes:** Names a new strong suit OR declares "Knives only" and passes
 
 Once someone takes:
 
 - They become the banker
-- Optionally declare “going for broke” (before looking at bank cards)
+- Optionally declare "going for broke" (before looking at bank cards)
 - Take the 2 bank cards (now have 8 cards)
 - Bank 2 cards face-down from their hand (back to 6 cards)
 - Banked cards count toward banker's coins at the end (unless going for broke)
 
-If someone declares “Knives only”:
+If someone declares "Knives only":
 
-- If a player declares “Knives only” and the next player takes the bank, the round is play with no strong suit
+- If a player declares "Knives only" and the next player takes the bank, the round is play with no strong suit
 - Only knives are trump
 
 ### If Everyone Passes
@@ -101,9 +101,9 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - The strong suit beats fail suits
 - Among fail suits, only the leading suit can win the trick (unless trump is played)
 
-### “Knives Only”
+### "Knives Only"
 
-- If “Knives only” is declared, only Knives are trump
+- If "Knives only" is declared, only Knives are trump
 - No lesser trump exists
 - All four traditional suits are fail suits
 
@@ -111,7 +111,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 ## Finding the Shadow Banker
 
 - Player with **Ghost of the strong suit** is the shadow banker (secret partner)
-- If “Knives only”: Player with **Ghost of Knives** is the shadow banker
+- If "Knives only": Player with **Ghost of Knives** is the shadow banker
 - Identity revealed when Ghost is played
 - Banker and shadow banker combine won tricks to count coins together
 - If banker has the Ghost, they play solo (no partner)
@@ -122,23 +122,23 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - Beats King of same suit when played in same trick (note: Knives suit has no King)
 - Normal trump rules still apply
 - Ghost of strong suit identifies the shadow banker
-- If “Knives Only”: Ghost of Knives identifies the shadow banker
+- If "Knives Only": Ghost of Knives identifies the shadow banker
 
 ## Prank Cards
 
-### Clubs: “The Cat”
+### Clubs, "The Cat"
 - You lead the next trick (regardless of who wins current trick)
 
-### Diamonds: “The Dance”
+### Diamonds, "The Dance"
 - Upon playing this card, select another player to swap cards with
 - Each selects a card and exchanges face-down
 
-### Hearts: “The Hound”
+### Hearts, "The Hound"
 - Upon playing Hound, select another player
 - They reveal one card of their choice to all players
 
-### Spades: “The Snitch”
-- Upon playing this card, name one non-ghost card (e.g., “King of Hearts”)
+### Spades, "The Snitch"
+- Upon playing this card, name one non-ghost card (e.g., "King of Hearts")
 - If held, that player must reveal it
 
 #### Timing
@@ -197,7 +197,7 @@ Double the normal payout:
 
 ## Going for Broke
 
-Before looking at the bank cards, the banker may declare “going for broke” - attempting to win zero coins.
+Before looking at the bank cards, the banker may declare "going for broke" - attempting to win zero coins.
 
 **Changes:**
 - Discard 2 cards face-down instead of banking them (don't count as coins)
@@ -262,14 +262,14 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
 2. Players look at their cards. Dealer names an initial strong suit.
-2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit or “Knives only”)
+2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit or "Knives only")
 3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
 4. **If all pass:** Dealer picks Banker, Assets, or Liabilities
 5. If Assets or Liabilities: dealer discards bank, all play solo
 
 ### Banker & Shadow
  **Banker:** Takes 2 bank cards, banks 2 cards (count toward their coins)
- **Shadow:** Player with Ghost of strong suit (or Ghost of Knives if “Knives only”)
+ **Shadow:** Player with Ghost of strong suit (or Ghost of Knives if "Knives only")
  **Solo:** Banker has Ghost = no partner, double points
 
 ### Trump & Tricks (each trick)
@@ -277,7 +277,7 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
  **Follow suit if able**
  Highest trump wins (or leading suit if no trump)
  Winner leads next (unless Cat played)
- **“Knives only”:** Only Knives are trump, all other suits are fail
+ **"Knives only":** Only Knives are trump, all other suits are fail
 
 ### Special Cards
  **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
@@ -301,4 +301,4 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
  * Must follow suit if able
  * Banker's banked cards count toward their coins (unless going for broke)
  * Shadow stays secret until Ghost played
- * May only declare “going for broke” before looking at bank cards
+ * May only declare "going for broke" before looking at bank cards

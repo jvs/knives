@@ -5,6 +5,59 @@ import markdown
 from pathlib import Path
 
 
+def convert_to_smart_quotes(text: str) -> str:
+    """Convert straight quotes to smart quotes.
+
+    Double quotes:
+    - Uses &ldquo; for opening quotes and &rdquo; for closing quotes
+    - Assumes quotes are always paired and never nested
+
+    Single quotes:
+    - Converts all apostrophes to &rsquo; (for possessives and contractions)
+
+    Skips quotes inside HTML tags.
+    """
+    result = []
+    inside_tag = False
+
+    for i, char in enumerate(text):
+        # Track whether we're inside an HTML tag
+        if char == '<':
+            inside_tag = True
+        elif char == '>':
+            inside_tag = False
+            result.append(char)
+            continue
+
+        # Only convert quotes when NOT inside HTML tags
+        if not inside_tag:
+            # Convert single quotes (apostrophes) to right single quote
+            if char == "'":
+                result.append('&rsquo;')
+            # Convert double quotes based on context
+            elif char == '"':
+                if i == 0:
+                    # Start of string - opening quote
+                    result.append('&ldquo;')
+                else:
+                    prev_char = text[i - 1]
+                    # Opening quote: after space, newline, left paren/bracket, or punctuation
+                    if prev_char in ' \n\r\t([{:;,—-':
+                        result.append('&ldquo;')
+                    # Closing quote: after letter, digit, or ending punctuation
+                    elif prev_char.isalnum() or prev_char in '.,!?\';:)]}':
+                        result.append('&rdquo;')
+                    else:
+                        # Default to opening quote
+                        result.append('&ldquo;')
+            else:
+                result.append(char)
+        else:
+            result.append(char)
+
+    return ''.join(result)
+
+
 def generate_html(input_file: str = "rules.md", output_file: str = "rules.html"):
     """Convert markdown file to styled HTML."""
 
@@ -20,6 +73,9 @@ def generate_html(input_file: str = "rules.md", output_file: str = "rules.html")
             'toc',            # Table of contents
         ]
     )
+
+    # Convert straight quotes to smart quotes (after HTML conversion to preserve HTML attributes)
+    html_content = convert_to_smart_quotes(html_content)
 
     # Full HTML document with beautiful print-optimized styling
     full_html = f"""<!DOCTYPE html>
