@@ -124,6 +124,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - Ghost of strong suit identifies the shadow banker
 - If "Knives Only": Ghost of Knives identifies the shadow banker
 
+
 ## Prank Cards
 
 ### Clubs, "The Cat"
