@@ -28,8 +28,6 @@ Each Prank card has a special effect.
 - Hearts, "The Hound": Choose a player to reveal a card
 - Spades, "The Snitch": Reveals a named card (except ghosts)
 
-Prank cards have no effect on the final (6th) trick.
-
 
 ## Card Values (Coins)
 
@@ -54,10 +52,10 @@ Prank cards have no effect on the final (6th) trick.
 
 Starting with the player left of the dealer, each player either:
 
-- **Takes:** Becomes the banker with the current strong suit (if any)
-- **Passes:** Names a new strong suit OR declares "Knives only" and passes
+- **Takes the bank:** Becomes the banker with the current strong suit (if any)
+- **Names a suit:** Names a new strong suit OR declares "Knives only" and passes to the next player
 
-Once someone takes:
+Once someone takes the bank:
 
 - They become the banker
 - Optionally declare "going for broke" (before looking at bank cards)
@@ -74,11 +72,11 @@ If someone declares "Knives only":
 
 If the player to the right of the dealer passes, then the dealer has three options:
 
-1. **Take**: Become the banker
+1. **Take the bank**: Become the banker
 2. Declare **Assets**: Most coins wins
 3. Declare **Debts**: Fewest coins wins
 
-The round uses the strong suit (if any) named by the player to the right of the dealer
+The round uses the strong suit named by the player to the right of the dealer
 
 #### Assets / Debts
 
@@ -101,7 +99,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - The strong suit beats fail suits
 - Among fail suits, only the leading suit can win the trick (unless trump is played)
 
-### "Knives Only"
+### "Knives only"
 
 - If "Knives only" is declared, only Knives are trump
 - No lesser trump exists
@@ -124,15 +122,16 @@ The round uses the strong suit (if any) named by the player to the right of the 
 
 ### Diamonds, "The Dance"
 - Upon playing this card, select another player to swap cards with
-- Each selects a card and exchanges face-down
+- Each selects a card from their hand and exchanges them face-down
+- Both players add the received card to their hand immediately
 
 ### Hearts, "The Hound"
 - Upon playing Hound, select another player
-- They reveal one card of their choice to all players
+- They show one card of their choice to all players (keeping it in hand)
 
 ### Spades, "The Snitch"
 - Upon playing this card, name one non-ghost card (e.g., "King of Hearts")
-- If held, that player must reveal it
+- If held, that player must show it to all players (keeping it in hand)
 
 #### Timing
 - Pranks take effect when played (before trick resolution), except Cat which affects who leads the next trick
@@ -195,6 +194,7 @@ Before looking at the bank cards, the banker may declare "going for broke" - att
 **Changes:**
 - Discard 2 cards face-down instead of banking them (don't count as coins)
 - Shadow banker's coins don't count toward the banker's total
+- (Shadow banker should actively try to take coins, to help the banker)
 
 **Scoring (if banker wins 0 coins):**
 - Banker + Shadow: +2 points each
@@ -253,11 +253,11 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
 
 ### Choosing Banker (each hand)
 1. Dealer deals 6 cards to each player + 2 to bank.
-2. Players look at their cards. Dealer names an initial strong suit.
-2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit or "Knives only")
-3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
-4. **If all pass:** Dealer picks Banker, Assets, or Debts
-5. If Assets or Debts: dealer discards bank, all play solo
+2. Players look at their cards. Dealer names an initial strong suit or "Knives only"
+3. Starting left of dealer: **Take the bank** (become banker) or **Name a suit** (pick new strong suit or "Knives only")
+4. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
+5. **If all pass:** Dealer picks Banker, Assets, or Debts
+6. If Assets or Debts: dealer discards bank, all play solo
 
 ### Banker & Shadow
  **Banker:** Takes 2 bank cards, banks 2 cards (count toward their coins)

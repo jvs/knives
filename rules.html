@@ -265,7 +265,6 @@
 <li>Hearts, &ldquo;The Hound&rdquo;: Choose a player to reveal a card</li>
 <li>Spades, &ldquo;The Snitch&rdquo;: Reveals a named card (except ghosts)</li>
 </ul>
-<p>Prank cards have no effect on the final (6th) trick.</p>
 <h2 id="card-values-coins">Card Values (Coins)</h2>
 <ul>
 <li><strong>Kings:</strong> 3 coins each</li>
@@ -286,10 +285,10 @@
 <h2 id="choosing-the-banker">Choosing the Banker</h2>
 <p>Starting with the player left of the dealer, each player either:</p>
 <ul>
-<li><strong>Takes:</strong> Becomes the banker with the current strong suit (if any)</li>
-<li><strong>Passes:</strong> Names a new strong suit OR declares &ldquo;Knives only&rdquo; and passes</li>
+<li><strong>Takes the bank:</strong> Becomes the banker with the current strong suit (if any)</li>
+<li><strong>Names a suit:</strong> Names a new strong suit OR declares &ldquo;Knives only&rdquo; and passes to the next player</li>
 </ul>
-<p>Once someone takes:</p>
+<p>Once someone takes the bank:</p>
 <ul>
 <li>They become the banker</li>
 <li>Optionally declare &ldquo;going for broke&rdquo; (before looking at bank cards)</li>
@@ -305,11 +304,11 @@
 <h3 id="if-everyone-passes">If Everyone Passes</h3>
 <p>If the player to the right of the dealer passes, then the dealer has three options:</p>
 <ol>
-<li><strong>Take</strong>: Become the banker</li>
+<li><strong>Take the bank</strong>: Become the banker</li>
 <li>Declare <strong>Assets</strong>: Most coins wins</li>
 <li>Declare <strong>Debts</strong>: Fewest coins wins</li>
 </ol>
-<p>The round uses the strong suit (if any) named by the player to the right of the dealer</p>
+<p>The round uses the strong suit named by the player to the right of the dealer</p>
 <h4 id="assets-debts">Assets / Debts</h4>
 <ol>
 <li>Dealer discards the two bank cards</li>
@@ -330,7 +329,7 @@
 <li>The strong suit beats fail suits</li>
 <li>Among fail suits, only the leading suit can win the trick (unless trump is played)</li>
 </ul>
-<h3 id="knives-only">&ldquo;Knives Only&rdquo;</h3>
+<h3 id="knives-only">&ldquo;Knives only&rdquo;</h3>
 <ul>
 <li>If &ldquo;Knives only&rdquo; is declared, only Knives are trump</li>
 <li>No lesser trump exists</li>
@@ -352,17 +351,18 @@
 <h3 id="diamonds-the-dance">Diamonds, &ldquo;The Dance&rdquo;</h3>
 <ul>
 <li>Upon playing this card, select another player to swap cards with</li>
-<li>Each selects a card and exchanges face-down</li>
+<li>Each selects a card from their hand and exchanges them face-down</li>
+<li>Both players add the received card to their hand immediately</li>
 </ul>
 <h3 id="hearts-the-hound">Hearts, &ldquo;The Hound&rdquo;</h3>
 <ul>
 <li>Upon playing Hound, select another player</li>
-<li>They reveal one card of their choice to all players</li>
+<li>They show one card of their choice to all players (keeping it in hand)</li>
 </ul>
 <h3 id="spades-the-snitch">Spades, &ldquo;The Snitch&rdquo;</h3>
 <ul>
 <li>Upon playing this card, name one non-ghost card (e.g., &ldquo;King of Hearts&rdquo;)</li>
-<li>If held, that player must reveal it</li>
+<li>If held, that player must show it to all players (keeping it in hand)</li>
 </ul>
 <h4 id="timing">Timing</h4>
 <ul>
@@ -417,7 +417,8 @@
 <p>Before looking at the bank cards, the banker may declare &ldquo;going for broke&rdquo; - attempting to win zero coins.</p>
 <p><strong>Changes:</strong><br />
 - Discard 2 cards face-down instead of banking them (don&rsquo;t count as coins)<br />
-- Shadow banker&rsquo;s coins don&rsquo;t count toward the banker&rsquo;s total</p>
+- Shadow banker&rsquo;s coins don&rsquo;t count toward the banker&rsquo;s total<br />
+- (Shadow banker should actively try to take coins, to help the banker)</p>
 <p><strong>Scoring (if banker wins 0 coins):</strong><br />
 - Banker + Shadow: +2 points each<br />
 - Solo Banker: +4 points</p>
@@ -457,8 +458,8 @@
 <h3 id="choosing-banker-each-hand">Choosing Banker (each hand)</h3>
 <ol>
 <li>Dealer deals 6 cards to each player + 2 to bank.</li>
-<li>Players look at their cards. Dealer names an initial strong suit.</li>
-<li>Starting left of dealer: <strong>Take</strong> (become banker) or <strong>Pass</strong> (name new strong suit or &ldquo;Knives only&rdquo;)</li>
+<li>Players look at their cards. Dealer names an initial strong suit or &ldquo;Knives only&rdquo;</li>
+<li>Starting left of dealer: <strong>Take the bank</strong> (become banker) or <strong>Name a suit</strong> (pick new strong suit or &ldquo;Knives only&rdquo;)</li>
 <li>Banker takes 2 bank cards, banks 2 cards back (count toward banker&rsquo;s coins)</li>
 <li><strong>If all pass:</strong> Dealer picks Banker, Assets, or Debts</li>
 <li>If Assets or Debts: dealer discards bank, all play solo</li>
