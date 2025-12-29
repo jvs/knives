@@ -160,7 +160,7 @@ The round uses the strong suit named by the player to the right of the dealer
 
 - The winner of a trick leads the next trick
 - May lead with any card
-- Exception: After the Cat is played, that player leads the next trick
+- Exception: After "The Cat" is played (a Prank card), that player leads the next trick
 
 
 ## Scoring
