@@ -141,7 +141,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - Upon playing this card, name one non-ghost card (e.g., “King of Hearts”)
 - If held, that player must reveal it
 
-**Timing**:
+#### Timing
 - Prank cards take effect immediately upon being played, except for the Cat
 - Prank cards have no effect on the final (6th) trick
 
