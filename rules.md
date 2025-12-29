@@ -75,18 +75,18 @@ If someone declares "Knives only":
 If the player to the right of the dealer passes, then the dealer has three options:
 
 1. **Take**: Become the banker
-2. Declare **Assets**: Fewest coins wins
-3. Declare **Liabilities**: Most coins wins
+2. Declare **Assets**: Most coins wins
+3. Declare **Debts**: Fewest coins wins
 
 The round uses the strong suit (if any) named by the player to the right of the dealer
 
-#### Assets / Liabilities
+#### Assets / Debts
 
 1. Dealer discards the two bank cards
 2. Player left of dealer leads first trick
 3. Everyone plays for themselves (no teams)
 4. After last trick, count coins taken
-5. Assets = most coins wins, Liabilities = fewest coins wins
+5. Assets = most coins wins, Debts = fewest coins wins
 
 
 ## The Strong Suit & Trump
@@ -144,7 +144,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 ### First Lead
 
 - **With banker:** Player left of banker leads
-- **Assets/Liabilities:** Player left of dealer leads
+- **Assets/Debts:** Player left of dealer leads
 - May lead with any card
 
 ### Following Suit
@@ -184,7 +184,7 @@ Double the normal payout:
 
 - Player(s) with most coins: +2 points each
 
-### Liabilities (fewest coins wins)
+### Debts (fewest coins wins)
 
 - Player(s) with fewest coins: +2 points each
 
@@ -256,8 +256,8 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
 2. Players look at their cards. Dealer names an initial strong suit.
 2. Starting left of dealer: **Take** (become banker) or **Pass** (name new strong suit or "Knives only")
 3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
-4. **If all pass:** Dealer picks Banker, Assets, or Liabilities
-5. If Assets or Liabilities: dealer discards bank, all play solo
+4. **If all pass:** Dealer picks Banker, Assets, or Debts
+5. If Assets or Debts: dealer discards bank, all play solo
 
 ### Banker & Shadow
  **Banker:** Takes 2 bank cards, banks 2 cards (count toward their coins)
@@ -281,12 +281,12 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
  **Banker + Shadow (combined):** 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea
  **Solo Banker:** Double points
  **Defenders (13 coins or more):** +1 ea
- **Assets/Liabilities:** +2 to winner(s)
+ **Assets/Debts:** +2 to winner(s)
  **Going for Broke**: +2 to Banker and Shadow if Banker wins no coins, else +1 to each defender
 
 ### First Lead
  **With banker:** Player left of banker
- **Assets/Liabilities:** Player left of dealer
+ **Assets/Debts:** Player left of dealer
 
 ### Reminders
  * Must follow suit if able
