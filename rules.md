@@ -290,10 +290,10 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
  **"Knives only":** Only Knives are trump, all other suits are fail
 
 ### Prank Cards
- **Clubs (The Cat):** That player leads next (no effect on trick 6)
- **Diamonds (The Dance):** Swap a card with another player
- **Hearts (The Hound):** Choose a player to reveal a card
- **Spades (The Snitch):** Name a non-ghost card; if held, must be revealed
+ **Clubs, "The Cat":** That player leads next (no effect on trick 6)
+ **Diamonds, "The Dance":** Swap a card with another player
+ **Hearts, "The Hound":** Choose a player to reveal a card
+ **Spades, "The Snitch":** Name a non-ghost card; if held, must be revealed
 
 ### Scoring
  **Banker + Shadow (combined):** 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea
