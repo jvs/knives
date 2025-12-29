@@ -117,14 +117,6 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - If banker has the Ghost, they play solo (no partner)
 
 
-## Ghost Cards
-
-- Beats King of same suit when played in same trick (note: Knives suit has no King)
-- Normal trump rules still apply
-- Ghost of strong suit identifies the shadow banker
-- If "Knives Only": Ghost of Knives identifies the shadow banker
-
-
 ## Prank Cards
 
 ### Clubs, "The Cat"
@@ -143,7 +135,7 @@ The round uses the strong suit (if any) named by the player to the right of the 
 - If held, that player must reveal it
 
 #### Timing
-- Prank cards take effect immediately upon being played, except for the Cat
+- Pranks take effect when played (before trick resolution), except Cat which affects who leads the next trick
 - Prank cards have no effect on the final (6th) trick
 
 
@@ -240,7 +232,6 @@ For younger or beginning players:
 **Changes:**
 - **Spades is always the strong suit** (no suit selection)
 - The player with the **Ghost of Spades** is the shadow banker
-- **No Ghost/King power:** Ghost does not beat King
 - **No Pranks:** Prank cards have no effects
 - **If all other players pass, the dealer must be the banker** (no assets/liabilities)
 
@@ -280,12 +271,11 @@ Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Ace of Knives = 1 coin
  Winner leads next (unless Cat played)
  **"Knives only":** Only Knives are trump, all other suits are fail
 
-### Special Cards
- **Ghost:** Beats King of same suit in same trick | Ghost of strong suit = shadow banker
- **Prank of Clubs (The Cat):** That player leads next (no effect on trick 6)
- **Prank of Diamonds (The Dance):** Swap a card with another player
- **Prank of Hearts (The Hound):** Choose a player to reveal a card
- **Prank of Spades (The Snitch):** Name a non-ghost card; if held, must be revealed
+### Prank Cards
+ **Clubs (The Cat):** That player leads next (no effect on trick 6)
+ **Diamonds (The Dance):** Swap a card with another player
+ **Hearts (The Hound):** Choose a player to reveal a card
+ **Spades (The Snitch):** Name a non-ghost card; if held, must be revealed
 
 ### Scoring
  **Banker + Shadow (combined):** 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea
