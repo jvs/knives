@@ -65,7 +65,7 @@ Once someone takes the bank:
 
 If someone declares "Knives only":
 
-- If a player declares "Knives only" and the next player takes the bank, the round is play with no strong suit
+- If a player declares "Knives only" and the next player takes the bank, the round is played with no strong suit
 - Only knives are trump
 
 ### If Everyone Passes
@@ -126,7 +126,7 @@ The round uses the strong suit named by the player to the right of the dealer
 - Both players add the received card to their hand immediately
 
 ### Hearts, "The Hound"
-- Upon playing Hound, select another player
+- Upon playing this card, select another player
 - They show one card of their choice to all players (keeping it in hand)
 
 ### Spades, "The Snitch"
