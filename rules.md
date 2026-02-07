@@ -64,19 +64,9 @@ Once someone takes the bank:
 
 ### If Everyone Passes
 
-If the player to the right of the dealer passes, then the dealer has three options:
+If the player to the right of the dealer passes, then the dealer is forced to be the banker.
 
-1. **Take the bank**: Become the banker
-2. Declare **Assets**: No teams, most coins wins
-3. Declare **Debts**: No teams, fewest coins wins
-
-#### Assets / Debts
-
-1. Dealer discards the two bank cards
-2. Player left of dealer leads first trick
-3. Everyone plays for themselves (no teams)
-4. After last trick, count coins taken
-5. Assets = most coins wins, Debts = fewest coins wins
+Note that the banker can still choose to declare "going for broke" even if forced to be banker.
 
 
 ## Finding the Shadow Banker
@@ -114,8 +104,7 @@ If the player to the right of the dealer passes, then the dealer has three optio
 
 ### First Lead
 
-- **With banker:** Player left of banker leads
-- **Assets/Debts:** Player left of dealer leads
+- Player left of banker leads
 - May lead with any card
 
 ### Following Suit
@@ -157,14 +146,6 @@ Double the normal payout:
 - **13-16 coins:** +2 points
 - **17-20 coins:** +4 points
 - **21+ coins:** +6 points
-
-### Assets (most coins wins)
-
-- Player(s) with most coins: +2 points each
-
-### Debts (fewest coins wins)
-
-- Player(s) with fewest coins: +2 points each
 
 
 ## Going for Broke
@@ -243,8 +224,7 @@ Aces = 3 coins | Kings = 2 coins | Queens = 1 coin | Best of Knives = 1 coin
 1. Dealer deals 7 cards to each player + 2 to bank.
 2. Starting left of dealer: **Take the bank** (become banker) or **Pass**
 3. Banker takes 2 bank cards, banks 2 cards back (count toward banker's coins)
-4. **If all pass:** Dealer picks Banker, Assets, or Debts
-5. If Assets or Debts: dealer discards bank, all play solo
+4. **If all pass:** Dealer becomes banker
 
 ### Banker & Shadow
  **Banker:** Takes 2 bank cards, banks 2 cards (count toward their coins)
@@ -267,12 +247,10 @@ Aces = 3 coins | Kings = 2 coins | Queens = 1 coin | Best of Knives = 1 coin
  **Banker + Shadow (combined):** 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea
  **Solo Banker:** Double points
  **Defenders (13 coins or more):** +1 ea
- **Assets/Debts:** +2 to winner(s)
  **Going for Broke**: +2 to Banker and Shadow if Banker takes no coins, else +1 to each defender
 
 ### First Lead
- **With banker:** Player left of banker
- **Assets/Debts:** Player left of dealer
+Player left of banker
 
 ### Reminders
  * Must follow suit if able
