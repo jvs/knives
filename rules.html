@@ -246,37 +246,60 @@
 <p>Knives is a five-player trick-taking game where players compete to collect coins (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
 <h2 id="the-deck-37-cards">The Deck (37 cards)</h2>
 <h3 id="knives-suit-9-cards">Knives Suit (9 cards)</h3>
-<p>Worst, 2, 3, 4, 5, 6, 7, 8, Best (highest)</p>
+<p>Worst, 2, 3, 4, 5, 6, 7, 8, Best</p>
 <ul>
 <li>Worst is the lowest, Best is the highest</li>
 <li>Knives are always trump</li>
 </ul>
 <h3 id="four-traditional-suits-28-cards">Four Traditional Suits (28 cards)</h3>
-<p>Spades, Clubs, Diamonds, Hearts - each containing:</p>
+<p>Spades, Clubs, Diamonds, Hearts — each containing:</p>
+<p>Ghost, Prank, Maid, Jack, Queen, King, Ace</p>
 <ul>
-<li>Ghost, Prank, Maid, Jack, Queen, King, Ace (highest)</li>
 <li>Ghost is the lowest, Ace is the highest</li>
 </ul>
 <h3 id="prank-cards">Prank Cards</h3>
-<p>Each Prank card has a special effect.</p>
+<p>Each Prank card has a special effect when played:</p>
 <ul>
-<li>Clubs, &ldquo;The Cat&rdquo;: Lead the next trick</li>
-<li>Diamonds, &ldquo;The Dance&rdquo;: Swap a card with another player</li>
-<li>Hearts, &ldquo;The Hound&rdquo;: Choose a player to reveal a card</li>
-<li>Spades, &ldquo;The Snitch&rdquo;: Reveals a named card (except ghosts)</li>
+<li><strong>Clubs, &ldquo;The Cat&rdquo;:</strong> You lead the next trick</li>
+<li><strong>Diamonds, &ldquo;The Dance&rdquo;:</strong> Swap a card with another player</li>
+<li><strong>Hearts, &ldquo;The Hound&rdquo;:</strong> Choose a player to reveal a card</li>
+<li><strong>Spades, &ldquo;The Snitch&rdquo;:</strong> Name a non-ghost card; if held, it must be revealed</li>
 </ul>
 <h2 id="card-values-coins">Card Values (Coins)</h2>
-<ul>
-<li><strong>Aces:</strong> 3 coins each</li>
-<li><strong>Kings:</strong> 2 coins each</li>
-<li><strong>Queens:</strong> 1 coin each</li>
-<li><strong>Best of Knives:</strong> 1 coin</li>
-<li><strong>All other cards:</strong> 0 coins</li>
-<li><strong>Total in deck:</strong> 25 coins</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Card</th>
+<th>Coins</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Kings</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Queens</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Best of Knives</td>
+<td>1</td>
+</tr>
+<tr>
+<td>All other cards</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total coins in deck: 25</strong></p>
 <h2 id="setup">Setup</h2>
 <ol>
-<li>Dealer shuffles and cards are cut</li>
+<li>Dealer shuffles and the deck is cut</li>
 <li>Deal 7 cards to each player (clockwise)</li>
 <li>Deal 2 cards face-down to the bank</li>
 <li>Dealer rotates clockwise after each hand</li>
@@ -285,183 +308,192 @@
 <p>Starting with the player left of the dealer, each player either:</p>
 <ul>
 <li><strong>Takes the bank:</strong> Becomes the banker</li>
-<li><strong>Passes:</strong> Passes to the next player</li>
+<li><strong>Passes:</strong> The next player decides</li>
 </ul>
 <p>Once someone takes the bank:</p>
-<ul>
+<ol>
 <li>They become the banker</li>
-<li>Optionally declare &ldquo;going for broke&rdquo; (before looking at bank cards)</li>
-<li>Take the 2 bank cards (now have 9 cards)</li>
-<li>Bank 2 cards face-down from their hand (back to 7 cards)</li>
-<li>Banked cards count toward banker&rsquo;s coins at the end (unless going for broke)</li>
-</ul>
-<h3 id="if-everyone-passes">If Everyone Passes</h3>
-<p>If the player to the right of the dealer passes, then the dealer is forced to be the banker.</p>
-<p>Note that the banker can still choose to declare &ldquo;going for broke&rdquo; even if forced to be banker.</p>
+<li>They may declare &ldquo;going for broke&rdquo; (before looking at bank cards)</li>
+<li>They take the 2 bank cards into their hand (now 9 cards)</li>
+<li>They bank 2 cards face-down from their hand (back to 7 cards)</li>
+<li>Banked cards count toward the banker&rsquo;s coins at the end (unless going for broke)</li>
+</ol>
+<p><strong>If everyone passes,</strong> the dealer is forced to be the banker. The forced dealer may still declare &ldquo;going for broke.&rdquo;</p>
 <h2 id="finding-the-shadow-banker">Finding the Shadow Banker</h2>
 <ul>
-<li>Player with <strong>Worst of Knives</strong> is the shadow banker (secret partner)</li>
-<li>Identity revealed when Worst is played</li>
-<li>Banker and shadow banker combine won tricks to count coins together</li>
-<li>If banker has the Worst, they play solo (no partner)</li>
+<li>The player holding the <strong>Worst of Knives</strong> is the shadow banker (secret partner)</li>
+<li>Their identity is revealed when Worst is played</li>
+<li>The banker and shadow banker combine their won tricks when counting coins</li>
+<li>If the banker holds Worst, they play solo (no partner)</li>
 </ul>
 <h2 id="prank-cards_1">Prank Cards</h2>
 <h3 id="clubs-the-cat">Clubs, &ldquo;The Cat&rdquo;</h3>
-<ul>
-<li>You lead the next trick (regardless of who wins current trick)</li>
-</ul>
+<p>You lead the next trick, regardless of who wins the current trick.</p>
 <h3 id="diamonds-the-dance">Diamonds, &ldquo;The Dance&rdquo;</h3>
-<ul>
-<li>Upon playing this card, select another player to swap cards with</li>
-<li>Each selects a card from their hand and exchanges them face-down</li>
-<li>Both players add the received card to their hand immediately</li>
-</ul>
+<p>Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately.</p>
 <h3 id="hearts-the-hound">Hearts, &ldquo;The Hound&rdquo;</h3>
-<ul>
-<li>Upon playing this card, select another player</li>
-<li>They show one card of their choice to all players (keeping it in hand)</li>
-</ul>
+<p>Select another player. They show one card of their choice to all players (keeping it in hand).</p>
 <h3 id="spades-the-snitch">Spades, &ldquo;The Snitch&rdquo;</h3>
-<ul>
-<li>Upon playing this card, name one non-ghost card (e.g., &ldquo;King of Hearts&rdquo;)</li>
-<li>If held, that player must show it to all players (keeping it in hand)</li>
-</ul>
+<p>Name one non-ghost card (e.g., &ldquo;King of Hearts&rdquo;). If any player holds it, they must show it to all players (keeping it in hand).</p>
 <h3 id="timing">Timing</h3>
 <ul>
-<li>Pranks take effect when played (before trick resolution), except Cat which affects who leads the next trick</li>
+<li>Pranks take effect when played (before trick resolution), except The Cat, which affects who leads the next trick</li>
 <li>Prank cards have no effect on the final (7th) trick</li>
 </ul>
 <h2 id="playing-tricks">Playing Tricks</h2>
-<h3 id="first-lead">First Lead</h3>
-<ul>
-<li>Player left of banker leads</li>
-<li>May lead with any card</li>
-</ul>
+<p><strong>First lead:</strong> Player left of the banker leads. They may lead with any card.</p>
 <h3 id="following-suit">Following Suit</h3>
 <ul>
-<li>Must follow leading suit if able</li>
-<li>Otherwise play any card</li>
+<li>You must follow the leading suit if able</li>
+<li>Otherwise, play any card</li>
 </ul>
-<h3 id="winning-tricks">Winning Tricks</h3>
+<h3 id="winning-a-trick">Winning a Trick</h3>
 <ul>
-<li>Highest trump card wins (Knives beat other suits)</li>
-<li>If no trump, highest card of the leading suit wins</li>
+<li>Highest trump card wins (Knives beat all other suits)</li>
+<li>If no trump was played, the highest card of the leading suit wins</li>
 </ul>
-<h3 id="leading">Leading</h3>
+<h3 id="leading-the-next-trick">Leading the Next Trick</h3>
 <ul>
 <li>The winner of a trick leads the next trick</li>
-<li>May lead with any card</li>
-<li>Exception: After &ldquo;The Cat&rdquo; is played (a Prank card), that player leads the next trick</li>
+<li>You may lead with any card</li>
+<li>Exception: If The Cat was played, that player leads instead</li>
 </ul>
 <h2 id="scoring">Scoring</h2>
 <h3 id="banker-shadow-banker-combined-coins">Banker + Shadow Banker (combined coins)</h3>
 <p>Both players receive the same points:</p>
-<ul>
-<li><strong>13-16 coins:</strong> +1 point each</li>
-<li><strong>17-20 coins:</strong> +2 points each</li>
-<li><strong>21+ coins:</strong> +3 points each</li>
-<li>(Numbers to remember: 13, 17, 21)</li>
-</ul>
-<h3 id="defenders-win-combined-coins-13">Defenders Win (combined coins 13+)</h3>
-<ul>
-<li>Each defender: +1 point</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Combined Coins</th>
+<th>Points Each</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13–16</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>17–20</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>21+</td>
+<td>+3</td>
+</tr>
+</tbody>
+</table>
+<p><em>(Numbers to remember: 13, 17, 21)</em></p>
 <h3 id="solo-banker-no-shadow-banker">Solo Banker (no shadow banker)</h3>
-<p>Double the normal payout:</p>
-<ul>
-<li><strong>13-16 coins:</strong> +2 points</li>
-<li><strong>17-20 coins:</strong> +4 points</li>
-<li><strong>21+ coins:</strong> +6 points</li>
-</ul>
+<p>Double the normal payout (+2, +4, or +6).</p>
+<h3 id="defenders-win">Defenders Win</h3>
+<p>If defenders hold 13 or more combined coins, each defender scores +1 point.</p>
 <h2 id="going-for-broke">Going for Broke</h2>
-<p>Before looking at the bank cards, the banker may declare &ldquo;going for broke&rdquo; - attempting to take zero coins.</p>
-<p><strong>Changes:</strong></p>
-<ul>
-<li>Discard 2 cards face-down instead of banking them (don&rsquo;t count as coins)</li>
-<li>Shadow banker&rsquo;s coins don&rsquo;t count toward the banker&rsquo;s total</li>
-<li>(Shadow banker should actively try to take coins, to help the banker)</li>
-</ul>
-<p><strong>Scoring (if banker takes 0 coins):</strong></p>
-<ul>
-<li>Banker + Shadow: +2 points each</li>
-<li>Solo Banker: +4 points</li>
-</ul>
-<p><strong>Scoring (if banker takes 1 or more coins):</strong></p>
-<ul>
-<li>Defenders: +1 point each</li>
-</ul>
+<p>Before looking at the bank cards, the banker may declare &ldquo;going for broke&rdquo; — attempting to take zero coins.</p>
+<p><strong>Changes:</strong><br />
+- The 2 discarded cards do not count as the banker&rsquo;s coins<br />
+- The shadow banker&rsquo;s coins don&rsquo;t count toward the banker&rsquo;s total<br />
+- The shadow banker should actively try to take coins (to help the banker avoid them)</p>
+<p><strong>If the banker takes 0 coins:</strong><br />
+- Banker + Shadow: +2 points each<br />
+- Solo Banker: +4 points</p>
+<p><strong>If the banker takes 1 or more coins:</strong><br />
+- Each defender: +1 point</p>
 <h2 id="winning-the-game">Winning the Game</h2>
-<p>Choose before starting:</p>
+<p>Choose a target before starting:</p>
 <ul>
 <li><strong>Quick:</strong> First to 10 points</li>
 <li><strong>Standard:</strong> First to 15 points</li>
-<li><strong>Long:</strong> First to 20+ points</li>
+<li><strong>Long:</strong> First to 20 points</li>
 </ul>
-<h2 id="reminders">Reminders</h2>
-<p><strong>Must Remember:</strong></p>
-<ul>
-<li>Follow suit if you can</li>
-<li>Knives always trump</li>
-<li>Banker&rsquo;s banked cards count toward their coins (unless going for broke)</li>
-<li>Shadow banker is secret until Ghost is played</li>
-</ul>
-<p><strong>Coin Values:</strong> A=3, K=2, Q=1, Best of Knives=1</p>
 <hr />
 <h2 id="simplified-rules">Simplified Rules</h2>
 <p>For younger or beginning players:</p>
-<p><strong>Changes:</strong></p>
 <ul>
 <li><strong>No Auction:</strong> Banker is always the player left of the dealer</li>
-<li><strong>No assets/debts:</strong> Banker is always trying to win coins, defenders trying to stop them</li>
-<li><strong>No going for broke:</strong> Banker must take bank cards and count them toward their coins</li>
+<li><strong>No Going for Broke:</strong> Banker always plays for coins</li>
 </ul>
-<p><strong>Scoring:</strong></p>
-<ul>
-<li><strong>Banker + Shadow Banker:</strong> +2 points for any win</li>
-<li><strong>Solo Banker:</strong> +4 points for any win</li>
-</ul>
+<p><strong>Simplified Scoring:</strong><br />
+- Banker + Shadow Banker: +2 points for any win (13+ coins)<br />
+- Solo Banker: +4 points for any win<br />
+- Defenders: +1 point each if they hold 13+ coins</p>
 <hr />
-<h2 id="one-page-quick-reference">One-Page Quick Reference</h2>
+<h2 id="quick-reference">Quick Reference</h2>
 <h3 id="deck-37-cards">Deck (37 cards)</h3>
-<p><strong>Knives (9):</strong> Worst, 2, 3, 4, 5, 6, 7, 8, Best (Best = highest, Worst = lowest)<br />
-<strong>Each Suit (7):</strong> Ghost, Prank, Maid, Jack, Queen, King, Ace (Ace = highest, Ghost = lowest)</p>
+<p><strong>Knives (9):</strong> Worst, 2, 3, 4, 5, 6, 7, 8, Best</p>
+<p><strong>Each Suit (7):</strong> Ghost, Prank, Maid, Jack, Queen, King, Ace</p>
 <h3 id="coins-25-total">Coins (25 total)</h3>
-<p>Aces = 3 coins | Kings = 2 coins | Queens = 1 coin | Best of Knives = 1 coin</p>
-<h3 id="choosing-banker-each-hand">Choosing Banker (each hand)</h3>
+<p>A = 3 | K = 2 | Q = 1 | Best of Knives = 1</p>
+<h3 id="each-hand">Each Hand</h3>
 <ol>
-<li>Dealer deals 7 cards to each player + 2 to bank.</li>
-<li>Starting left of dealer: <strong>Take the bank</strong> (become banker) or <strong>Pass</strong></li>
-<li>Banker takes 2 bank cards, banks 2 cards back (count toward banker&rsquo;s coins)</li>
-<li><strong>If all pass:</strong> Dealer becomes banker</li>
+<li>Deal 7 cards each + 2 to bank</li>
+<li>Starting left of dealer: take the bank or pass</li>
+<li>If all pass, dealer is forced to be banker</li>
+<li>Banker takes 2 bank cards, banks 2 back (count toward coins)</li>
 </ol>
-<h3 id="banker-shadow">Banker &amp; Shadow</h3>
-<p><strong>Banker:</strong> Takes 2 bank cards, banks 2 cards (count toward their coins)<br />
-<strong>Shadow:</strong> Player with Worst of Knives = secret partner<br />
-<strong>Solo:</strong> Banker has Worst = no partner, double points</p>
-<h3 id="trump-tricks-each-trick">Trump &amp; Tricks (each trick)</h3>
-<p><strong>Trump:</strong> Knives &gt; Leading suit &gt; Other suits<br />
-<strong>Follow suit if able</strong><br />
- Highest trump wins (or leading suit if no trump)<br />
- Winner leads next (unless Cat played)</p>
-<h3 id="prank-cards_2">Prank Cards</h3>
-<p><strong>Clubs, &ldquo;The Cat&rdquo;:</strong> That player leads next (no effect on trick 6)<br />
-<strong>Diamonds, &ldquo;The Dance&rdquo;:</strong> Swap a card with another player<br />
-<strong>Hearts, &ldquo;The Hound&rdquo;:</strong> Choose a player to reveal a card<br />
-<strong>Spades, &ldquo;The Snitch&rdquo;:</strong> Name a non-ghost card; if held, must be revealed</p>
-<h3 id="scoring_1">Scoring</h3>
-<p><strong>Banker + Shadow (combined):</strong> 13-16 coins = +1 ea | 17-20 coins = +2 ea | 21+ = +3 ea<br />
-<strong>Solo Banker:</strong> Double points<br />
-<strong>Defenders (13 coins or more):</strong> +1 ea<br />
-<strong>Going for Broke</strong>: +2 to Banker and Shadow if Banker takes no coins, else +1 to each defender</p>
-<h3 id="first-lead_1">First Lead</h3>
-<p>Player left of banker</p>
-<h3 id="reminders_1">Reminders</h3>
+<h3 id="shadow-banker">Shadow Banker</h3>
+<p>Worst of Knives = secret partner (revealed when played). If banker holds Worst = solo, double points.</p>
+<h3 id="tricks">Tricks</h3>
 <ul>
-<li>Must follow suit if able</li>
-<li>Banker&rsquo;s banked cards count toward their coins (unless going for broke)</li>
-<li>Shadow stays secret until Worst played</li>
-<li>May only declare &ldquo;going for broke&rdquo; before looking at bank cards</li>
+<li>Knives are always trump</li>
+<li>Follow suit if able</li>
+<li>Highest trump wins; if no trump, highest of leading suit wins</li>
+<li>Winner leads next (unless The Cat was played)</li>
 </ul>
+<h3 id="pranks-no-effect-on-trick-7">Pranks (no effect on trick 7)</h3>
+<ul>
+<li><strong>The Cat (Clubs):</strong> You lead next trick</li>
+<li><strong>The Dance (Diamonds):</strong> Swap a card with another player</li>
+<li><strong>The Hound (Hearts):</strong> A player reveals a card of their choice</li>
+<li><strong>The Snitch (Spades):</strong> Name a card; if held, must be revealed</li>
+</ul>
+<h3 id="scoring_1">Scoring</h3>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Coins</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Banker + Shadow</td>
+<td>13–16</td>
+<td>+1 each</td>
+</tr>
+<tr>
+<td>Banker + Shadow</td>
+<td>17–20</td>
+<td>+2 each</td>
+</tr>
+<tr>
+<td>Banker + Shadow</td>
+<td>21+</td>
+<td>+3 each</td>
+</tr>
+<tr>
+<td>Solo Banker</td>
+<td>—</td>
+<td>Double above</td>
+</tr>
+<tr>
+<td>Defenders win</td>
+<td>13+</td>
+<td>+1 each</td>
+</tr>
+<tr>
+<td>Going for Broke (success)</td>
+<td>0</td>
+<td>+2 each (+4 solo)</td>
+</tr>
+<tr>
+<td>Going for Broke (fail)</td>
+<td>1+</td>
+<td>Defenders +1 each</td>
+</tr>
+</tbody>
+</table>
 
     <script>
         // Add keyboard shortcut for printing
