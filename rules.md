@@ -24,7 +24,7 @@ Ghost, Prank, Maid, Jack, Queen, King, Ace
 Each Prank card has a special effect when played:
 
 - **Clubs, "The Cat":** You lead the next trick
-- **Diamonds, "The Dance":** Swap a card with another player
+- **Diamonds, "The Devil":** Swap a card with another player
 - **Hearts, "The Hound":** Choose a player to reveal a card
 - **Spades, "The Snitch":** Name a non-ghost card; if held, it must be revealed
 
@@ -81,7 +81,7 @@ Once someone takes the bank:
 ### Clubs, "The Cat"
 You lead the next trick, regardless of who wins the current trick.
 
-### Diamonds, "The Dance"
+### Diamonds, "The Devil"
 Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately.
 
 ### Hearts, "The Hound"
@@ -206,7 +206,7 @@ Worst of Knives = secret partner (revealed when played). If banker holds Worst =
 
 ### Pranks (no effect on trick 7)
 - **The Cat (Clubs):** You lead next trick
-- **The Dance (Diamonds):** Swap a card with another player
+- **The Devil (Diamonds):** Swap a card with another player
 - **The Hound (Hearts):** A player reveals a card of their choice
 - **The Snitch (Spades):** Name a card; if held, must be revealed
 
