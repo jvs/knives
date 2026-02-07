@@ -13,7 +13,7 @@ Worst, 2, 3, 4, 5, 6, 7, 8, Best (highest)
 - Worst is the lowest, Best is the highest
 - Knives are always trump
 
-### Four Traditional Suits (24 cards)
+### Four Traditional Suits (28 cards)
 Spades, Clubs, Diamonds, Hearts - each containing:
 
 - Ghost, Prank, Maid, Jack, Queen, King, Ace (highest)
