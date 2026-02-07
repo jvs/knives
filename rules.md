@@ -217,8 +217,9 @@ For younger or beginning players:
 
 **Changes:**
 
-- **No Pranks:** Prank cards have no effects
-- **If all other players pass, the dealer must be the banker** (no assets/debts)
+- **No Auction:** Banker is always the player left of the dealer
+- **No assets/debts:** Banker is always trying to win coins, defenders trying to stop them
+- **No going for broke:** Banker must take bank cards and count them toward their coins
 
 
 **Scoring:**
@@ -233,10 +234,10 @@ For younger or beginning players:
 
 ### Deck (37 cards)
  **Knives (9):** Worst, 2, 3, 4, 5, 6, 7, 8, Best (Best = highest, Worst = lowest)
- **Each Suit (7):** Ghost, Prank, Maid, Jack, Queen, King, Ace (Ace = highest, Worst = lowest)
+ **Each Suit (7):** Ghost, Prank, Maid, Jack, Queen, King, Ace (Ace = highest, Ghost = lowest)
 
 ### Coins (25 total)
-Kings = 3 coins | Queens = 2 coins | Jacks = 1 coin | Best of Knives = 1 coin
+Aces = 3 coins | Kings = 2 coins | Queens = 1 coin | Best of Knives = 1 coin
 
 ### Choosing Banker (each hand)
 1. Dealer deals 7 cards to each player + 2 to bank.
