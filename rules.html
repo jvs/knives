@@ -109,6 +109,17 @@
             color: #e74c3c;
         }
 
+        /* Tables */
+        table {
+            border-collapse: collapse;
+            margin: 0.5rem 0;
+        }
+
+        th, td {
+            border: 1px solid #666;
+            padding: 0.3rem 0.5rem;
+        }
+
         /* Print styles - compact for tiny rulebook feel */
         @media print {
             @page {
@@ -169,6 +180,16 @@
                 background-color: #f0f0f0;
                 color: #000;
                 font-size: 0.85em;
+            }
+
+            /* Tables */
+            table {
+                margin: 0.3rem 0;
+            }
+
+            th, td {
+                border: 1px solid #666;
+                padding: 0.2rem 0.4rem;
             }
 
             /* Ensure links are readable when printed */
@@ -241,7 +262,7 @@
 </head>
 <body>
     <button class="print-button" onclick="window.print()">🖨️ Print Rules</button>
-    <h1 id="knives"><img src="dagger.svg" alt="dagger" style="height: 1.2em; vertical-align: middle;"> Knives</h1>
+    <h1 id="knives">Knives</h1>
 <h2 id="a-five-player-trick-taking-game">A Five-Player Trick-Taking Game</h2>
 <p>Knives is a five-player trick-taking game where players compete to collect coins (points on cards). Each hand, one player becomes the banker and secretly partners with a shadow banker. The other three players are defenders trying to stop them.</p>
 <h2 id="the-deck-37-cards">The Deck (37 cards)</h2>
@@ -287,16 +308,12 @@
 <td>1</td>
 </tr>
 <tr>
-<td>Best of Knives</td>
-<td>1</td>
-</tr>
-<tr>
 <td>All other cards</td>
 <td>0</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total coins in deck: 25</strong></p>
+<p><strong>Total coins in deck: 24. Banker needs 13 to win.</strong></p>
 <h2 id="setup">Setup</h2>
 <ol>
 <li>Dealer shuffles and the deck is cut</li>
@@ -422,8 +439,8 @@
 <h3 id="deck-37-cards">Deck (37 cards)</h3>
 <p><strong>Knives (9):</strong> Worst, 2, 3, 4, 5, 6, 7, 8, Best</p>
 <p><strong>Each Suit (7):</strong> Ghost, Prank, Maid, Jack, Queen, King, Ace</p>
-<h3 id="coins-25-total">Coins (25 total)</h3>
-<p>A = 3 | K = 2 | Q = 1 | Best of Knives = 1</p>
+<h3 id="coins-24-total">Coins (24 total)</h3>
+<p>A = 3 | K = 2 | Q = 1</p>
 <h3 id="each-hand">Each Hand</h3>
 <ol>
 <li>Deal 7 cards each + 2 to bank</li>

@@ -189,6 +189,17 @@ def generate_html(input_file: str = "rules.md", output_file: str = "rules.html")
             color: #e74c3c;
         }}
 
+        /* Tables */
+        table {{
+            border-collapse: collapse;
+            margin: 0.5rem 0;
+        }}
+
+        th, td {{
+            border: 1px solid #666;
+            padding: 0.3rem 0.5rem;
+        }}
+
         /* Print styles - compact for tiny rulebook feel */
         @media print {{
             @page {{
@@ -249,6 +260,16 @@ def generate_html(input_file: str = "rules.md", output_file: str = "rules.html")
                 background-color: #f0f0f0;
                 color: #000;
                 font-size: 0.85em;
+            }}
+
+            /* Tables */
+            table {{
+                margin: 0.3rem 0;
+            }}
+
+            th, td {{
+                border: 1px solid #666;
+                padding: 0.2rem 0.4rem;
             }}
 
             /* Ensure links are readable when printed */

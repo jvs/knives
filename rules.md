@@ -1,4 +1,4 @@
-# <img src="dagger.svg" alt="dagger" style="height: 1.2em; vertical-align: middle;"> Knives
+# Knives
 
 ## A Five-Player Trick-Taking Game
 
@@ -36,10 +36,9 @@ Each Prank card has a special effect when played:
 | Aces            | 3     |
 | Kings           | 2     |
 | Queens          | 1     |
-| Best of Knives  | 1     |
 | All other cards | 0     |
 
-**Total coins in deck: 25**
+**Total coins in deck: 24. Banker needs 13 to win.**
 
 
 ## Setup
@@ -186,8 +185,8 @@ For younger or beginning players:
 
 **Each Suit (7):** Ghost, Prank, Maid, Jack, Queen, King, Ace
 
-### Coins (25 total)
-A = 3 | K = 2 | Q = 1 | Best of Knives = 1
+### Coins (24 total)
+A = 3 | K = 2 | Q = 1
 
 ### Each Hand
 1. Deal 7 cards each + 2 to bank
