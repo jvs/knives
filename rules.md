@@ -23,10 +23,10 @@ Ghost, Prank, Maid, Jack, Queen, King, Ace
 ### Prank Cards
 Each Prank card has a special effect when played:
 
-- **Clubs, "The Cat":** You lead the next trick
-- **Diamonds, "The Devil":** Swap a card with another player
-- **Hearts, "The Hound":** Choose a player to reveal a card
-- **Spades, "The Snitch":** Name a card; if held, it must be revealed
+- **"The Cat" (Clubs):** You lead the next trick
+- **"The Devil" (Diamonds):** Swap a card with another player
+- **"The Hound" (Hearts):** Choose a player to reveal a card
+- **"The Snitch" (Spades):** Name a card; if held, it must be revealed
 
 
 ## Card Values (Coins)
