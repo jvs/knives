@@ -284,7 +284,7 @@
 <li><strong>Clubs, &ldquo;The Cat&rdquo;:</strong> You lead the next trick</li>
 <li><strong>Diamonds, &ldquo;The Devil&rdquo;:</strong> Swap a card with another player</li>
 <li><strong>Hearts, &ldquo;The Hound&rdquo;:</strong> Choose a player to reveal a card</li>
-<li><strong>Spades, &ldquo;The Snitch&rdquo;:</strong> Name a non-ghost card; if held, it must be revealed</li>
+<li><strong>Spades, &ldquo;The Snitch&rdquo;:</strong> Name a card; if held, it must be revealed</li>
 </ul>
 <h2 id="card-values-coins">Card Values (Coins)</h2>
 <table>
@@ -336,12 +336,11 @@
 <li>Banked cards count toward the banker&rsquo;s coins at the end (unless going for broke)</li>
 </ol>
 <p><strong>If everyone passes,</strong> the dealer is forced to be the banker. The forced dealer may still declare &ldquo;going for broke.&rdquo;</p>
-<h2 id="finding-the-shadow-banker">Finding the Shadow Banker</h2>
+<h2 id="determining-the-shadow-banker">Determining the Shadow Banker</h2>
 <ul>
-<li>The player holding the <strong>Worst of Knives</strong> is the shadow banker (secret partner)</li>
-<li>Their identity is revealed when Worst is played</li>
+<li>Whoever plays the <strong>Worst of Knives</strong> becomes the shadow banker (secret partner)</li>
 <li>The banker and shadow banker combine their won tricks when counting coins</li>
-<li>If the banker holds Worst, they play solo (no partner)</li>
+<li>If the banker plays Worst, they score as a solo banker (no partner)</li>
 </ul>
 <h2 id="prank-cards_1">Prank Cards</h2>
 <h3 id="clubs-the-cat">Clubs, &ldquo;The Cat&rdquo;</h3>
@@ -351,7 +350,7 @@
 <h3 id="hearts-the-hound">Hearts, &ldquo;The Hound&rdquo;</h3>
 <p>Select another player. They show one card of their choice to all players (keeping it in hand).</p>
 <h3 id="spades-the-snitch">Spades, &ldquo;The Snitch&rdquo;</h3>
-<p>Name one non-ghost card (e.g., &ldquo;King of Hearts&rdquo;). If any player holds it, they must show it to all players (keeping it in hand).</p>
+<p>Name one card (e.g., &ldquo;King of Hearts&rdquo;). If any player holds it, they must show it to all players (keeping it in hand).</p>
 <h3 id="timing">Timing</h3>
 <ul>
 <li>Pranks take effect when played (before trick resolution), except The Cat, which affects who leads the next trick</li>
@@ -400,11 +399,36 @@
 </tr>
 </tbody>
 </table>
-<p><em>(Numbers to remember: 13, 17, 21)</em></p>
 <h3 id="solo-banker-no-shadow-banker">Solo Banker (no shadow banker)</h3>
 <p>Double the normal payout (+2, +4, or +6).</p>
-<h3 id="defenders-win">Defenders Win</h3>
-<p>If defenders hold 13 or more combined coins, each defender scores +1 point.</p>
+<h3 id="defenders-combined-coins">Defenders (combined coins)</h3>
+<p>Each defender receives the same points:</p>
+<table>
+<thead>
+<tr>
+<th>Combined Coins</th>
+<th>Points Each</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12 (tie)</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>13–16</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>17–20</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>21+</td>
+<td>+3</td>
+</tr>
+</tbody>
+</table>
 <h2 id="going-for-broke">Going for Broke</h2>
 <p>Before looking at the bank cards, the banker may declare &ldquo;going for broke&rdquo; — attempting to take zero coins.</p>
 <p><strong>Changes:</strong><br />
@@ -415,7 +439,7 @@
 - Banker + Shadow: +2 points each<br />
 - Solo Banker: +4 points</p>
 <p><strong>If the banker takes 1 or more coins:</strong><br />
-- Each defender: +1 point</p>
+- Each defender: +2 points</p>
 <h2 id="winning-the-game">Winning the Game</h2>
 <p>Choose a target before starting:</p>
 <ul>
@@ -433,7 +457,7 @@
 <p><strong>Simplified Scoring:</strong><br />
 - Banker + Shadow Banker: +2 points for any win (13+ coins)<br />
 - Solo Banker: +4 points for any win<br />
-- Defenders: +1 point each if they hold 13+ coins</p>
+- Defenders: +1 point each if they hold 12+ coins</p>
 <hr />
 <h2 id="quick-reference">Quick Reference</h2>
 <h3 id="deck-37-cards">Deck (37 cards)</h3>
@@ -449,7 +473,7 @@
 <li>Banker takes 2 bank cards, banks 2 back (count toward coins)</li>
 </ol>
 <h3 id="shadow-banker">Shadow Banker</h3>
-<p>Worst of Knives = secret partner (revealed when played). If banker holds Worst = solo, double points.</p>
+<p>Worst of Knives = secret partner (revealed when played). If banker plays Worst = solo, double points.</p>
 <h3 id="tricks">Tricks</h3>
 <ul>
 <li>Knives are always trump</li>
@@ -495,9 +519,24 @@
 <td>Double above</td>
 </tr>
 <tr>
-<td>Defenders win</td>
-<td>13+</td>
+<td>Defenders</td>
+<td>12 (tie)</td>
 <td>+1 each</td>
+</tr>
+<tr>
+<td>Defenders</td>
+<td>13–16</td>
+<td>+1 each</td>
+</tr>
+<tr>
+<td>Defenders</td>
+<td>17–20</td>
+<td>+2 each</td>
+</tr>
+<tr>
+<td>Defenders</td>
+<td>21+</td>
+<td>+3 each</td>
 </tr>
 <tr>
 <td>Going for Broke (success)</td>
@@ -507,7 +546,7 @@
 <tr>
 <td>Going for Broke (fail)</td>
 <td>1+</td>
-<td>Defenders +1 each</td>
+<td>Defenders +2 each</td>
 </tr>
 </tbody>
 </table>

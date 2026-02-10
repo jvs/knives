@@ -67,12 +67,11 @@ Once someone takes the bank:
 **If everyone passes,** the dealer is forced to be the banker. The forced dealer may still declare "going for broke."
 
 
-## Finding the Shadow Banker
+## Determining the Shadow Banker
 
-- The player holding the **Worst of Knives** is the shadow banker (secret partner)
-- Their identity is revealed when Worst is played
+- Whoever plays the **Worst of Knives** becomes the shadow banker (secret partner)
 - The banker and shadow banker combine their won tricks when counting coins
-- If the banker holds Worst, they play solo (no partner)
+- If the banker plays Worst, they score as a solo banker (no partner)
 
 
 ## Prank Cards
@@ -201,7 +200,7 @@ A = 3 | K = 2 | Q = 1
 4. Banker takes 2 bank cards, banks 2 back (count toward coins)
 
 ### Shadow Banker
-Worst of Knives = secret partner (revealed when played). If banker holds Worst = solo, double points.
+Worst of Knives = secret partner (revealed when played). If banker plays Worst = solo, double points.
 
 ### Tricks
 - Knives are always trump
