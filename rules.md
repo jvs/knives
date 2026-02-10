@@ -76,16 +76,16 @@ Once someone takes the bank:
 
 ## Prank Cards
 
-### Clubs, "The Cat"
+### "The Cat" (Clubs)
 You lead the next trick, regardless of who wins the current trick.
 
-### Diamonds, "The Devil"
+### "The Devil" (Diamonds)
 Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately.
 
-### Hearts, "The Hound"
+### "The Hound" (Hearts)
 Select another player. They show one card of their choice to all players (keeping it in hand).
 
-### Spades, "The Snitch"
+### "The Snitch" (Spades)
 Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
 
 ### Timing
