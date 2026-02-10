@@ -26,7 +26,7 @@ Each Prank card has a special effect when played:
 - **Clubs, "The Cat":** You lead the next trick
 - **Diamonds, "The Devil":** Swap a card with another player
 - **Hearts, "The Hound":** Choose a player to reveal a card
-- **Spades, "The Snitch":** Name a non-ghost card; if held, it must be revealed
+- **Spades, "The Snitch":** Name a card; if held, it must be revealed
 
 
 ## Card Values (Coins)
@@ -87,7 +87,7 @@ Select another player to swap cards with. Each of you selects a card from your h
 Select another player. They show one card of their choice to all players (keeping it in hand).
 
 ### Spades, "The Snitch"
-Name one non-ghost card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
+Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
 
 ### Timing
 - Pranks take effect when played (before trick resolution), except The Cat, which affects who leads the next trick
@@ -124,13 +124,19 @@ Both players receive the same points:
 | 17–20          | +2          |
 | 21+            | +3          |
 
-*(Numbers to remember: 13, 17, 21)*
-
 ### Solo Banker (no shadow banker)
 Double the normal payout (+2, +4, or +6).
 
-### Defenders Win
-If defenders hold 13 or more combined coins, each defender scores +1 point.
+### Defenders (combined coins)
+
+Each defender receives the same points:
+
+| Combined Coins | Points Each |
+|----------------|-------------|
+| 12 (tie)       | +1          |
+| 13–16          | +1          |
+| 17–20          | +2          |
+| 21+            | +3          |
 
 
 ## Going for Broke
@@ -147,7 +153,7 @@ Before looking at the bank cards, the banker may declare "going for broke" — a
 - Solo Banker: +4 points
 
 **If the banker takes 1 or more coins:**
-- Each defender: +1 point
+- Each defender: +2 points
 
 
 ## Winning the Game
@@ -172,7 +178,7 @@ For younger or beginning players:
 **Simplified Scoring:**
 - Banker + Shadow Banker: +2 points for any win (13+ coins)
 - Solo Banker: +4 points for any win
-- Defenders: +1 point each if they hold 13+ coins
+- Defenders: +1 point each if they hold 12+ coins
 
 
 ---
@@ -216,6 +222,9 @@ Worst of Knives = secret partner (revealed when played). If banker holds Worst =
 | Banker + Shadow | 17–20 | +2 each |
 | Banker + Shadow | 21+ | +3 each |
 | Solo Banker | — | Double above |
-| Defenders win | 13+ | +1 each |
+| Defenders | 12 (tie) | +1 each |
+| Defenders | 13–16 | +1 each |
+| Defenders | 17–20 | +2 each |
+| Defenders | 21+ | +3 each |
 | Going for Broke (success) | 0 | +2 each (+4 solo) |
-| Going for Broke (fail) | 1+ | Defenders +1 each |
+| Going for Broke (fail) | 1+ | Defenders +2 each |
