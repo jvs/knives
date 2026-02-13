@@ -34,6 +34,8 @@ Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ac
 | Dragon | 8 | 850K |
 | Witch | 9 | 999K |
 
+(The ATK values are not used. They have no effect on gameplay.)
+
 **Wild (4 cards)** — Wild cards that may be played on any trick and always count as following suit.
 
 | Card | Effect |
@@ -102,12 +104,12 @@ If the Lackey hand wins a trick, the Lackey hand leads the next trick (with the 
 - Players must follow the led suit if able.
 - If a player cannot follow suit, they may play any card.
 - The Dark Lord's hidden hand and the Lackey hand are **separate hands** for following suit. Each must independently follow suit when playing from that hand.
-- **The Four Ds are truly wild** — they may be played at any time and always count as following suit.
+- Wild cards may be played at any time and always count as following suit.
 
 ### Leading with Special Cards
 
 - **Leading with a Threat:** Other players must play a Threat if able. If they have no Threats, they may play any card. *(Threats are their own suit.)*
-- **Leading with a D card:** The player names a suit. The D card is treated as a zero of that named suit. Other players must follow the named suit if able.
+- **Leading with a wild card:** The player names a suit. The wild card is treated as a zero of that named suit. Other players must follow the named suit if able.
 
 ---
 
