@@ -113,29 +113,32 @@ Name one card (e.g., "King of Hearts"). If any player holds it, they must show i
 
 ## Scoring
 
-### Banker + Shadow Banker (combined coins)
+After all 7 tricks, count coins. The team with 13 or more coins wins.
+
+### Banker + Shadow Banker
 
 Both players receive the same points:
 
-| Combined Coins | Points Each |
-|----------------|-------------|
-| 13–16          | +1          |
-| 17–20          | +2          |
-| 21+            | +3          |
+| Result | Points Each |
+|--------|-------------|
+| Win (13+ coins) | +2 |
+| Sweep (all 24 coins) | +4 |
 
 ### Solo Banker (no shadow banker)
-Double the normal payout (+2, +4, or +6).
 
-### Defenders (combined coins)
+| Result | Points Each |
+|--------|-------------|
+| Win (13+ coins) | +4 |
+| Sweep (all 24 coins) | +8 |
+
+### Defenders
 
 Each defender receives the same points:
 
-| Combined Coins | Points Each |
-|----------------|-------------|
-| 12 (tie)       | +1          |
-| 13–16          | +1          |
-| 17–20          | +2          |
-| 21+            | +3          |
+| Result | Points Each |
+|--------|-------------|
+| Win (12+ coins) | +2 |
+| Sweep (all 24 coins) | +4 |
 
 
 ## Going for Broke
@@ -175,9 +178,9 @@ For younger or beginning players:
 - **No Going for Broke:** Banker always plays for coins
 
 **Simplified Scoring:**
-- Banker + Shadow Banker: +2 points for any win (13+ coins)
-- Solo Banker: +4 points for any win
-- Defenders: +1 point each if they hold 12+ coins
+- Banker side wins (13+ coins): +2 points each
+- Solo Banker wins: +4 points
+- Defenders win (12+ coins): +2 points each
 
 
 ---
@@ -215,15 +218,13 @@ Worst of Knives = secret partner (revealed when played). If banker plays Worst =
 - **The Snitch (Spades):** Name a card; if held, must be revealed
 
 ### Scoring
-| Situation | Coins | Points |
-|-----------|-------|--------|
-| Banker + Shadow | 13–16 | +1 each |
-| Banker + Shadow | 17–20 | +2 each |
-| Banker + Shadow | 21+ | +3 each |
-| Solo Banker | — | Double above |
-| Defenders | 12 (tie) | +1 each |
-| Defenders | 13–16 | +1 each |
-| Defenders | 17–20 | +2 each |
-| Defenders | 21+ | +3 each |
-| Going for Broke (success) | 0 | +2 each (+4 solo) |
-| Going for Broke (fail) | 1+ | Defenders +2 each |
+| Situation | Points |
+|-----------|--------|
+| Banker + Shadow win (13+) | +2 each |
+| Banker + Shadow sweep (24) | +4 each |
+| Solo Banker win | +4 |
+| Solo Banker sweep | +8 |
+| Defenders win (12+) | +2 each |
+| Defenders sweep (24) | +4 each |
+| Going for Broke (success) | +2 each (+4 solo) |
+| Going for Broke (fail) | Defenders +2 each |
