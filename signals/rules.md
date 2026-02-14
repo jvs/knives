@@ -14,7 +14,7 @@ Signals is a cooperative trick-taking game. Each round, the players face a chall
 - **4 Prank ability cards:** One per suit. Each Prank card has a special ability that triggers when played.
 - **3 Signal cards:** Numbered 2, 3, and 4. A fifth suit called Signals.
 - **1 Joker:** A special card whose ability changes each round.
-- **4 Joker reference cards (double-sided):** Used to indicate the Joker's current ability.
+- **3 Joker reference cards (double-sided):** Used to indicate the Joker's current ability.
 - **A challenge booklet:** A collection of challenges the players attempt to complete.
 
 **Total deck size: 32 cards.**
@@ -60,13 +60,11 @@ If the Joker's current ability does not specify whether it wins or loses, it has
 
 | Name | Ability |
 |------|---------|
-| The Captain | Name a rank. All players reveal any cards of that rank. |
-| The Fool | Always loses the trick. |
-| The Gossip | Ask one player a single yes-or-no question about their hand. |
-| The Hypnotist | All players reveal one card from their hand. Flip one face-down shadow card face-up. |
+| The Captain | Name a rank (or suit). All players reveal any cards of that rank (or suit). |
+| The Hypnotist | Ask one player a single yes-or-no question about their hand. |
 | The Juggler | Each player passes one card to the player on their left. |
+| The Magician | All players reveal one card from their hand. Flip one face-down shadow card face-up. |
 | The Ringleader | Choose which player leads the next trick. |
-| The Shadow | After resolving this trick, place it in the shadows. It does not count during scoring or for challenges. |
 | The Trickster | Always wins the trick. |
 
 Use the double-sided Joker reference cards to indicate the current ability. Place the selected reference card face-up on the table next to the challenge.

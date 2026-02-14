@@ -6,7 +6,7 @@ A trick-taking card game for 3 players.
 
 ## Overview
 
-Three players compete across multiple hands. Each hand, one player becomes **the Dark Lord** through an auction, taking control of a face-up **Lackey hand** and playing two hands against the other two players (**the Defenders**). The first player to **250 points** wins.
+Three players compete across multiple hands. Each hand, one player becomes **the Dark Lord** through an auction, taking control of a face-up **Lackey hand** and playing two hands against the other two players (**the Heroes**). The first player to **250 points** wins.
 
 ---
 
@@ -36,9 +36,9 @@ Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ac
 
 (The ATK values are not used. They have no effect on gameplay.)
 
-**Wild (4 cards)** — Wild cards that may be played on any trick and always count as following suit.
+**Spells (4 cards)** — Spell cards may be played on any trick and always count as following suit.
 
-| Card | Effect |
+| Spell | Effect |
 |------|--------|
 | **Angel of Death** | There is no trump for this trick (greater or lesser). Highest card of the led suit wins. (Resolves during trick resolution.) |
 | **Evil Twin** | Play as a copy of another card already in the trick. Loses ties. Copies any special effects. |
@@ -100,12 +100,12 @@ The Dark Lord leads the first trick. After that, the winner of each trick leads 
 - Players must follow the led suit if able.
 - If a player cannot follow suit, they may play any card.
 - The Dark Lord's own hand and the Lackey follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
-- Wild cards may be played at any time and always count as following suit.
+- Spells may be played at any time and always count as following suit.
 
 ### Leading with Special Cards
 
 - **Leading with a Threat:** Other players must play a Threat if able. If they have no Threats, they may play any card. *(Threats are their own suit.)*
-- **Leading with a wild card:** The player names a suit. The wild card is treated as a zero of that named suit. Other players must follow the named suit if able.
+- **Leading with a Spell:** The player names a suit. The spell is treated as a zero of that named suit. Other players must follow the named suit if able.
 
 ---
 
@@ -124,13 +124,13 @@ Prank cards are the **lowest-ranked card** in their suit — playing one means y
 
 ---
 
-## Wild Cards — Detailed Rules
+## Spells — Detailed Rules
 
-Wild cards may be played on any trick and always count as following suit.
+Spells may be played on any trick and always count as following suit.
 
-**When led:** Name a suit. The wild card counts as a zero of that named suit. Other players must follow the named suit if able.
+**When led:** Name a suit. The spell counts as a zero of that named suit. Other players must follow the named suit if able.
 
-**When played to an existing trick:** The wild card has no suit for the purpose of winning — its value comes from its effect.
+**When played to an existing trick:** The spell has no suit for the purpose of winning — its value comes from its effect.
 
 ### Angel of Death
 There is no trump for this trick (greater or lesser). Highest card of the led suit wins. (Resolves during trick resolution.)
@@ -144,16 +144,16 @@ After the trick resolves and a winner is determined, the trick **does not count 
 ### Tome of Tricks
 This trick counts as **two tricks** during scoring. Keep the Tome of Tricks card face-up in the winner's trick pile as a reminder.
 
-### Wild Card Interactions
+### Spell Interactions
 
-When multiple wild cards appear in the same trick, resolve their effects in combination:
+When multiple spells appear in the same trick, resolve their effects in combination:
 
-- **Angel of Death + Nightmare Zone:** Trump is negated, highest of the led suit wins — then the whole trick goes to the shadows. The Angel decides *who* wins; the Nightmare Zone makes it not matter.
+- **Angel of Death + Nightmare Zone:** Trump is negated, highest of the led suit wins — then the whole trick goes to the shadows. The Angel negates trump cards; the Nightmare Zone makes it not matter.
 - **Evil Twin + Angel of Death:** Evil Twin copies the Angel's effect, but it's redundant — trump is already negated for the trick. The Evil Twin has no suit and can't win.
 - **Evil Twin + Nightmare Zone:** Evil Twin copies the Nightmare Zone effect. The trick still goes to the shadows (it was going there anyway).
 - **Evil Twin + Tome of Tricks:** Evil Twin copies the Tome. The trick counts as two tricks during scoring. (Only one Tome reminder is needed.)
 - **Angel of Death + Tome of Tricks:** Trump is negated, and the trick counts double. Both effects apply independently.
-- **Three or more wild cards in one trick:** Apply all effects. If both Angel of Death and Nightmare Zone are present, trump is negated *and* the trick goes to the shadows. The Tome has no impact if the trick is going to the shadows anyway.
+- **Three or more spells in one trick:** Apply all effects. If both Angel of Death and Nightmare Zone are present, trump is negated *and* the trick goes to the shadows. The Tome has no impact if the trick is going to the shadows anyway.
 
 ---
 
@@ -169,10 +169,10 @@ After all 10 tricks have been played, count the Dark Lord's tricks. Tricks won b
 
 ### Dark Lord Fails (fewer tricks than bid)
 
-- Each Defender gains **bid × 5** points.
-- If "Threats Only" was declared: double the Defenders' points for this hand.
+- Each Hero gains **bid × 5** points.
+- If "Threats Only" was declared: double the Heroes' points for this hand.
 
-*The scoring is asymmetric by design: the Dark Lord risks more (controlling two hands against two opponents) and earns more for winning. Defenders earn less per hand but share the reward and face less risk.*
+*The scoring is asymmetric by design: the Dark Lord risks more (controlling two hands against two opponents) and earns more for winning. Heroes earn less per hand but share the reward and face less risk.*
 
 ---
 
