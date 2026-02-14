@@ -47,11 +47,11 @@ There is no formal accusation mechanic. If someone notices you didn't follow sui
 
 ### The Double Cross (Tricks 1–4 Only)
 
-After a trick resolves, the Agent may declare **"Double cross!"** (or "It was me, the whole time!" or some other dramatic exclamation), flip their ID card face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick.
+After a trick resolves, the Agent may flip their ID card face up to unmask themselves, and then take the trick from whoever won it. 
 
-Immediately after the Double Cross, the Agent raids the Stash (see below).
+Immediately after the Double Cross, the Agent also raids the Stash (see below).
 
-The Double Cross is only available during tricks 1 through 4. After the fourth trick resolves, the Agent can no longer double cross the defenders.
+The Agent may double cross only during tricks 1 through 4. After the fifth trick begins, the Agent can no longer double cross the defenders.
 
 ## The Stash
 
@@ -68,7 +68,7 @@ When the Agent's ID card is flipped face up — by the Double Cross, Third Degre
 
 This happens once per round.
 
-## Cover Blown (Tick 7)
+## Cover Blown (Trick 7)
 
 After Trick 6 resolves, all hidden ID cards are flipped face up. If the Agent hasn't been unmasked yet, they are unmasked now and raid the Stash.
 
