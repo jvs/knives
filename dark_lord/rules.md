@@ -40,10 +40,10 @@ Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ac
 
 | Card | Effect |
 |------|--------|
-| **Darkness** | After this trick resolves, move the cards from this trick to the shadows. The trick does not count for either side during scoring. |
-| **Death** | All Threat cards in this trick become a zero of hearts (the lowest possible rank). |
-| **Disguise** | Play as a copy of another card already in the trick. Loses ties. Copies any special effects. |
-| **Double** | This trick counts as two tricks during scoring. Keep this card separate from the trick as a reminder. |
+| **Nightmare Zone** | After this trick resolves, move the cards from this trick to the shadows. The trick does not count for either side during scoring. |
+| **Angel of Death** | All Threat cards in this trick become a zero of hearts (the lowest possible rank). |
+| **Evil Twin** | Play as a copy of another card already in the trick. Loses ties. Copies any special effects. |
+| **Tome of Tricks** | This trick counts as two tricks during scoring. Keep this card separate from the trick as a reminder. |
 
 ---
 
@@ -136,23 +136,23 @@ Wild cards may be played on any trick and always count as following suit.
 
 **When played to an existing trick:** The wild card has no suit for the purpose of winning — its value comes from its effect.
 
-### Darkness
+### Nightmare Zone
 After the trick resolves and a winner is determined, the trick **does not count for either side**. Move the won cards to the shadows — they do not count toward anyone's trick total. The trick still happens: abilities trigger, cards are spent.
 
-### Death
+### Angel of Death
 All Threat cards played to this trick become a **zero of hearts**. No Threat card may win this trick. If all of the other cards in this trick are Threat cards, then this card wins the trick.
 
-### Disguise
-Choose one other card already played in this trick. Disguise becomes a copy of that card — same suit, same rank. If the copied card has a special effect, Disguise triggers that effect as well. Disguise **loses ties** with the card it copies.
+### Evil Twin
+Choose one other card already played in this trick. Evil Twin becomes a copy of that card — same suit, same rank. If the copied card has a special effect, Evil Twin triggers that effect as well. Evil Twin **loses ties** with the card it copies.
 
-### Double
-This trick counts as **two tricks** during scoring. Keep the Double card face-up in the winner's trick pile as a reminder.
+### Tome of Tricks
+This trick counts as **two tricks** during scoring. Keep the Tome of Tricks card face-up in the winner's trick pile as a reminder.
 
 ---
 
 ## Scoring
 
-After all 10 tricks have been played, count the Dark Lord's tricks. Tricks won by the Lackey hand count toward the Dark Lord's total. A trick containing Double counts as two. A trick containing Darkness counts for neither side.
+After all 10 tricks have been played, count the Dark Lord's tricks. Tricks won by the Lackey hand count toward the Dark Lord's total. A trick containing Tome of Tricks counts as two. A trick containing Nightmare Zone counts for neither side.
 
 ### Dark Lord Wins (meets or exceeds bid)
 
