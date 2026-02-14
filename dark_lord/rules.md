@@ -100,7 +100,7 @@ The Dark Lord leads the first trick. After that, the winner of each trick leads 
 - Players must follow the led suit if able.
 - If a player cannot follow suit, they may play any card.
 - The Dark Lord's own hand and the Lackey follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
-- Spells may be played at any time and always count as following suit.
+- Spells may be played in any trick and always count as following suit.
 
 ### Leading with Special Cards
 
