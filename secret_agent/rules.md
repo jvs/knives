@@ -13,7 +13,7 @@ The Agent has two secret powers: they can snark (playing cards without following
 Five suits:
 
 - **Diamonds, Spades, Clubs** (Ghost, 2, 3, 4, 5, 6, 7, Ace): Normal suits.
-- **Hearts** (Ghost, 2, 3, 4, 5, 6, 7, Ace): Wild. Can always be played regardless of what was led. The four lowest hearts have special powers (see Special Hearts).
+- **Hearts** (Ghost, 2, 3, 4, 5, 6, 7, Ace): Wild. Can always be played regardless of what was led. Three of the hearts have special powers (see Special Hearts).
 - **Shots** (2–9): Trump. Beats all other suits. Can only be played when void in the led suit (unless you're the secret Agent — see below).
 
 Rank order within a suit, from lowest to highest: Ghost, 2, 3, 4, 5, 6, 7, Ace. For Shots: 2 (lowest) through 9 (highest).
@@ -24,20 +24,16 @@ Rank order within a suit, from lowest to highest: Ghost, 2, 3, 4, 5, 6, 7, Ace. 
 2. **Deal badges.** Shuffle 1 Agent badge and 3 Defender badges. Deal one face down to each player. Look at your own Badge secretly.
 3. The dealer leads the first trick.
 
-## Table Talk
-
-**Do not discuss card play at the table.** Don't talk about which cards have been played, who might be the Agent, or what anyone should play. Let your cards do the talking. Suspicions, alliances, and signals are all expressed through how you play.
-
 ## Playing Tricks
 
 The leader plays any card. Each subsequent player must follow suit if able, with these exceptions:
 
 - **Hearts** can always be played instead of following suit.
 - **Shots** can only be played if you have no cards of the led suit.
-- **Leading a Heart:** Name a normal suit. The Heart counts as the zero of that suit. Other players must follow the named suit.
+- **Leading a Heart:** Hearts are the led suit. Players with hearts must follow. Highest heart wins.
 - **Snarking (Agent Only):** The Agent may ignore follow-suit rules while their Badge is face down. See Agent Powers.
 
-**Winning a trick:** Highest Shot wins. If no Shots, highest card of the led suit wins. Hearts count as zero of the led suit. The trick winner leads next.
+**Winning a trick:** Highest Shot wins. If no Shots, highest card of the led suit wins. Hearts played as wild can't win tricks. The trick winner leads next.
 
 ## Agent Powers
 
@@ -45,7 +41,7 @@ The leader plays any card. Each subsequent player must follow suit if able, with
 
 While their Badge is face down, the Agent can play any card at any time, ignoring follow-suit rules. This includes playing Shots while holding the led suit, or playing off-suit when they could follow.
 
-Only the Agent can snark. If you notice someone not following suit, you know who the Agent is — but you can't say it out loud. Use that knowledge in how you play.
+Only the Agent can snark. If you notice someone not following suit, you know who the Agent is.
 
 **Once the Agent's Badge is face up, they must follow suit like everyone else.**
 
@@ -88,16 +84,15 @@ For the last three tricks (7–9), the Agent must follow suit like everyone else
 
 ## Special Hearts
 
-The four lowest hearts have special powers. They still follow all normal wild-card rules when played.
+Three hearts have special powers. They still follow all normal wild-card rules when played.
 
 | Card | Name | Effect |
 |------|------|--------|
 | Ghost♥ | **Escape Route** | The trick is nullified — no one wins it. All cards from the trick are sent to the Stash face up. This card doesn't change who leads the next trick. |
 | 2♥ | **Bulletproof Vest** | There is no trump suit for this trick. Highest card of the led suit wins. (Resolves during trick resolution.) |
 | 3♥ | **Third Degree** | Choose a player and flip their Badge face up. If the Agent is unmasked, they raid the Stash immediately. |
-| 4♥ | **Safe House** | The player who played this card leads the next trick, regardless of who won. |
 
-The four highest hearts (5♥, 6♥, 7♥, Ace♥) are vanilla wild cards with no special effects.
+The other five hearts (4♥, 5♥, 6♥, 7♥, Ace♥) are vanilla wild cards with no special effects.
 
 ## Scoring
 
