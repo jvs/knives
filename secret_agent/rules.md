@@ -21,7 +21,7 @@ Rank order within a suit, from lowest to highest: Ghost, 2, 3, 4, 5, 6, 7, Ace. 
 ## Setup
 
 1. **Deal** 9 cards to each player. Place the remaining 4 cards face down on the table. This is **the Stash**.
-2. **Deal badges.** Shuffle 1 Agent badge and 3 Defender badges. Deal one face down to each player. Look at your own card secretly.
+2. **Deal badges.** Shuffle 1 Agent badge and 3 Defender badges. Deal one face down to each player. Look at your own Badge secretly.
 3. The dealer leads the first trick.
 
 ## Playing Tricks
@@ -47,7 +47,7 @@ There is no formal accusation mechanic. If someone notices you didn't follow sui
 
 ### The Double Cross (Tricks 1–4 Only)
 
-After a trick resolves, the Agent may flip their Badge face up to unmask themselves, and then take the trick from whoever won it. 
+After a trick resolves, the Agent may flip their Badge face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick.
 
 Immediately after the Double Cross, the Agent also raids the Stash (see below).
 
@@ -76,7 +76,7 @@ For the last three tricks (7–9), the Agent must follow suit like everyone else
 
 ## Timeline
 
-- **Tricks 1–4:** The Agent may snark (play without leading suit) and double cross.
+- **Tricks 1–4:** The Agent may snark (play without following suit) and double cross.
 - **Tricks 5–6:** The Agent may snark but can no longer double cross.
 - **Cover Blown:** After Trick 6, all Badges are flipped face up.
 - **Tricks 7–9:** The Agent must follow suit like everyone else. No more snarking.
@@ -97,11 +97,11 @@ The four highest hearts (5♥, 6♥, 7♥, Ace♥) are vanilla wild cards with n
 
 ## Scoring
 
+After 9 tricks, the team with the most tricks wins. If tied, the Agent wins.
+
 Each round awards points to the winning side:
 
 - **Agent wins:** The Agent gets **+4 points**.
 - **Defenders win:** Each Defender gets **+2 points**.
-
-Tricks nullified by Escape Route don't count for anyone.
 
 **First player to 10 points wins the game.** Shuffle and deal new Badges each round. The Agent role is random each time.
