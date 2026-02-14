@@ -6,7 +6,7 @@ A trick-taking card game for 4 players. One player is a secret agent trying to w
 
 One player is secretly the Agent. The other three are Defenders. The Agent wins by taking at least as many tricks as the Defenders. The Defenders win by taking more tricks than the Agent.
 
-The Agent has two secret powers: they can sneak cards into tricks without following suit, and they can double cross — unmasking themselves to steal a trick and raid a stash of extra cards.
+The Agent has two secret powers: they can snark (playing cards without following suit), and they can double cross (unmasking themselves to steal a trick).
 
 ## The Deck (40 cards)
 
@@ -20,7 +20,7 @@ Rank order within a suit, from lowest to highest: Ghost, 2, 3, 4, 5, 6, 7, Ace. 
 
 ## Setup
 
-1. **Deal** 9 cards to each player. Place the remaining 4 cards face down in the center. This is **the Stash**.
+1. **Deal** 9 cards to each player. Place the remaining 4 cards face down on the table. This is **the Stash**.
 2. **Deal identity cards.** Shuffle 1 Agent card and 3 Defender cards. Deal one face down to each player. Look at your own card secretly.
 3. The dealer leads the first trick.
 
@@ -36,11 +36,11 @@ The leader plays any card. Each subsequent player must follow suit if able, with
 
 ## Agent Powers
 
-### Sneaking (Undercover Only)
+### Snarking (Undercover Only)
 
 While their ID card is face down, the Agent can play any card at any time, ignoring follow-suit rules. This includes playing Shots while holding the led suit, or playing off-suit when they could follow.
 
-There is no formal accusation mechanic. If someone notices you didn't follow suit, it's just table talk — but only the Agent can sneak, so getting caught means getting identified.
+There is no formal accusation mechanic. If someone notices you didn't follow suit, it's just table talk — but only the Agent can snark, so getting caught means getting identified.
 
 **Once the Agent's ID card is face up, they must follow suit like everyone else.**
 
@@ -75,8 +75,8 @@ For the last three tricks (7–9), the Agent must follow suit like everyone else
 
 ## Timeline
 
-- **Tricks 1–4:** The Agent may sneak cards and double cross.
-- **Tricks 5–6:** The Agent may sneak cards but can no longer double cross.
+- **Tricks 1–4:** The Agent may snark (play without leading suit) and double cross.
+- **Tricks 5–6:** The Agent may snark but can no longer double cross.
 - **Cover Blown:** After Trick 6, all ID cards are flipped face up.
 - **Tricks 7–9:** The Agent must follow suit like everyone else.
 - **Raiding the Stash:** Happens once, immediately when the Agent is unmasked — whether by Double Cross, Third Degree, or Cover Blown.
