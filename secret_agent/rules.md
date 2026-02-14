@@ -96,28 +96,11 @@ Bulletproof Vest resolves during trick resolution, before the winner is determin
 
 ## Scoring
 
-After all tricks have been played, count the Agent's tricks:
+Each round awards points to the winning side:
 
-- **Agent's tricks ≥ Defenders' tricks → Agent wins.**
-- **Agent's tricks < Defenders' tricks → Defenders win.**
+- **Agent wins:** The Agent gets **+4 points**.
+- **Defenders win:** Each Defender gets **+2 points**.
 
 Tricks nullified by Escape Route don't count for anyone.
 
-## Rounds
-
-Play 4 rounds, rotating the dealer. Identity cards are reshuffled each round.
-
-## Strategy Notes
-
-**For the Agent:**
-- Sneaking is powerful but risky. Every time you don't follow suit, someone might notice — and you lose this ability once unmasked.
-- The Double Cross is dramatic. You gain a trick, the lead, and stash cards, but you lose your cover and your ability to sneak.
-- Timing matters. Go loud early for maximum stash value and more tricks with your powered-up hand. Stay hidden longer to win tricks through sneaking.
-- Playing Escape Route before the Double Cross stocks the Stash with known cards for you to cherry-pick — but it's suspicious.
-
-**For Defenders:**
-- Watch what people play. If someone doesn't follow suit when they should be able to, they're sneaking — and only the Agent can sneak.
-- Once the Agent is unmasked, coordinate. Any Defender winning a trick is equally good.
-- Save Escape Route for after the Agent is unmasked. Before that, it feeds the Agent's Stash.
-- Bulletproof Vest counters Shots. Time it for when it hurts the Agent most.
-- Third Degree early can unmask the Agent before they're ready, forcing a weaker Stash raid.
+**First player to 10 points wins the game.** Shuffle and deal new identity cards each round. The Agent role is random each time.
