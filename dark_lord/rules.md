@@ -18,7 +18,7 @@ Three players compete across multiple hands. Each hand, one player becomes **the
 
 | Suit | Prank Card | Number Cards | Face Cards |
 |------|-----------|--------------|------------|
-| Spades | Spy | 2, 3, 4, 5 | Jack, Queen, King, Ace |
+| Spades | Snitch | 2, 3, 4, 5 | Jack, Queen, King, Ace |
 | Diamonds | Devil | 2, 3, 4, 5 | Jack, Queen, King, Ace |
 | Hearts | Hound | 2, 3, 4, 5 | Jack, Queen, King, Ace |
 | Clubs | Cat | 2, 3, 4, 5 | Jack, Queen, King, Ace |
@@ -40,9 +40,9 @@ Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ac
 
 | Card | Effect |
 |------|--------|
-| **Nightmare Zone** | After this trick resolves, move the cards from this trick to the shadows. The trick does not count for either side during scoring. |
-| **Angel of Death** | All Threat cards in this trick become a zero of hearts (the lowest possible rank). |
+| **Angel of Death** | There is no trump for this trick (greater or lesser). Highest card of the led suit wins. (Resolves during trick resolution.) |
 | **Evil Twin** | Play as a copy of another card already in the trick. Loses ties. Copies any special effects. |
+| **Nightmare Zone** | After this trick resolves, move the cards from this trick to the shadows. The trick does not count for either side during scoring. |
 | **Tome of Tricks** | This trick counts as two tricks during scoring. Keep this card separate from the trick as a reminder. |
 
 ---
@@ -51,10 +51,10 @@ Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ac
 
 1. Shuffle the deck.
 2. Deal **10 cards** to each player.
-3. Deal **10 cards face-up** to the center of the table. This is the **Lackey hand**.
+3. Deal **10 cards face-up** to the center of the table. This is the **Lackey hand** (or just "the Lackey").
 4. Deal **4 cards face-down** to the side. These are the **shadows** — out of play and not revealed until the hand is over.
 
-All players may examine the Lackey hand before bidding begins.
+All players may examine the Lackey before bidding begins.
 
 ---
 
@@ -68,7 +68,7 @@ When two players have passed, the remaining bidder becomes **the Dark Lord**.
 
 ### Dark Lord Assumption
 
-1. The Lackey hand is placed across from the Dark Lord.
+1. The Lackey is placed across from the Dark Lord.
 2. The Dark Lord names a **lesser trump suit** (one of the four traditional suits) or declares **"Threats Only"** (no lesser trump; only Threats are trump).
 3. The Dark Lord leads the first trick.
 
@@ -91,19 +91,15 @@ If "Threats Only" was declared, there is no lesser trump — only Threats outran
 
 ## Playing a Hand
 
-The Dark Lord leads the first trick. After that, the winner of each trick leads the next.
+The Dark Lord controls two hands: their own hand (hidden, like any player's) and the Lackey (face-up, visible to all). These are separate hands — each follows suit independently, and each plays in its own seat in the turn order.
 
-### Trick Play
-
-Play proceeds normally, as in bridge. Players take turns clockwise. The Dark Lord plays their own hand and the Lackey hand as two separate hands — when it is the Lackey's turn, the Dark Lord plays a card from the Lackey hand.
-
-If the Lackey hand wins a trick, the Lackey hand leads the next trick (with the Dark Lord choosing which card to play from it).
+The Dark Lord leads the first trick. After that, the winner of each trick leads the next. If the Lackey wins a trick, the Lackey leads the next trick (with the Dark Lord choosing which card to play from it). Play proceeds clockwise. On the Lackey's turn, the Dark Lord plays a card from the Lackey.
 
 ### Following Suit
 
 - Players must follow the led suit if able.
 - If a player cannot follow suit, they may play any card.
-- The Dark Lord's hidden hand and the Lackey hand are **separate hands** for following suit. Each must independently follow suit when playing from that hand.
+- The Dark Lord's own hand and the Lackey follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
 - Wild cards may be played at any time and always count as following suit.
 
 ### Leading with Special Cards
@@ -115,16 +111,16 @@ If the Lackey hand wins a trick, the Lackey hand leads the next trick (with the 
 
 ## Prank Cards
 
-Each suit's Prank card has a unique ability that triggers **when the card is played**, regardless of whether it wins the trick.
+Each suit's Prank card has a unique ability. Prank abilities take effect **immediately when played** (before the trick resolves), except where noted.
+
+Prank cards are the **lowest-ranked card** in their suit — playing one means you're almost certainly losing the trick. The ability is the trade-off.
 
 | Prank | Suit | Ability |
 |-------|------|---------|
-| **Spy** | Spades | Ask any one player a yes-or-no question. That player must answer truthfully. |
-| **Devil** | Diamonds | Choose a target player (or the Lackey hand). The target selects a card from their hand and you swap it with a card from your hand. The swap is done face-down — you don't see what you're getting until the swap is complete. If a player targets the Lackey hand, the Dark Lord chooses which Lackey card to swap. |
-| **Hound** | Hearts | Choose a player. That player chooses one card from their hand to reveal to all players. |
-| **Cat** | Clubs | You lead the next trick, regardless of who wins this trick. |
-
-Prank cards are the **lowest-ranked card** in their suit — playing one means you're almost certainly losing the trick. The ability is the trade-off.
+| **Snitch** | Spades | Name a specific card (e.g., "Witch" or "King of Hearts"). If any player holds that card, they must reveal it to all players. The card stays in their hand. |
+| **Devil** | Diamonds | Choose a target player (or the Lackey). Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately. If the target is the Lackey, the Dark Lord chooses which Lackey card to swap, and both cards are revealed (since the Lackey is face-up). |
+| **Hound** | Hearts | Choose a player. That player chooses one card from their hand to reveal to all players (keeping it in hand). |
+| **Cat** | Clubs | You lead the next trick, regardless of who wins this trick. If the Lackey plays the Cat, the Lackey leads next. If the Dark Lord plays the Cat from their own hand, they lead next from their own hand. *(Takes effect after the trick resolves.)* |
 
 ---
 
@@ -132,27 +128,38 @@ Prank cards are the **lowest-ranked card** in their suit — playing one means y
 
 Wild cards may be played on any trick and always count as following suit.
 
-**When led:** Name a suit. The wild card counts as a zero of that suit. Other players must follow the named suit if able.
+**When led:** Name a suit. The wild card counts as a zero of that named suit. Other players must follow the named suit if able.
 
 **When played to an existing trick:** The wild card has no suit for the purpose of winning — its value comes from its effect.
 
-### Nightmare Zone
-After the trick resolves and a winner is determined, the trick **does not count for either side**. Move the won cards to the shadows — they do not count toward anyone's trick total. The trick still happens: abilities trigger, cards are spent.
-
 ### Angel of Death
-All Threat cards played to this trick become a **zero of hearts**. No Threat card may win this trick. If all of the other cards in this trick are Threat cards, then this card wins the trick.
+There is no trump for this trick (greater or lesser). Highest card of the led suit wins. (Resolves during trick resolution.)
 
 ### Evil Twin
 Choose one other card already played in this trick. Evil Twin becomes a copy of that card — same suit, same rank. If the copied card has a special effect, Evil Twin triggers that effect as well. Evil Twin **loses ties** with the card it copies.
 
+### Nightmare Zone
+After the trick resolves and a winner is determined, the trick **does not count for either side**. Move the won cards to the shadows — they do not count toward anyone's trick total. The trick still happens: abilities trigger, cards are spent.
+
 ### Tome of Tricks
 This trick counts as **two tricks** during scoring. Keep the Tome of Tricks card face-up in the winner's trick pile as a reminder.
+
+### Wild Card Interactions
+
+When multiple wild cards appear in the same trick, resolve their effects in combination:
+
+- **Angel of Death + Nightmare Zone:** Trump is negated, highest of the led suit wins — then the whole trick goes to the shadows. The Angel decides *who* wins; the Nightmare Zone makes it not matter.
+- **Evil Twin + Angel of Death:** Evil Twin copies the Angel's effect, but it's redundant — trump is already negated for the trick. The Evil Twin has no suit and can't win.
+- **Evil Twin + Nightmare Zone:** Evil Twin copies the Nightmare Zone effect. The trick still goes to the shadows (it was going there anyway).
+- **Evil Twin + Tome of Tricks:** Evil Twin copies the Tome. The trick counts as two tricks during scoring. (Only one Tome reminder is needed.)
+- **Angel of Death + Tome of Tricks:** Trump is negated, and the trick counts double. Both effects apply independently.
+- **Three or more wild cards in one trick:** Apply all effects. If both Angel of Death and Nightmare Zone are present, trump is negated *and* the trick goes to the shadows. The Tome has no impact if the trick is going to the shadows anyway.
 
 ---
 
 ## Scoring
 
-After all 10 tricks have been played, count the Dark Lord's tricks. Tricks won by the Lackey hand count toward the Dark Lord's total. A trick containing Tome of Tricks counts as two. A trick containing Nightmare Zone counts for neither side.
+After all 10 tricks have been played, count the Dark Lord's tricks. Tricks won by the Lackey count toward the Dark Lord's total. A trick containing Tome of Tricks counts as two. A trick containing Nightmare Zone counts for neither side.
 
 ### Dark Lord Wins (meets or exceeds bid)
 
@@ -164,6 +171,8 @@ After all 10 tricks have been played, count the Dark Lord's tricks. Tricks won b
 
 - Each Defender gains **bid × 5** points.
 - If "Threats Only" was declared: double the Defenders' points for this hand.
+
+*The scoring is asymmetric by design: the Dark Lord risks more (controlling two hands against two opponents) and earns more for winning. Defenders earn less per hand but share the reward and face less risk.*
 
 ---
 
@@ -179,7 +188,7 @@ If multiple players cross 250 on the same hand, the player with the higher score
 
 1. **Deal** — 10 to each player, 10 face-up to the Lackey, 4 face-down to the shadows.
 2. **Auction** — Bid number of tricks. First bidder must bid at least 1. Highest bidder becomes the Dark Lord.
-3. **Assumption** — Dark Lord names lesser trump (or Threats Only). Lackey hand placed across from them.
+3. **Assumption** — Dark Lord names lesser trump (or Threats Only). Lackey placed across from them.
 4. **Play** — 10 tricks, normal clockwise play. Dark Lord leads first.
 5. **Score** — Award points based on the Dark Lord's bid and result.
 6. **Rotate** — Dealer passes clockwise. Shuffle and deal a new hand.
