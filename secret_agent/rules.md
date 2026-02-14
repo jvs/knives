@@ -24,6 +24,10 @@ Rank order within a suit, from lowest to highest: Ghost, 2, 3, 4, 5, 6, 7, Ace. 
 2. **Deal badges.** Shuffle 1 Agent badge and 3 Defender badges. Deal one face down to each player. Look at your own Badge secretly.
 3. The dealer leads the first trick.
 
+## Table Talk
+
+**Do not discuss card play at the table.** Don't talk about which cards have been played, who might be the Agent, or what anyone should play. Let your cards do the talking. Suspicions, alliances, and signals are all expressed through how you play.
+
 ## Playing Tricks
 
 The leader plays any card. Each subsequent player must follow suit if able, with these exceptions:
@@ -31,7 +35,7 @@ The leader plays any card. Each subsequent player must follow suit if able, with
 - **Hearts** can always be played instead of following suit.
 - **Shots** can only be played if you have no cards of the led suit.
 - **Leading a Heart:** Name a normal suit. The Heart counts as the zero of that suit. Other players must follow the named suit.
-- **Snarking (Agent Only):** If you're the Agent and your Badge is face down, you can play any card at any time, ignoring follow-suit rules.
+- **Snarking (Agent Only):** The Agent may ignore follow-suit rules while their Badge is face down. See Agent Powers.
 
 **Winning a trick:** Highest Shot wins. If no Shots, highest card of the led suit wins. Hearts count as zero of the led suit. The trick winner leads next.
 
@@ -41,7 +45,7 @@ The leader plays any card. Each subsequent player must follow suit if able, with
 
 While their Badge is face down, the Agent can play any card at any time, ignoring follow-suit rules. This includes playing Shots while holding the led suit, or playing off-suit when they could follow.
 
-There is no formal accusation mechanic. If someone notices you didn't follow suit, it's just table talk — but only the Agent can snark, so getting caught means getting identified.
+Only the Agent can snark. If you notice someone not following suit, you know who the Agent is — but you can't say it out loud. Use that knowledge in how you play.
 
 **Once the Agent's Badge is face up, they must follow suit like everyone else.**
 
@@ -88,7 +92,7 @@ The four lowest hearts have special powers. They still follow all normal wild-ca
 
 | Card | Name | Effect |
 |------|------|--------|
-| Ghost♥ | **Escape Route** | The trick is nullified — no one wins it. All cards from the trick are sent to the Stash face up. This card doesn’t change who leads the next trick. |
+| Ghost♥ | **Escape Route** | The trick is nullified — no one wins it. All cards from the trick are sent to the Stash face up. This card doesn't change who leads the next trick. |
 | 2♥ | **Bulletproof Vest** | There is no trump suit for this trick. Highest card of the led suit wins. (Resolves during trick resolution.) |
 | 3♥ | **Third Degree** | Choose a player and flip their Badge face up. If the Agent is unmasked, they raid the Stash immediately. |
 | 4♥ | **Safe House** | The player who played this card leads the next trick, regardless of who won. |
@@ -97,7 +101,7 @@ The four highest hearts (5♥, 6♥, 7♥, Ace♥) are vanilla wild cards with n
 
 ## Scoring
 
-After 9 tricks, the team with the most tricks wins. If tied, the Agent wins.
+After all tricks are played, the team with the most tricks wins. If tied, the Agent wins.
 
 Each round awards points to the winning side:
 
