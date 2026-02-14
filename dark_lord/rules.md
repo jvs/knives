@@ -1,4 +1,4 @@
-# The Dark Lord
+# Dark Lord
 
 A trick-taking card game for 3 players.
 
