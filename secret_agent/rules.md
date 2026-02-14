@@ -31,6 +31,7 @@ The leader plays any card. Each subsequent player must follow suit if able, with
 - **Hearts** can always be played instead of following suit.
 - **Shots** can only be played if you have no cards of the led suit.
 - **Leading a Heart:** Name a normal suit. The Heart counts as the zero of that suit. Other players must follow the named suit.
+- **Snarking (Agent Only):** If you're the Agent and your ID card is face down, you can play any card at any time, ignoring follow-suit rules.
 
 **Winning a trick:** Highest Shot wins. If no Shots, highest card of the led suit wins. Hearts count as zero of the led suit. The trick winner leads next.
 
