@@ -76,8 +76,8 @@ For the last three tricks (7–9), the Agent must follow suit like everyone else
 
 ## Timeline
 
-- **Tricks 1–4:** The Agent may snark (play without following suit) and double cross.
-- **Tricks 5–6:** The Agent may snark but can no longer double cross.
+- **Tricks 1–4:** If Agent's badge is face down, the Agent may snark (play without following suit) and double cross (as long as their badge is face down).
+- **Tricks 5–6:** The Agent may snark but can no longer double cross (as long as their badge is face down).
 - **Cover Blown:** After Trick 6, all Badges are flipped face up.
 - **Tricks 7–9:** The Agent must follow suit like everyone else. No more snarking.
 - **Raiding the Stash:** Happens once, immediately when the Agent is unmasked — whether by Double Cross, Third Degree, or Cover Blown.
