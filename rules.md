@@ -113,7 +113,7 @@ Name one card (e.g., "King of Hearts"). If any player holds it, they must show i
 
 ## Scoring
 
-After all 7 tricks, count coins. The team with 13 or more coins wins.
+After all 7 tricks, count coins. The team with the most coins wins, with ties going to the defenders.
 
 ### Banker + Shadow Banker
 
@@ -121,15 +121,15 @@ Both players receive the same points:
 
 | Result | Points Each |
 |--------|-------------|
-| Win (13+ coins) | +2 |
-| Sweep (all 24 coins) | +4 |
+| Win (13+ coins) | +1 |
+| Sweep (all 24 coins) | +2 |
 
 ### Solo Banker (no shadow banker)
 
 | Result | Points Each |
 |--------|-------------|
-| Win (13+ coins) | +4 |
-| Sweep (all 24 coins) | +8 |
+| Win (13+ coins) | +2 |
+| Sweep (all 24 coins) | +4 |
 
 ### Defenders
 
@@ -137,8 +137,8 @@ Each defender receives the same points:
 
 | Result | Points Each |
 |--------|-------------|
-| Win (12+ coins) | +2 |
-| Sweep (all 24 coins) | +4 |
+| Win (12+ coins) | +1 |
+| Sweep (all 24 coins) | +2 |
 
 
 ## Going for Broke
@@ -151,20 +151,20 @@ Before looking at the bank cards, the banker may declare "going for broke" — a
 - The shadow banker should actively try to take coins (to help the banker avoid them)
 
 **If the banker takes 0 coins:**
-- Banker + Shadow: +2 points each
-- Solo Banker: +4 points
+- Banker + Shadow: +1 points each
+- Solo Banker: +2 points
 
 **If the banker takes 1 or more coins:**
-- Each defender: +2 points
+- Each defender: +1 points
 
 
 ## Winning the Game
 
 Choose a target before starting:
 
-- **Quick:** First to 10 points
-- **Standard:** First to 15 points
-- **Long:** First to 20 points
+- **Quick:** First to 5 points
+- **Standard:** First to 8 points
+- **Long:** First to 10 points
 
 
 ---
@@ -178,9 +178,11 @@ For younger or beginning players:
 - **No Going for Broke:** Banker always plays for coins
 
 **Simplified Scoring:**
-- Banker side wins (13+ coins): +2 points each
-- Solo Banker wins: +4 points
-- Defenders win (12+ coins): +2 points each
+- Banker side wins (13+ coins): +1 point each
+- Solo Banker wins: +2 points
+- Defenders win (12+ coins): +1 point each
+
+(No points for sweeps or going for broke.)
 
 
 ---
@@ -220,11 +222,11 @@ Worst of Knives = secret partner (revealed when played). If banker plays Worst =
 ### Scoring
 | Situation | Points |
 |-----------|--------|
-| Banker + Shadow win (13+) | +2 each |
-| Banker + Shadow sweep (24) | +4 each |
-| Solo Banker win | +4 |
-| Solo Banker sweep | +8 |
-| Defenders win (12+) | +2 each |
-| Defenders sweep (24) | +4 each |
-| Going for Broke (success) | +2 each (+4 solo) |
-| Going for Broke (fail) | Defenders +2 each |
+| Banker + Shadow win (13+) | +1 each |
+| Banker + Shadow sweep (24) | +2 each |
+| Solo Banker win | +2 |
+| Solo Banker sweep | +4 |
+| Defenders win (12+) | +1 each |
+| Defenders sweep (24) | +2 each |
+| Going for Broke (success) | +1 each (+2 solo) |
+| Going for Broke (fail) | Defenders +1 each |
