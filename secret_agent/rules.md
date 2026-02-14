@@ -70,7 +70,7 @@ This happens once per round.
 
 ## Cover Blown (Trick 7)
 
-After Trick 6 resolves, all Badges are flipped face up. If the Agent hasn't been unmasked yet, they are unmasked now and raid the Stash.
+After Trick 6 resolves, all Badges are flipped face up. If the Agent hasn't been unmasked yet, they are unmasked now and they raid the Stash.
 
 For the last three tricks (7–9), the Agent must follow suit like everyone else.
 
