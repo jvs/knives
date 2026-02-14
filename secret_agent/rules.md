@@ -79,20 +79,12 @@ The four lowest hearts have special powers. They still follow all normal wild-ca
 
 | Card | Name | Effect |
 |------|------|--------|
-| Ghost♥ | **Escape Route** | The trick is nullified — no one wins it. All cards from the trick are sent to the Stash face up. The player who would have won still leads next. |
+| Ghost♥ | **Escape Route** | The trick is nullified — no one wins it. All cards from the trick are sent to the Stash face up. This card doesn’t change who leads the next trick. |
 | 2♥ | **Bulletproof Vest** | There is no trump suit for this trick. Highest card of the led suit wins. (Resolves during trick resolution.) |
 | 3♥ | **Third Degree** | Choose a player and flip their ID card face up. If the Agent is unmasked, they raid the Stash immediately. |
 | 4♥ | **Safe House** | The player who played this card leads the next trick, regardless of who won. |
 
 The four highest hearts (5♥, 6♥, 7♥, Ace♥) are vanilla wild cards with no special effects.
-
-### Timing
-
-Bulletproof Vest resolves during trick resolution, before the winner is determined. All other specials resolve after the winner is determined, in this order:
-
-1. **Escape Route** — trick nullified, cards go to Stash.
-2. **Third Degree** — identity is flipped.
-3. **Safe House** — determines who leads next.
 
 ## Scoring
 
