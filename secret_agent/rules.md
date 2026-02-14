@@ -46,7 +46,7 @@ There is no formal accusation mechanic. If someone notices you didn't follow sui
 
 ### The Double Cross (Tricks 1–4 Only)
 
-After a trick resolves, the Agent may declare **"Double cross!"**, flip their ID card face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick.
+After a trick resolves, the Agent may declare **"Double cross!"** (or "It was me, the whole time!" or some other dramatic exclamation), flip their ID card face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick.
 
 Immediately after the Double Cross, the Agent raids the Stash (see below).
 
@@ -58,7 +58,7 @@ The Stash starts with 4 face-down cards from the deal. When Escape Route nullifi
 
 ### Raiding the Stash
 
-When the Agent's ID card is flipped face up — by the Double Cross, Third Degree, or automatic unmasking — the Agent immediately raids the Stash:
+When the Agent's ID card is flipped face up — by the Double Cross, Third Degree, or Cover Blown — the Agent immediately raids the Stash:
 
 1. Look at all face-up cards in the Stash. Do not look at face-down cards.
 2. Take exactly 4 cards. You choose which ones — face-up or face-down (blind). If the Stash has exactly 4 cards, take them all.
@@ -67,11 +67,19 @@ When the Agent's ID card is flipped face up — by the Double Cross, Third Degre
 
 This happens once per round.
 
-## Automatic Unmasking
+## Cover Blown (Tick 7)
 
 After Trick 6 resolves, all hidden ID cards are flipped face up. If the Agent hasn't been unmasked yet, they are unmasked now and raid the Stash.
 
 For the last three tricks (7–9), the Agent must follow suit like everyone else.
+
+## Timeline
+
+- **Tricks 1–4:** The Agent may sneak cards and double cross.
+- **Tricks 5–6:** The Agent may sneak cards but can no longer double cross.
+- **Cover Blown:** After Trick 6, all ID cards are flipped face up.
+- **Tricks 7–9:** The Agent must follow suit like everyone else.
+- **Raiding the Stash:** Happens once, immediately when the Agent is unmasked — whether by Double Cross, Third Degree, or Cover Blown.
 
 ## Special Hearts
 
