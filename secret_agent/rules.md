@@ -79,7 +79,7 @@ For the last three tricks (7–9), the Agent must follow suit like everyone else
 - **Tricks 1–4:** The Agent may snark (play without leading suit) and double cross.
 - **Tricks 5–6:** The Agent may snark but can no longer double cross.
 - **Cover Blown:** After Trick 6, all ID cards are flipped face up.
-- **Tricks 7–9:** The Agent must follow suit like everyone else.
+- **Tricks 7–9:** The Agent must follow suit like everyone else. No more snarking.
 - **Raiding the Stash:** Happens once, immediately when the Agent is unmasked — whether by Double Cross, Third Degree, or Cover Blown.
 
 ## Special Hearts
