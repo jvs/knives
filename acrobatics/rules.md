@@ -28,7 +28,7 @@ Ghost — Prank — Maid — Jack — Queen — King — Ace
 
 ### Ghost Cards
 
-Each suit's Ghost card has a word count printed on it. **When you play a Ghost, you may speak that many words before the next player plays their card.** For example, if you play the Ghost of Diamonds (3 words), you may say up to three words (e.g., "I have spades"). Contractions count as one word. You can say anything — there are no restrictions on content.
+Each suit's Ghost card has a word count printed on it. **When you play a Ghost, you may speak that many words before the next player plays their card.** For example, if you play the Ghost of Diamonds (3 words), you may say up to three words (e.g., "I have spades" or "Lead clubs next"). Contractions count as one word. You can say anything — there are no restrictions on content.
 
 | Suit | Words |
 |------|-------|
