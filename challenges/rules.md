@@ -46,7 +46,7 @@ Each suit's Prank card has a special ability. Prank cards are also normal suited
 | Suit | Name | Ability |
 |------|------|---------|
 | Clubs | The Cat | You lead the next trick, regardless of who wins the current trick. |
-| Diamonds | The Devil | Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. |
+| Diamonds | The Devil | Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately. |
 | Hearts | The Hound | Select another player. They reveal one card of their choice to all players, keeping it in hand. |
 | Spades | The Snitch | Name a card (e.g., "King of Hearts"). If any player holds it, they must reveal it to all players, keeping it in hand. |
 
@@ -60,7 +60,7 @@ The Joker and the Fox are wild cards with no suit and no rank. They can always b
 
 **The Fox** lets you ask one player a single yes-or-no question about their hand. They answer immediately, and all players hear the answer. The Fox has no rank and cannot win a trick.
 
-**Leading:** Wild cards cannot be led unless it is the final trick of the round, in which case the wild card wins the trick.
+**Leading:** Wild cards cannot be led. If you have only wild cards in your hand when it's your turn to lead, the player to your left leads instead.
 
 **When leading with a wild card on the final trick,** each other player plays their remaining card. The wild card wins.
 
@@ -72,7 +72,7 @@ The Joker and the Fox are wild cards with no suit and no rank. They can always b
 
 ## Communication
 
-**Players may not discuss their cards or strategy except through the game's communication tools:** Ghost cards, Prank abilities, the Fox, and the information revealed through normal card play. This is the heart of the game — you must find ways to coordinate with limited information.
+Players may not share information about their hand or intentions except through Ghost cards, Prank abilities, the Fox, and the information revealed through normal card play. Reactions and table talk are fine — just don't smuggle strategy into them.
 
 ## Playing a Round
 
