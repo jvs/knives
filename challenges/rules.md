@@ -66,7 +66,7 @@ The Joker and the Fox are wild cards with no suit and no rank. They can always b
 
 1. **Select a challenge** from the list.
 2. **Shuffle and deal.** Shuffle all 30 cards. Deal 7 cards to each player. Place the remaining 2 cards face-down in the center of the table — this is **the Mystery**. No one looks at the Mystery cards.
-3. **Opening trade.** Each player selects one card from their hand and places it face down on the table. Flip all four cards face up. Then, starting with the dealer, each player picks up one of the face-up cards and adds it to their hand.
+3. **Opening trade.** Each player selects one card from their hand and places it face down on the table. Flip all four cards face up. Then, starting with the dealer, each player picks up one of the face-up cards and adds it to their hand. (Players may pick their own card.)
 4. **Begin play.** The dealer leads the first trick.
 
 ## Communication
@@ -107,7 +107,7 @@ Players can approach challenges however they like — pick one at random, try on
 
 (Production note: Each level is printed on a separate card.)
 
-### Warm Ups (Level 1)
+### Warm Ups
 
 1. **Appetizers:** Every player must win at least one trick.
 2. **Nil:** At least one player must win no tricks.
@@ -118,7 +118,7 @@ Players can approach challenges however they like — pick one at random, try on
 7. **Stamp Collection:** One player must win at least one card from each of the four suits across all their won tricks.
 8. **Alpha Omega:** The player who wins the first trick must also win the last trick.
 
-### Getting Serious (Level 2)
+### Getting Serious
 
 9. **Follow the Rainbow:** Each of the first four tricks must be led with a different suit.
 10. **Poor Dealer:** The dealer must not win any tricks.
@@ -136,7 +136,7 @@ Players can approach challenges however they like — pick one at random, try on
 22. **Flying Aces:** No Ace may lose a trick.
 23. **Kingly Crowns:** No King may lose a trick.
 
-### Easier Said Than Done (Level 3)
+### Easier Said Than Done
 
 24. **Double Take:** When a player wins their first trick, they must also win the next trick.
 25. **Jack Attack:** At least two Jacks must each win a trick.
@@ -151,7 +151,7 @@ Players can approach challenges however they like — pick one at random, try on
 34. **Royal Procession:** Every trick must contain at least one Ace, King, or Queen.
 35. **Hunting Party:** One trick must contain at least three cards with rank King or Jack.
 
-### You're Gonna Need a Good Team (Level 4)
+### You're Gonna Need a Good Team
 
 36. **Fibonacci:** Two players win one trick each, one player wins two, and one player wins three.
 37. **Save The Best for Last:** The last trick must contain at least three high cards (Queen, King, or Ace).
@@ -165,7 +165,7 @@ Players can approach challenges however they like — pick one at random, try on
 45. **Straight:** One player must win at least one card of each of the seven ranks: Ghost, Prank, Maid, Jack, Queen, King, Ace.
 46. **Six:** One player must win six tricks.
 
-### These Are Virtually Impossible (Level 9000)
+### These Are Virtually Impossible
 
 47. **Three of a Kind:** One trick must contain three cards of the same rank.
 48. **Two Pairs In One:** One trick must contain two pairs of cards with the same rank.
