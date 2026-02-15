@@ -126,15 +126,15 @@ Players can approach challenges however they like — pick one at random, try on
 12. **Take Turns:** No player may win two tricks in a row.
 13. **Generosity:** No trick is won by the player who led it.
 14. **Aces All Around:** No player may win more than one Ace.
-16. **Clown Car:** Only one player may win tricks containing Prank cards.
+15. **Clown Car:** Only one player may win tricks containing Prank cards.
+16. **Ghost Town:** No trick may contain more than one Ghost.
 17. **Royal Pain:** One trick must be won by an Ace, one by a King, and one by a Queen.
 18. **Two Pairs:** Two tricks must each contain two cards of the same rank.
 19. **Even Steven:** Three players win two tricks each. One player wins one trick.
 20. **No Spoilers, Please:** If a trick is led with clubs, diamonds, or hearts, then the trick must not contain spades when it resolves.
-21. **Flying Aces:** No Ace may lose a trick.
-22. **Kingly Crowns:** No King may lose a trick.
-- Ghost Town: No trick may contain more than one Ghost.
-- The Highs and Lows: At least one trick must be won by a Ghost. At least one trick must be won by an Ace.
+21. **The Highs and Lows:** At least one trick must be won by a Ghost. At least one trick must be won by an Ace.
+22. **Flying Aces:** No Ace may lose a trick.
+23. **Kingly Crowns:** No King may lose a trick.
 
 ### Easier Said Than Done (Level 3)
 
@@ -144,34 +144,34 @@ Players can approach challenges however they like — pick one at random, try on
 27. **Hand-off:** When a player wins a trick, the player to their left or right must win the next trick.
 28. **Junk Drawer:** At least one trick must contain cards from all four suits.
 29. **Bedlam:** At least two Prank cards must each win a trick.
-30. **The Twins:** The player to the dealer's left and the player to the dealer's right must win the same number of tricks.
-31. **Heated Rivalry:** One player must win three tricks. Another must win four.
-32. **Passing Game:** When a player wins a trick, they name a player. That player must win the next trick.
-- Royal Procession: Every trick must contain at least one Ace, King, or Queen.
-- Shenanigans: Every trick must contain a ghost, a prank, or a wild card.
-- Hunting Party: One trick must contain at least three cards that have rank King or Jack.
+30. **Shenanigans:** Every trick must contain a Ghost, a Prank, or a wild card.
+31. **The Twins:** The player to the dealer's left and the player to the dealer's right must win the same number of tricks.
+32. **Heated Rivalry:** One player must win three tricks. Another must win four.
+33. **Passing Game:** When a player wins a trick, they name a player. That player must win the next trick.
+34. **Royal Procession:** Every trick must contain at least one Ace, King, or Queen.
+35. **Hunting Party:** One trick must contain at least three cards with rank King or Jack.
 
 ### You're Gonna Need a Good Team (Level 4)
 
-33. **Fibonacci:** Two players win one trick each, one player wins two, and one player wins three.
-35. **Save The Best for Last:** The last trick must contain at least three high cards (Queen, King, or Ace).
-37. **Two Pranks Walk Into a Trick:** A trick must contain at least two Prank cards, and a Prank must win the trick.
-38. **Clockwork:** When a player wins a trick, the player to their left must win the next trick.
+36. **Fibonacci:** Two players win one trick each, one player wins two, and one player wins three.
+37. **Save The Best for Last:** The last trick must contain at least three high cards (Queen, King, or Ace).
+38. **Two Pranks Walk Into a Trick:** A trick must contain at least two Prank cards, and a Prank must win the trick.
+39. **Clockwork:** When a player wins a trick, the player to their left must win the next trick.
 40. **Even Dealer Steven:** The dealer wins exactly one trick. Each other player wins two.
 41. **Perfect Fibonacci:** The first player to win a trick wins exactly one. The second wins exactly one. The third wins two. The remaining player wins the rest.
-43. **Menagerie:** No trick may contain two cards of the same rank. Wild cards have no rank and never conflict.
+42. **Menagerie:** No trick may contain two cards of the same rank. Wild cards have no rank and never conflict.
+43. **Romance is in the Air:** At least two tricks must contain a King and Queen of the same suit.
 44. **Prediction Time:** Before the first trick, starting with the dealer, each player predicts how many tricks they will win. Each player must win exactly the number they predicted.
 45. **Straight:** One player must win at least one card of each of the seven ranks: Ghost, Prank, Maid, Jack, Queen, King, Ace.
 46. **Six:** One player must win six tricks.
-- Romance is in the Air: At least two tricks must contain a king and queen of the same suit.
 
 ### These Are Virtually Impossible (Level 9000)
 
 47. **Three of a Kind:** One trick must contain three cards of the same rank.
-49. **Two Pairs In One:** One trick must contain two pairs of cards with the same rank.
-50. **Straight At Once:** One trick must contain four consecutive ranks (e.g., Maid, Jack, Queen, King).
-51. **Four of a Kind:** One trick must contain four cards of the same rank. For this challenge, triple the word counts on all Ghost cards.
-48. **Straight Flush:** One player must win all seven cards from one suit. Before the first trick, repeat the opening trade one additional time.
+48. **Two Pairs In One:** One trick must contain two pairs of cards with the same rank.
+49. **Straight At Once:** One trick must contain four consecutive ranks (e.g., Maid, Jack, Queen, King).
+50. **Four of a Kind:** One trick must contain four cards of the same rank. For this challenge, triple the word counts on all Ghost cards.
+51. **Straight Flush:** One player must win all seven cards from one suit. Before the first trick, repeat the opening trade one additional time.
 
 ### Thanks for Playing!
 
