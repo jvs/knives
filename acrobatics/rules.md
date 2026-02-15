@@ -1,4 +1,4 @@
-# Acrobatics
+  Acrobatics
 
 A cooperative trick-taking card game for 4 players.
 
