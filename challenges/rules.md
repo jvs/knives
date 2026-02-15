@@ -28,7 +28,7 @@ Ghost — Prank — Maid — Jack — Queen — King — Ace
 
 ### Ghost Cards
 
-Each suit's Ghost card has a word count printed on it. **When you play a Ghost, you may speak that many words.** For example, if you play the Ghost of Diamonds (3 words), you may say up to three words (e.g., "I have spades"). Contractions count as one word. You can say anything — there are no restrictions on content.
+Each suit's Ghost card has a word count printed on it. **When you play a Ghost, you may speak that many words before the next player plays their card.** For example, if you play the Ghost of Diamonds (3 words), you may say up to three words (e.g., "I have spades"). Contractions count as one word. You can say anything — there are no restrictions on content.
 
 | Suit | Words |
 |------|-------|
@@ -54,7 +54,7 @@ Each suit's Prank card has a special ability. Prank cards are also normal suited
 
 ### The Joker and the Fox
 
-The Joker and the Fox are wild cards with no suit and no rank. They can always be played on any trick regardless of what suit was led.
+The Joker and the Fox are wild cards with no suit and no rank. They may be played on any trick instead of following suit, even if you have cards in the led suit.
 
 **The Joker** always wins the trick.
 
@@ -75,27 +75,29 @@ Players may not share information about their hand or intentions except through 
 
 ## Playing a Round
 
-Play follows standard trick-taking rules.
+### Following Suit
+
+- You must play a card matching the led suit if able.
+- If you are void in the led suit, you may play any card.
+- Wild cards may be played on any trick, even if you have the led suit.
+
+### Winning a Trick
+
+- The highest trump (spade) wins, if any trumps were played.
+- If no trumps were played, the highest card of the led suit wins.
+- The Joker always wins any trick it is played in.
 
 ### Leading
 
-The dealer leads the first trick. Play a card from your hand face-up to the center of the table. The suit of this card is the **led suit** for the trick.
+The dealer leads the first trick by playing a card face-up to the center of the table. The suit of this card is the **led suit** for the trick. Moving clockwise, each player plays one card.
 
-### Following
-
-Moving clockwise, each player plays one card. **You must follow suit if able** — if you have a card matching the led suit, you must play one. If you are void in the led suit, you may play any card.
-
-### Winning the Trick
-
-The highest card in the **led suit** wins the trick, unless a trump card was played. **Spades are always trump.**
-
-If one or more trump cards were played by players who are void in the led suit, the highest trump wins instead.
-
-The Joker always wins any trick it is played in, regardless of suit or trump.
-
-The winner of the trick collects the played cards and places them face-down in front of them. The winner leads the next trick.
+The winner of a trick leads the next trick. You may lead with any suited card. Wild cards cannot be led — if you have only wild cards remaining, the player to your left leads instead.
 
 **Exception:** If the Cat (Prank of Clubs) was played, the player who played it leads the next trick instead of the trick's winner.
+
+### Collecting Tricks
+
+The winner of the trick collects the played cards and places them face-down in front of them.
 
 ### End of Round
 
@@ -133,8 +135,8 @@ Players can approach challenges however they like — pick one at random, try on
 19. **Even Steven:** Three players win two tricks each. One player wins one trick.
 20. **No Spoilers, Please:** If a trick is led with clubs, diamonds, or hearts, then the trick must not contain spades when it resolves.
 21. **The Highs and Lows:** At least one trick must be won by a Ghost. At least one trick must be won by an Ace.
-22. **Flying Aces:** No Ace may lose a trick.
-23. **Kingly Crowns:** No King may lose a trick.
+22. **Flying Aces:** No Ace in play may lose a trick.
+23. **Kingly Crowns:** No King in play may lose a trick.
 
 ### Easier Said Than Done
 
