@@ -6,7 +6,7 @@ A trick-taking card game for 3 players.
 
 ## Overview
 
-Three players compete across multiple hands. Each hand, one player becomes **the Panther** through an auction, taking control of a face-up **Woods hand** and playing two hands against the other two players (**the Hunters**). The first player to **250 points** wins.
+Three players compete across multiple hands. Each hand, one player becomes **the Panther** through an auction, taking control of a face-up **Crow hand** and playing two hands against the other two players (**the Hunters**). The first player to **250 points** wins.
 
 ---
 
@@ -51,11 +51,11 @@ Wild cards cannot be led. If you must lead and hold only wild cards, reveal your
 
 1. Shuffle the deck.
 2. Deal **9 cards** to each player.
-3. Deal **9 cards face-up** to the center of the table. This is the **Woods hand** (or just "the Woods").
+3. Deal **9 cards face-up** to the center of the table. This is the **Crow hand** (or just "the Crow").
 4. Deal **6 cards face-down** to the side. These are **the Shadow** — out of play and not revealed until the hand is over.
-5. The dealer sorts the Woods by suit and rank, so all players can read it easily.
+5. The dealer sorts the Crow by suit and rank, so all players can read it easily.
 
-All players may examine the Woods before bidding begins.
+All players may examine the Crow before bidding begins.
 
 ---
 
@@ -67,7 +67,7 @@ Each bid consists of a **number of tricks** and a **trump declaration** — eith
 
 Bidding proceeds clockwise. Each bid must have a **higher number of tricks** than the previous bid, regardless of the trump declaration. A player may **pass** instead of bidding. Once you pass, you are done with bidding for this hand.
 
-When two players have passed, the remaining bidder becomes **the Panther**. The Panther is committed to winning at least the number of tricks in their bid, with the trump they declared. The Woods are placed across from the Panther, and the Panther leads the first trick.
+When two players have passed, the remaining bidder becomes **the Panther**. The Panther is committed to winning at least the number of tricks in their bid, with the trump they declared. The Crow is placed across from the Panther, and the Panther leads the first trick.
 
 ---
 
@@ -89,16 +89,16 @@ If "Fiends Only" was declared, there is no lesser trump — only Fiends outrank 
 
 ## Playing a Hand
 
-The Panther controls two hands: their own hand (hidden, like any player's) and the Woods (face-up, visible to all). These are separate hands — each follows suit independently, and each plays in its own seat in the turn order.
+The Panther controls two hands: their own hand (hidden, like any player's) and the Crow (face-up, visible to all). These are separate hands — each follows suit independently, and each plays in its own seat in the turn order.
 
-The Panther leads the first trick. After that, the winner of each trick leads the next. If the Woods wins a trick, the Woods leads the next trick (with the Panther choosing which card to play from it). Play proceeds clockwise. On the Woods' turn, the Panther plays a card from the Woods.
+The Panther leads the first trick. After that, the winner of each trick leads the next. If the Crow wins a trick, the Crow leads the next trick (with the Panther choosing which card to play from it). Play proceeds clockwise. On the Crow's turn, the Panther plays a card from the Crow.
 
 ### Following Suit
 
 - Players must follow the led suit if able.
 - If a player cannot follow suit, they may play any card.
 - Wild cards may be played on any trick, even if you have cards in the led suit.
-- The Panther's own hand and the Woods follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
+- The Panther's own hand and the Crow follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
 
 ### Leading Fiends
 
@@ -107,7 +107,7 @@ The Panther leads the first trick. After that, the winner of each trick leads th
 ### Leading Restrictions
 
 - Wild cards cannot be led. If you must lead and hold only wild cards, reveal your hand. The player to your left leads instead.
-- If the Woods must lead and holds only wild cards, reveal the Woods. The player to the Woods' left leads instead.
+- If the Crow must lead and holds only wild cards, reveal the Crow. The player to the Crow's left leads instead.
 
 ---
 
@@ -120,15 +120,15 @@ Prank cards are the **lowest-ranked card** in their suit — playing one means y
 | Prank | Suit | Ability |
 |-------|------|---------|
 | **Snitch** | Spades | Look at all cards in the Shadow. Shuffle them and return them face-down. |
-| **Devil** | Diamonds | Choose a target: another player, the Woods, or the Shadow. You and the target each exchange a card face-down. If the target is the Woods, the Panther chooses which Woods card to exchange, and both cards are revealed (since the Woods are face-up). If the target is the Shadow, place a card from your hand face-down in the Shadow, then draw a card from the Shadow at random. |
+| **Devil** | Diamonds | Choose a target: another player, the Crow, or the Shadow. You and the target each exchange a card face-down. If the target is the Crow, the Panther chooses which Crow card to exchange, and both cards are revealed (since the Crow is face-up). If the target is the Shadow, place a card from your hand face-down in the Shadow, then draw a card from the Shadow at random. |
 | **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Shadow face-up. It remains face-up in the Shadow for the rest of the hand. |
-| **Cat** | Clubs | Choose who leads the next trick: yourself, another player, or the Woods. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
+| **Cat** | Clubs | Choose who leads the next trick: yourself, another player, or the Crow. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
 
 ---
 
 ## Scoring
 
-After all 9 tricks have been played, count the Panther's tricks. Tricks won by the Woods count toward the Panther's total.
+After all 9 tricks have been played, count the Panther's tricks. Tricks won by the Crow count toward the Panther's total.
 
 ### Panther Succeeds (meets or exceeds bid)
 
@@ -155,9 +155,9 @@ If multiple players cross 250 on the same hand, the player with the higher score
 
 ## Turn Summary
 
-1. **Deal** — 9 to each player, 9 face-up to the Woods, 6 face-down to the Shadow.
+1. **Deal** — 9 to each player, 9 face-up to the Crow, 6 face-down to the Shadow.
 2. **Auction** — Bid a number of tricks and a trump declaration. First bidder may not pass. Highest bidder becomes the Panther.
-3. **Setup** — Woods placed across from the Panther.
+3. **Setup** — Crow placed across from the Panther.
 4. **Play** — 9 tricks, normal clockwise play. Panther leads first.
 5. **Score** — Award points based on the Panther's bid and result.
 6. **Rotate** — Dealer passes clockwise. Shuffle and deal a new hand.
