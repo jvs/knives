@@ -63,7 +63,7 @@ All players may examine the Crow before bidding begins.
 
 The player to the dealer's left bids first and **may not pass**.
 
-Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Quests Only." For example: "4 Hearts" or "5 Quests Only."
+Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Quests Only." For example: "4 and Hearts" or "5 and Quests Only."
 
 Bidding proceeds clockwise. Each bid must have a **higher number of tricks** than the previous bid, regardless of the trump declaration. A player may **pass** instead of bidding. Once you pass, you are done with bidding for this hand.
 
