@@ -85,7 +85,7 @@ The Agent is unmasked when any of the following occurs:
 
 **The Agent is only unmasked once per hand.** When the Agent is unmasked, the following sequence occurs immediately:
 
-### 1. All Badges Flip
+### 1. Show Your Badge
 
 All players turn their Badges face-up. Everyone now knows who is on which side.
 
