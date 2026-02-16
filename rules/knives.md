@@ -72,7 +72,7 @@ Once someone takes the bank:
 - Whoever plays the **Worst of Knives** becomes the shadow banker (secret partner)
 - The banker and shadow banker combine their won tricks when counting coins
 - If the banker plays Worst, they score as a solo banker (no partner)
-- Note that the Shadow Banker is determined by who plays the Worst card, not necessarily who holds it at the start (see Prank Cards)
+- Note that the shadow banker is determined by who plays the Worst card, not necessarily who holds it at the start (see Prank Cards)
 
 
 ## Prank Cards
