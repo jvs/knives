@@ -121,6 +121,8 @@ Prank cards are the **lowest-ranked card** in their suit.
 | **Cat** | Clubs | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
 | **Prank Shot** | Shots | No one wins this trick. All cards are discarded face-down. The player who led this trick leads again. |
 
+Snitch Timing: When the Snitch is played, the Agent may not Double Cross until the Snitch card has been completely resolved.
+
 ---
 
 ## Scoring
