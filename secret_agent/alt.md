@@ -32,9 +32,10 @@ Rank order within a suit, from lowest to highest: Prank, 2, 3, 4, 5, 6, 7, Ace. 
 
 ## Setup
 
-1. **Deal** 9 cards to each player. Place the remaining 4 cards face down on the table. This is **the Stash**.
-2. **Deal badges.** Shuffle 1 Agent badge and 3 Enforcer badges. Deal one face down to each player. Look at your own Badge secretly.
-3. The dealer leads the first trick.
+1. **Deal** 9 cards to each player.
+2. Place the remaining 4 cards face down on the table. This is **the Stash**.
+3. **Deal badges.** Shuffle 1 Agent badge and 3 Enforcer badges. Deal one face down to each player. Look at your own Badge secretly.
+4. The dealer leads the first trick.
 
 ## Playing Tricks
 
