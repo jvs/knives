@@ -24,8 +24,6 @@ Prank, 2, 3, 4, 5, 6, 7, Ace
 
 Prank Shot, 2, 3, 4, 5, 6, 7, Clean Shot
 
-(Design Question: Would Crack Shot, Perfect Shot, Bull's Eye, or just Ace be better?)
-
 Rank order within a suit (low to high): Prank, 2, 3, 4, 5, 6, 7, Ace.
 
 Rank order for Shots (low to high): Prank Shot, 2, 3, 4, 5, 6, 7, Clean Shot.
