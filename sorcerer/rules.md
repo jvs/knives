@@ -25,7 +25,7 @@ Three players compete across multiple hands. Each hand, one player becomes **the
 
 Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ace.
 
-**Threats (4 cards)** — The greater trump suit. Threats always beat any card from a traditional suit, including lesser trump.
+**Fiends (4 cards)** — The greater trump suit. Fiends always beat any card from a traditional suit, including lesser trump.
 
 | Card | Rank |
 |------|------|
@@ -34,7 +34,7 @@ Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ac
 | Dragon | 8 |
 | Witch | 9 |
 
-(Production Note: Each Threat card indicates its rank number.)
+(Production Note: Each Fiend card indicates its rank number.)
 
 **Wild Cards (2 cards)** — Wild cards have no suit and no rank. They may be played on any trick, even if you have cards in the led suit.
 
@@ -53,6 +53,7 @@ Wild cards cannot be led. If you must lead and hold only wild cards, reveal your
 2. Deal **9 cards** to each player.
 3. Deal **9 cards face-up** to the center of the table. This is the **Apprentice hand** (or just "the Apprentice").
 4. Deal **6 cards face-down** to the side. These are **the Woods** — out of play and not revealed until the hand is over.
+5. The dealer sorts the Apprentice by suit and rank, so all players can read it easily.
 
 All players may examine the Apprentice before bidding begins.
 
@@ -62,7 +63,7 @@ All players may examine the Apprentice before bidding begins.
 
 The player to the dealer's left bids first and **may not pass**.
 
-Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Threats Only." For example: "4 Hearts" or "5 Threats Only."
+Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Fiends Only." For example: "4 Hearts" or "5 Fiends Only."
 
 Bidding proceeds clockwise. Each bid must have a **higher number of tricks** than the previous bid, regardless of the trump declaration. A player may **pass** instead of bidding. Once you pass, you are done with bidding for this hand.
 
@@ -75,14 +76,14 @@ When two players have passed, the remaining bidder becomes **the Sorcerer**. The
 Cards from strongest to weakest:
 
 1. **Joker** — always wins the trick
-2. **Threats** (greater trump) — Witch > Dragon > Ogre > Goblin
+2. **Fiends** (greater trump) — Witch > Dragon > Ogre > Goblin
 3. **Lesser trump** (the suit named in the winning bid) — normal rank order within the suit
 4. **Led suit** — the suit of the first card played in a trick
 5. **Off-suit cards and the Fool** — cannot win a trick
 
-Threats are always the top trump. Lesser trump beats non-trump suits. If no Threat or trump is played, the highest card of the led suit wins.
+Fiends are always the top trump. Lesser trump beats non-trump suits. If no Fiend or trump is played, the highest card of the led suit wins.
 
-If "Threats Only" was declared, there is no lesser trump — only Threats outrank the led suit.
+If "Fiends Only" was declared, there is no lesser trump — only Fiends outrank the led suit.
 
 ---
 
@@ -99,9 +100,9 @@ The Sorcerer leads the first trick. After that, the winner of each trick leads t
 - Wild cards may be played on any trick, even if you have cards in the led suit.
 - The Sorcerer's own hand and the Apprentice follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
 
-### Leading Threats
+### Leading Fiends
 
-- **Leading with a Threat:** Other players must play a Threat if able. If they have no Threats, they may play any card. *(Threats are their own suit.)*
+- **Leading with a Fiend:** Other players must play a Fiend if able. If they have no Fiends, they may play any card. *(Fiends are their own suit.)*
 
 ### Leading Restrictions
 
@@ -132,13 +133,13 @@ After all 9 tricks have been played, count the Sorcerer's tricks. Tricks won by 
 ### Sorcerer Succeeds (meets or exceeds bid)
 
 - Sorcerer gains **bid × 10** points.
-- If "Threats Only" was declared: double the Sorcerer's points for this hand.
+- If "Fiends Only" was declared: double the Sorcerer's points for this hand.
 
 ### Sorcerer Fails (fewer tricks than bid)
 
 - Sorcerer gains **nothing**.
 - Each Hunter gains **bid × 5** points.
-- If "Threats Only" was declared: double the Hunters' points for this hand.
+- If "Fiends Only" was declared: double the Hunters' points for this hand.
 
 *The scoring is asymmetric by design: the Sorcerer risks more (controlling two hands against two opponents) and earns more for winning. Hunters earn less per hand but share the reward and face less risk.*
 
@@ -156,7 +157,7 @@ If multiple players cross 250 on the same hand, the player with the higher score
 
 1. **Deal** — 9 to each player, 9 face-up to the Apprentice, 6 face-down to the Woods.
 2. **Auction** — Bid a number of tricks and a trump declaration. First bidder may not pass. Highest bidder becomes the Sorcerer.
-3. **Assumption** — Apprentice placed across from the Sorcerer.
+3. **Setup** — Apprentice placed across from the Sorcerer.
 4. **Play** — 9 tricks, normal clockwise play. Sorcerer leads first.
 5. **Score** — Award points based on the Sorcerer's bid and result.
 6. **Rotate** — Dealer passes clockwise. Shuffle and deal a new hand.
