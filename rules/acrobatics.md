@@ -70,7 +70,7 @@ Each table can decide how strictly to enforce this rule, but the spirit of the g
 
 1. **Select a challenge** from the list.
 2. **Shuffle and deal.** Shuffle all 30 cards. Deal 7 cards to each player. Place the remaining 2 cards face-down in the center of the table — this is **the Mystery**. No one looks at the Mystery cards.
-3. **Opening trade.** Each player selects one card from their hand and places it face down on the table. Flip all four cards face up. Then, starting with the dealer, each player picks up one of the face-up cards and adds it to their hand. (Players may pick their own card.)
+3. **The Market.** Each player selects one card from their hand and places it face down on the table. Flip all four cards face up. Then, starting with the dealer, each player picks up one of the face-up cards and adds it to their hand. (Players may pick their own card.)
 4. **Begin play.** The dealer leads the first trick.
 
 ## Communication
