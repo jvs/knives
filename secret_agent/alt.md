@@ -1,98 +1,111 @@
 # Secret Agent
 
-A trick-taking card game for 4 players. One player is a secret agent trying to win tricks against three enforcers.
+A trick-taking card game for 4 players.
+
+---
 
 ## Overview
 
-One player is secretly the Agent. The other three are Enforcers. The Agent wins by taking at least as many tricks as the Enforcers. The Enforcers win by taking more tricks than the Agent.
+Each hand, one player is secretly **the Agent**. The other three are **Spy Hunters**. The Agent wins by taking at least as many tricks as the Hunters. The Hunters win by taking more tricks than the Agent.
 
-The Agent has tools to give them an edge:
-- Snarking: The Agent can play cards without following suit while their Badge is face down.
-- Double-Cross: The Agent can unmask themselves to steal a trick.
-- Raiding the Stash: When the Agent is unmasked, they pick up the Stash and improve their hand.
+While undercover, the Agent can **snark** — playing cards without following suit. Once the Agent is unmasked, both sides rearm: the Agent **raids the Stash**, and the Hunters Gear Up. Then they duke it out in the final shoot-out.
 
-But watch out! The Enforcers can unmask the Agent in two ways:
-- When the player across from the Agent wins two tricks, the Agent's cover is blown.
-- (Design question: should the Agent's cover get blown when they win two or three tricks? That makes more sense, but does it work better?)
-- A special card called the Snitch can also unmask the Agent, but it using it well requires a lot of skill and a little bit of luck.
-- (Design question: Do the Enforcers need a wild card to help them unmask the agent?)
-- (Design question: Should the Hound be able to unmask the Agent, in addition to or maybe instead of the Snitch? The Hound is wild, which makes it easier to play.)
-- Try your best: Once unmasked, the Agent can no longer snark. They have to follow suit like everyone else!
+---
 
+## Components
 
-## The Deck (40 cards)
+### The Deck (40 cards)
 
-Five suits:
+**Four Suits (32 cards)** — Spades, Diamonds, Hearts, Clubs — 8 cards each:
 
-- **Diamonds, Spades, Clubs** (Prank, 2, 3, 4, 5, 6, 7, Ace): Normal suits.
-- **Hearts** (Prank, 2, 3, 4, 5, 6, 7, Ace): Wild. Can always be played regardless of what was led.
-- **Shots** (2–9): Trump. Beats all other suits. Can only be played when void in the led suit (unless you're the secret Agent — see below).
+Prank, 2, 3, 4, 5, 6, 7, Ace
 
-Rank order within a suit, from lowest to highest: Prank, 2, 3, 4, 5, 6, 7, Ace. For Shots: 2 (lowest) through 9 (highest).
+**Shots (8 cards)** — The trump suit. Shots beat all other suits. Shots can only be played if you have no cards of the led suit (unless you are the Agent — see Snarking).
+
+Prank Shot, 2, 3, 4, 5, 6, 7, Clean Shot
+
+(Design Question: Would Crack Shot, Perfect Shot, Bull's Eye, or just Ace be better?)
+
+Rank order within a suit (low to high): Prank, 2, 3, 4, 5, 6, 7, Ace.
+
+Rank order for Shots (low to high): Prank Shot, 2, 3, 4, 5, 6, 7, Clean Shot.
+
+**4 Badges** — 1 Agent badge and 3 Hunter badges.
+
+---
 
 ## Setup
 
-1. **Deal** 9 cards to each player.
-2. Place the remaining 4 cards face down on the table. This is **the Stash**.
-3. **Deal badges.** Shuffle 1 Agent badge and 3 Enforcer badges. Deal one face down to each player. Look at your own Badge secretly.
+1. Shuffle the deck. Deal **9 cards** to each player.
+2. Place the remaining **4 cards face-down** on the table. This is **the Stash**.
+3. Shuffle the 4 Badges and deal one face-down to each player. Look at your own Badge secretly.
 4. The dealer leads the first trick.
+
+---
 
 ## Playing Tricks
 
-The leader plays any card. Each subsequent player must follow suit if able, with these exceptions:
+The leader plays any card face-up. Each subsequent player must follow the led suit if able.
 
-- **Hearts** can always be played instead of following suit.
-- **Shots** can only be played if you have no cards of the led suit.
-- **Leading a Heart:** Hearts are the led suit. Players with hearts must follow. Highest heart wins.
-- **Snarking (Agent Only):** The Agent may ignore follow-suit rules while their Badge is face down. See Agent Powers.
+- If you have no cards of the led suit, you may play any card, including Shots.
+- **Snarking:** While undercover, the Agent may ignore all follow-suit rules (see Agent Powers).
+- **Clean Shot**: The Clean Shot card may be played on any trick, instead of following suit. The Clean Shot counts as the highest Shot card and always wins the trick.
 
-**Winning a trick:** Highest Shot wins. If no Shots, highest card of the led suit wins. Hearts played as wild can't win tricks. The trick winner leads next.
+### Winning a Trick
+
+- If any Shots were played, the highest Shot wins.
+- If no Shots were played, the highest card of the led suit wins.
+- The trick winner leads the next trick.
+
+---
 
 ## Agent Powers
 
 ### Snarking (Undercover Only)
 
-While their Badge is face down, the Agent can play any card at any time, ignoring follow-suit rules. This includes playing Shots while holding the led suit, or playing off-suit when they could follow.
+While their Badge is face-down, the Agent can play any card on any trick, ignoring all follow-suit rules. This includes playing Shots while holding the led suit, or playing off-suit when they could follow.
 
-Only the Agent can snark. If you catch someone not following suit, you know who the Agent is. But if their badge is face down, they can keep snarking, even though you know who they are.
+Only the Agent can snark. If you notice someone not following suit, you know who the Agent is — but as long as their Badge is face-down, they can keep snarking.
 
-**Once the Agent's Badge is face up, they must follow suit like everyone else.**
+**Once the Agent's Badge is face-up, they must follow suit like everyone else.**
 
-### The Double-Cross!
+### The Double Cross
 
-After a trick resolves, the Agent may flip their Badge face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick. The Enforcers were double-crossed!
+After a trick resolves, if the Agent's Badge is still face-down, the Agent may flip their Badge face-up and steal the trick from whoever won it. The Agent also steals the lead.
 
-Immediately after the Double-Cross, the Agent raids the Stash (see below).
+The Double Cross unmasks the Agent. Proceed to **Cards on the Table**.
 
-### Cover Blown!
+---
 
-When the player across from the Agent wins two tricks, the Agent must flip their badge face up. Their cover has been blown!
+## Cards on the Table
 
-Immediately after their cover has been blown, the Agent raids the Stash (see below).
+The Agent is unmasked when any of the following occurs:
 
-(Design question: should the Agent's cover get blown when they win two or three tricks? That makes more sense, but does it work better?)
+- **Cover Blown:** The Agent wins their third trick. Their Badge is flipped face-up.
+- **The Double Cross:** The Agent voluntarily flips their Badge to steal a trick.
+- **Ratted Out:** A Hunter plays the Snitch targeting the Agent (see Prank Cards).
 
-(Design question: So wouldn't the Agent just Double-Cross the trick, if the player across from them is about to win their second trick? If that's the case, then should that just be built into the rules?)
+**The Agent is only unmasked once per hand.** When the Agent is unmasked, the following sequence occurs immediately:
 
-### Ratted Out!
+### 1. All Badges Flip
 
-If someoen plays the Snitch, targets the Agent, and flips their badge face up, the Agent is unmasked. The Snitch ratted them out!
+All players turn their Badges face-up. Everyone now knows who is on which side.
 
-Immediately after being ratted out, the Agent raids the Stash (see below).
+### 2. The Agent Raids the Stash
 
-(Design question: Is it unnecessarily repetitive to keep reminding players that the Agent raids the stash when they're unmasked?)
+The Agent picks up all 4 Stash cards and adds them to their hand. The Agent then discards 4 cards **face-up** on the table.
 
+### 3. Hunters Gear Up
 
-## The Stash
+Each Hunter places one card from their hand face-up on the table, alongside the Agent's discards. Then, starting with the player to the Agent's left, each Hunter picks up one card from the combined pool.
 
-The Stash starts with 4 face-down cards from the deal.
+The remaining cards are removed from the play area. They are not needed anymore.
 
-### Raiding the Stash
+### 4. The Final Shoot-Out
 
-When the Agent's Badge is flipped face up — by the Double-Cross, Cover Blown, or The Snitch — the Agent immediately raids the Stash:
+The remaining tricks are played with all Badges face-up. The Agent must follow suit like everyone else. No more snarking.
 
-1. Pick up all four cards in the Stash and add them to your hand.
-2. Discard four cards face down, creating a new Stash.
+The Agent leads the first trick after the Hunters finish gearing up.
 
 ---
 
@@ -100,23 +113,34 @@ When the Agent's Badge is flipped face up — by the Double-Cross, Cover Blown, 
 
 Each suit's Prank card has a unique ability. Prank abilities take effect **immediately when played** (before the trick resolves), except where noted.
 
+Prank cards are the **lowest-ranked card** in their suit.
 
 | Prank | Suit | Ability |
 |-------|------|---------|
-| **Snitch** | Spades | Choose a target: another player or the Stash. If you target another player, and their badge is face down, flip their badge face up. If you target the Stash, put your cards on the table, pick up the Stash, look at the cards, and then return them face down. |
-| **Devil** | Diamonds | Choose a target: another player, or the Stash. You and the target each exchange a card face-down. If the target is the Stash, place a card from your hand face-down in the Stash, then draw a card from the Stash at random. |
+| **Snitch** | Spades | Choose a target: another player or the Stash. If you target a player whose Badge is face-down, flip their Badge face-up. If the Agent is unmasked this way, proceed to **Cards on the Table**. If you target a Hunter, nothing happens (their Badge is simply revealed). If you target the Stash, look at all cards in the Stash, then return them face-down. |
+| **Devil** | Diamonds | Choose a target: another player or the Stash. You and the target each exchange a card face-down. If the target is the Stash, place a card from your hand face-down in the Stash, then draw a card from the Stash at random. |
 | **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Stash face-up. It remains face-up in the Stash for the rest of the hand. |
 | **Cat** | Clubs | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
+| **Prank Shot** | Shots | No one wins this trick. All cards are discarded face-down. The player who led this trick leads again. |
 
-(Design question: Is the Hound basically useless to the Agent? Is that OK, or does it need work?)
+---
 
 ## Scoring
 
-After all tricks are played, the team with the most tricks wins. If tied, the Agent wins.
+After all 9 tricks are played, count tricks. The Agent's tricks are counted against the Hunters' combined tricks.
 
-Each round awards points to the winning side:
+- If the Agent has **at least as many tricks** as the Hunter: **Agent wins.** The Agent gains **+4 points**.
+- If the Hunters have **more tricks** than the Agent: **Hunters win.** Each Hunter gains **+2 points**.
 
-- **Agent wins:** The Agent gets **+4 points**.
-- **Enforcers win:** Each Enforcer gets **+2 points**.
+**First player to 10 points wins the game.** Shuffle and deal new Badges each round.
 
-**First player to 10 points wins the game.** Shuffle and deal new Badges each round. The Agent role is random each time.
+---
+
+## Turn Summary
+
+1. **Deal** — 9 cards to each player, 4 face-down to the Stash.
+2. **Badges** — Deal one Badge face-down to each player.
+3. **Play** — 9 tricks. The Agent may snark while undercover.
+4. **Cards on the Table** — Triggered by the Agent's third win, a Double Cross, or the Snitch. All Badges flip. Agent raids the Stash. Hunters Gear Up.
+5. **Final Shoot-Out** — Remaining tricks played openly. Agent follows suit normally.
+6. **Score** — Agent wins on ties. Award points to the winning side.
