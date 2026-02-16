@@ -62,17 +62,26 @@ Only the Agent can snark. If you catch someone not following suit, you know who 
 
 After a trick resolves, the Agent may flip their Badge face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick.
 
-Immediately after the Double Cross, the Agent also raids the Stash (see below).
+Immediately after the Double Cross, the Agent raids the Stash (see below).
 
 ### Cover Blown
 
 When the player across from the Agent wins two tricks, the Agent must flip their badge face up.
 
-Immediately after their cover has been blown, the Agent also raids the Stash (see below).
+Immediately after their cover has been blown, the Agent raids the Stash (see below).
 
 (Design question: should the Agent's cover get blown when they win two or three tricks? That makes more sense, but does it work better?)
 
 (Design question: So wouldn't the Agent just Double Cross the trick, if the player across from them is about to win their second trick? If that's the case, then should that just be built into the rules?)
+
+### Ratted Out
+
+If someoen plays the Snitch, targets the Agent, and flips their badge face up, the Agent is unmasked. The Snitch ratted them out!
+
+Immediately after being ratted out, the Agent raids the Stash (see below).
+
+(Design question: Is it unnecessarily repetitive to keep reminding players that the Agent raids the stash when they're unmasked?)
+
 
 ## The Stash
 
