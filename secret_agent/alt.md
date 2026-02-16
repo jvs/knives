@@ -14,7 +14,7 @@ The Agent has tools to give them an edge:
 But watch out! The Enforcers can unmask the Agent in two ways:
 - When the player across from the Agent wins two tricks, the Agent's cover is blown.
 - (Design question: should the Agent's cover get blown when they win two or three tricks? That makes more sense, but does it work better?)
-- A special card called the Snitch can also unmask the Agent, but it requires a lot of skill and a little bit of luck.
+- A special card called the Snitch can also unmask the Agent, but it using it well requires a lot of skill and a little bit of luck.
 - (Design question: Do the Enforcers need a wild card to help them unmask the agent?)
 - Try your best: Once unmasked, the Agent can no longer snark. They have to follow suit like everyone else!
 
