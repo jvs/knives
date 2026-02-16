@@ -66,7 +66,9 @@ Immediately after the Double Cross, the Agent also raids the Stash (see below).
 
 ### Cover Blown
 
-When the player across from the Agent wins two tricks, the Agent must flip their badge face up. Their cover has been blown!
+When the player across from the Agent wins two tricks, the Agent must flip their badge face up.
+
+Immediately after their cover has been blown, the Agent also raids the Stash (see below).
 
 (Design question: should the Agent's cover get blown when they win two or three tricks? That makes more sense, but does it work better?)
 
