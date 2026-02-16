@@ -8,7 +8,7 @@ One player is secretly the Agent. The other three are Enforcers. The Agent wins 
 
 The Agent has tools to give them an edge:
 - Snarking: The Agent can play cards without following suit while their Badge is face down.
-- Double Cross: The Agent can unmask themselves to steal a trick.
+- Double-Cross: The Agent can unmask themselves to steal a trick.
 - Raiding the Stash: When the Agent is unmasked, they pick up the Stash and improve their hand.
 
 But watch out! The Enforcers can unmask the Agent in two ways:
@@ -58,11 +58,11 @@ Only the Agent can snark. If you catch someone not following suit, you know who 
 
 **Once the Agent's Badge is face up, they must follow suit like everyone else.**
 
-### The Double Cross
+### The Double-Cross!
 
-After a trick resolves, the Agent may flip their Badge face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick.
+After a trick resolves, the Agent may flip their Badge face up, and take the trick from whoever won it. The Agent also steals the lead, and leads the next trick. The Enforcers were double-crossed!
 
-Immediately after the Double Cross, the Agent raids the Stash (see below).
+Immediately after the Double-Cross, the Agent raids the Stash (see below).
 
 ### Cover Blown!
 
@@ -72,7 +72,7 @@ Immediately after their cover has been blown, the Agent raids the Stash (see bel
 
 (Design question: should the Agent's cover get blown when they win two or three tricks? That makes more sense, but does it work better?)
 
-(Design question: So wouldn't the Agent just Double Cross the trick, if the player across from them is about to win their second trick? If that's the case, then should that just be built into the rules?)
+(Design question: So wouldn't the Agent just Double-Cross the trick, if the player across from them is about to win their second trick? If that's the case, then should that just be built into the rules?)
 
 ### Ratted Out!
 
@@ -89,7 +89,7 @@ The Stash starts with 4 face-down cards from the deal.
 
 ### Raiding the Stash
 
-When the Agent's Badge is flipped face up — by the Double Cross, The Snitch, or Cover Blown — the Agent immediately raids the Stash:
+When the Agent's Badge is flipped face up — by the Double-Cross, The Snitch, or Cover Blown — the Agent immediately raids the Stash:
 
 1. Pick up all four cards in the Stash and add them to your hand.
 2. Discard four cards face down, creating a new Stash.
