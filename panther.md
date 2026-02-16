@@ -12,36 +12,36 @@ Three players compete across multiple hands. Each hand, one player becomes **the
 
 ## Components
 
-### The Deck (42 cards)
+### The Deck (46 cards)
 
-**Traditional Suits (36 cards)** — Four suits of 9 cards each:
+**Traditional Suits (40 cards)** — Four suits of 10 cards each:
 
 | Suit | Prank Card | Number Cards | Face Cards |
 |------|-----------|--------------|------------|
-| Spades | Snitch | 2, 3, 4, 5 | Jack, Queen, King, Ace |
-| Diamonds | Devil | 2, 3, 4, 5 | Jack, Queen, King, Ace |
-| Hearts | Hound | 2, 3, 4, 5 | Jack, Queen, King, Ace |
-| Clubs | Cat | 2, 3, 4, 5 | Jack, Queen, King, Ace |
+| Spades | Snitch | 5, 6, 7, 8, 9, 10 | Jack, Queen, King, Ace |
+| Diamonds | Devil | 5, 6, 7, 8, 9, 10 | Jack, Queen, King, Ace |
+| Hearts | Hound | 5, 6, 7, 8, 9, 10 | Jack, Queen, King, Ace |
+| Clubs | Cat | 5, 6, 7, 8, 9, 10 | Jack, Queen, King, Ace |
 
-Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ace.
+Rank order within a suit (low to high): Prank, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace.
 
-**Fiends (4 cards)** — The greater trump suit. Fiends always beat any card from a traditional suit, including lesser trump.
+**Quests (4 cards)** — The greater trump suit. Quests always beat any card from a traditional suit, including lesser trump.
 
-| Card | Rank |
-|------|------|
-| Goblin | 6 |
-| Ogre | 7 |
-| Dragon | 8 |
-| Witch | 9 |
+| Card |
+|------|
+| Goblin |
+| Ogre |
+| Dragon |
+| Witch |
 
-(Production Note: Each Fiend card indicates its rank number.)
+Rank order (low to high): Goblin, Ogre, Dragon, Witch.
 
 **Wild Cards (2 cards)** — Wild cards have no suit and no rank. They may be played on any trick, even if you have cards in the led suit.
 
 | Card | Effect |
 |------|--------|
 | **Joker** | Always wins the trick. |
-| **Fool** | Always loses the trick. Cannot win under any circumstances. |
+| **Child** | Always loses the trick. Cannot win under any circumstances. |
 
 Wild cards cannot be led. If you must lead and hold only wild cards, reveal your hand. The player to your left leads instead.
 
@@ -50,8 +50,8 @@ Wild cards cannot be led. If you must lead and hold only wild cards, reveal your
 ## Setup
 
 1. Shuffle the deck.
-2. Deal **9 cards** to each player.
-3. Deal **9 cards face-up** to the center of the table. This is the **Crow hand** (or just "the Crow").
+2. Deal **10 cards** to each player.
+3. Deal **10 cards face-up** to the center of the table. This is the **Crow hand** (or just "the Crow").
 4. Deal **6 cards face-down** to the side. These are **the Shadow** — out of play and not revealed until the hand is over.
 5. The dealer sorts the Crow by suit and rank, so all players can read it easily.
 
@@ -63,7 +63,7 @@ All players may examine the Crow before bidding begins.
 
 The player to the dealer's left bids first and **may not pass**.
 
-Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Fiends Only." For example: "4 Hearts" or "5 Fiends Only."
+Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Quests Only." For example: "4 Hearts" or "5 Quests Only."
 
 Bidding proceeds clockwise. Each bid must have a **higher number of tricks** than the previous bid, regardless of the trump declaration. A player may **pass** instead of bidding. Once you pass, you are done with bidding for this hand.
 
@@ -76,14 +76,14 @@ When two players have passed, the remaining bidder becomes **the Panther**. The 
 Cards from strongest to weakest:
 
 1. **Joker** — always wins the trick
-2. **Fiends** (greater trump) — Witch > Dragon > Ogre > Goblin
+2. **Quests** (greater trump) — Witch > Dragon > Ogre > Goblin
 3. **Lesser trump** (the suit named in the winning bid) — normal rank order within the suit
 4. **Led suit** — the suit of the first card played in a trick
-5. **Off-suit cards and the Fool** — cannot win a trick
+5. **Off-suit cards and the Child** — cannot win a trick
 
-Fiends are always the top trump. Lesser trump beats non-trump suits. If no Fiend or trump is played, the highest card of the led suit wins.
+Quests are always the top trump. Lesser trump beats non-trump suits. If no Quest or trump is played, the highest card of the led suit wins.
 
-If "Fiends Only" was declared, there is no lesser trump — only Fiends outrank the led suit.
+If "Quests Only" was declared, there is no lesser trump — only Quests outrank the led suit.
 
 ---
 
@@ -100,9 +100,9 @@ The Panther leads the first trick. After that, the winner of each trick leads th
 - Wild cards may be played on any trick, even if you have cards in the led suit.
 - The Panther's own hand and the Crow follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
 
-### Leading Fiends
+### Leading Quests
 
-- **Leading with a Fiend:** Other players must play a Fiend if able. If they have no Fiends, they may play any card. *(Fiends are their own suit.)*
+- **Leading with a Quest:** Other players must play a Quest if able. If they have no Quests, they may play any card. *(Quests are their own suit.)*
 
 ### Leading Restrictions
 
@@ -128,18 +128,18 @@ Prank cards are the **lowest-ranked card** in their suit — playing one means y
 
 ## Scoring
 
-After all 9 tricks have been played, count the Panther's tricks. Tricks won by the Crow count toward the Panther's total.
+After all 10 tricks have been played, count the Panther's tricks. Tricks won by the Crow count toward the Panther's total.
 
 ### Panther Succeeds (meets or exceeds bid)
 
 - Panther gains **bid × 10** points.
-- If "Fiends Only" was declared: double the Panther's points for this hand.
+- If "Quests Only" was declared: double the Panther's points for this hand.
 
 ### Panther Fails (fewer tricks than bid)
 
 - Panther gains **nothing**.
 - Each Hunter gains **bid × 5** points.
-- If "Fiends Only" was declared: double the Hunters' points for this hand.
+- If "Quests Only" was declared: double the Hunters' points for this hand.
 
 *The scoring is asymmetric by design: the Panther risks more (controlling two hands against two opponents) and earns more for winning. Hunters earn less per hand but share the reward and face less risk.*
 
@@ -155,22 +155,9 @@ If multiple players cross 250 on the same hand, the player with the higher score
 
 ## Turn Summary
 
-1. **Deal** — 9 to each player, 9 face-up to the Crow, 6 face-down to the Shadow.
+1. **Deal** — 10 to each player, 10 face-up to the Crow, 6 face-down to the Shadow.
 2. **Auction** — Bid a number of tricks and a trump declaration. First bidder may not pass. Highest bidder becomes the Panther.
 3. **Setup** — Crow placed across from the Panther.
-4. **Play** — 9 tricks, normal clockwise play. Panther leads first.
+4. **Play** — 10 tricks, normal clockwise play. Panther leads first.
 5. **Score** — Award points based on the Panther's bid and result.
 6. **Rotate** — Dealer passes clockwise. Shuffle and deal a new hand.
-
----
-
-## Development notes
-
-Theme:
-- I'm not sure I like having both the Joker and the Fool in the same deck.
-- Alternatives to the Fool: Child, Dunce, Dud
-- (It feels a bit dark to toss a child in with witches and panthers, but it fits with the fairytale aspects. I think "The Child" is the best alternative so far.)
-- I'm not sure I like "Fiend". It looks too much like "Friend".
-- Alternatives for greater trump suit: Threats, Quests, Dangers.
-- I like Dangers. It's two syllables, but so is Diamonds.
-- Current contenders: Fool -> Child, Fiends -> Dangers.
