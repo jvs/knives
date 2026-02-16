@@ -75,7 +75,7 @@ Each table can decide how strictly to enforce this rule, but the spirit of the g
 
 ## Communication
 
-Players may not share information about their hand or intentions except through Ghost cards, Prank abilities, the Fox, and the information revealed through normal card play. Reactions and table talk are fine — just don't smuggle strategy into them.
+Players may not share information about their hand or intentions except through Ghost cards, Prank abilities, the Fox, and the information revealed through normal card play. Reactions and table talk are fine — just don't sneak strategy into them.
 
 ## Playing a Round
 
