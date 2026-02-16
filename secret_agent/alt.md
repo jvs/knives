@@ -89,7 +89,7 @@ The Stash starts with 4 face-down cards from the deal.
 
 ### Raiding the Stash
 
-When the Agent's Badge is flipped face up — by the Double-Cross, The Snitch, or Cover Blown — the Agent immediately raids the Stash:
+When the Agent's Badge is flipped face up — by the Double-Cross, Cover Blown, or The Snitch — the Agent immediately raids the Stash:
 
 1. Pick up all four cards in the Stash and add them to your hand.
 2. Discard four cards face down, creating a new Stash.
