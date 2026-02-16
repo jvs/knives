@@ -1,4 +1,4 @@
-  Acrobatics
+# Acrobatics
 
 A cooperative trick-taking card game for 4 players.
 
@@ -60,7 +60,7 @@ The Joker and the Fox are wild cards with no suit and no rank. They may be playe
 
 **The Fox** lets you ask one player a single yes-or-no question about their hand. They answer immediately, and all players hear the answer. The Fox has no rank and cannot win a trick.
 
-**Leading:** Wild cards cannot be led. If you have only wild cards in your hand when it's your turn to lead, the player to your left leads instead.
+**Leading:** Wild cards cannot be led. If you have only wild cards in your hand when it's your turn to lead, reveal your hand. The player to your left then leads instead.
 
 ## Setup
 
