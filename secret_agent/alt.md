@@ -108,6 +108,7 @@ Each suit's Prank card has a unique ability. Prank abilities take effect **immed
 | **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Stash face-up. It remains face-up in the Stash for the rest of the hand. |
 | **Cat** | Clubs | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
 
+(Design question: Is the Hound basically useless to the Agent? Is that OK, or does it need work?)
 
 ## Scoring
 
