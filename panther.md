@@ -161,3 +161,16 @@ If multiple players cross 250 on the same hand, the player with the higher score
 4. **Play** — 9 tricks, normal clockwise play. Panther leads first.
 5. **Score** — Award points based on the Panther's bid and result.
 6. **Rotate** — Dealer passes clockwise. Shuffle and deal a new hand.
+
+---
+
+## Development notes
+
+Theme:
+- I'm not sure I like having both the Joker and the Fool in the same deck.
+- Alternatives to the Fool: Child, Dunce, Dud
+- (It feels a bit dark to toss a child in with witches and panthers, but it fits with the fairytale aspects. I think "The Child" is the best alternative so far.)
+- I'm not sure I like "Fiend". It looks too much like "Friend".
+- Alternatives for greater trump suit: Threats, Quests, Dangers.
+- I like Dangers. It's two syllables, but so is Diamonds.
+- Current contenders: Fool -> Child, Fiends -> Dangers.
