@@ -64,9 +64,9 @@ After a trick resolves, the Agent may flip their Badge face up, and take the tri
 
 Immediately after the Double Cross, the Agent raids the Stash (see below).
 
-### Cover Blown
+### Cover Blown!
 
-When the player across from the Agent wins two tricks, the Agent must flip their badge face up.
+When the player across from the Agent wins two tricks, the Agent must flip their badge face up. Their cover has been blown!
 
 Immediately after their cover has been blown, the Agent raids the Stash (see below).
 
@@ -74,7 +74,7 @@ Immediately after their cover has been blown, the Agent raids the Stash (see bel
 
 (Design question: So wouldn't the Agent just Double Cross the trick, if the player across from them is about to win their second trick? If that's the case, then should that just be built into the rules?)
 
-### Ratted Out
+### Ratted Out!
 
 If someoen plays the Snitch, targets the Agent, and flips their badge face up, the Agent is unmasked. The Snitch ratted them out!
 
