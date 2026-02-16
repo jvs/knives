@@ -60,6 +60,10 @@ The Joker and the Fox are wild cards with no suit and no rank. They may be playe
 
 **The Fox** lets you ask one player a single yes-or-no question about their hand. They answer immediately, and all players hear the answer. The Fox has no rank and cannot win a trick.
 
+Rule Lawyers: The question should be about the player's hand. You may not ask a question that would reveal information about your own hand or intentions, (e.g., "Do you have exactly one spade, since I'm also down to my last spade?").
+
+Each table can decide how strictly to enforce this rule, but the spirit of the game is that you should not be able to smuggle extra information into your question.
+
 **Leading:** Wild cards cannot be led. If you have only wild cards in your hand when it's your turn to lead, reveal your hand. The player to your left then leads instead.
 
 ## Setup
