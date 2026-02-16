@@ -16,6 +16,7 @@ But watch out! The Enforcers can unmask the Agent in two ways:
 - (Design question: should the Agent's cover get blown when they win two or three tricks? That makes more sense, but does it work better?)
 - A special card called the Snitch can also unmask the Agent, but it using it well requires a lot of skill and a little bit of luck.
 - (Design question: Do the Enforcers need a wild card to help them unmask the agent?)
+- (Design question: Should the Hound be able to unmask the Agent, in addition to or maybe instead of the Snitch? The Hound is wild, which makes it easier to play.)
 - Try your best: Once unmasked, the Agent can no longer snark. They have to follow suit like everyone else!
 
 
