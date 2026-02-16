@@ -29,7 +29,7 @@ Rank order within a suit (low to high): Prank, 2, 3, 4, 5, Jack, Queen, King, Ac
 
 | Card | Rank |
 |------|------|
-| Beast | 6 |
+| Goblin | 6 |
 | Ogre | 7 |
 | Dragon | 8 |
 | Witch | 9 |
@@ -75,7 +75,7 @@ When two players have passed, the remaining bidder becomes **the Sorcerer**. The
 Cards from strongest to weakest:
 
 1. **Joker** — always wins the trick
-2. **Threats** (greater trump) — Witch > Dragon > Ogre > Beast
+2. **Threats** (greater trump) — Witch > Dragon > Ogre > Goblin
 3. **Lesser trump** (the suit named in the winning bid) — normal rank order within the suit
 4. **Led suit** — the suit of the first card played in a trick
 5. **Off-suit cards and the Fool** — cannot win a trick
