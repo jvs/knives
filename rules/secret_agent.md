@@ -55,6 +55,8 @@ The leader plays any card face-up. Each subsequent player must follow the led su
 - If no Shots were played, the highest card of the led suit wins.
 - The trick winner leads the next trick.
 
+If you win three tricks while your Badge is still face-down, flip your badge face-up. If you are the Agent, your cover is blown - proceed to **Cards on the Table**.
+
 ---
 
 ## Agent Powers
