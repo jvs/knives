@@ -52,7 +52,7 @@ Wild cards cannot be led. If you must lead and hold only wild cards, reveal your
 1. Shuffle the deck.
 2. Deal **10 cards** to each player.
 3. Deal **10 cards face-up** to the center of the table. This is the **Crow hand** (or just "the Crow").
-4. Deal **6 cards face-down** to the side. These are **the Shadow** — out of play and not revealed until the hand is over.
+4. Deal **6 cards face-down** to the side. These are **the Woods** — out of play and not revealed until the hand is over.
 5. The dealer sorts the Crow by suit and rank, so all players can read it easily.
 
 All players may examine the Crow before bidding begins.
@@ -119,9 +119,9 @@ Prank cards are the **lowest-ranked card** in their suit — playing one means y
 
 | Prank | Suit | Ability |
 |-------|------|---------|
-| **Snitch** | Spades | Look at all cards in the Shadow. Shuffle them and return them face-down. |
-| **Devil** | Diamonds | Choose a target: another player, the Crow, or the Shadow. You and the target each exchange a card face-down. If the target is the Crow, the Panther chooses which Crow card to exchange, and both cards are revealed (since the Crow is face-up). If the target is the Shadow, place a card from your hand face-down in the Shadow, then draw a card from the Shadow at random. |
-| **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Shadow face-up. It remains face-up in the Shadow for the rest of the hand. |
+| **Snitch** | Spades | Look at all cards in the Woods. Shuffle them and return them face-down. |
+| **Devil** | Diamonds | Choose a target: another player, the Crow, or the Woods. You and the target each exchange a card face-down. If the target is the Crow, the Panther chooses which Crow card to exchange, and both cards are revealed (since the Crow is face-up). If the target is the Woods, place a card from your hand face-down in the Woods, then draw a card from the Woods at random. |
+| **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Woods face-up. It remains face-up in the Woods for the rest of the hand. |
 | **Cat** | Clubs | Choose who leads the next trick: yourself, another player, or the Crow. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
 
 ---
@@ -141,8 +141,6 @@ After all 10 tricks have been played, count the Panther's tricks. Tricks won by 
 - Each Hunter gains **bid × 5** points.
 - If "Quests Only" was declared: double the Hunters' points for this hand.
 
-*The scoring is asymmetric by design: the Panther risks more (controlling two hands against two opponents) and earns more for winning. Hunters earn less per hand but share the reward and face less risk.*
-
 ---
 
 ## Winning the Game
@@ -155,7 +153,7 @@ If multiple players cross 250 on the same hand, the player with the higher score
 
 ## Turn Summary
 
-1. **Deal** — 10 to each player, 10 face-up to the Crow, 6 face-down to the Shadow.
+1. **Deal** — 10 to each player, 10 face-up to the Crow, 6 face-down to the Woods.
 2. **Auction** — Bid a number of tricks and a trump declaration. First bidder may not pass. Highest bidder becomes the Panther.
 3. **Setup** — Crow placed across from the Panther.
 4. **Play** — 10 tricks, normal clockwise play. Panther leads first.
