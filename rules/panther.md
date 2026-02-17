@@ -107,7 +107,7 @@ The Panther leads the first trick. After that, the winner of each trick leads th
 ### Leading Restrictions
 
 - Wild cards cannot be led. If you must lead and hold only wild cards, reveal your hand. The player to your left leads instead.
-- If the Crow must lead and holds only wild cards, reveal the Crow. The player to the Crow's left leads instead.
+- If the Crow must lead and holds only wild cards, the player to the Crow's left leads instead.
 
 ---
 
