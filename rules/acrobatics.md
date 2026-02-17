@@ -11,7 +11,7 @@ Acrobatics is a cooperative trick-taking game. Each round, the players face a ch
 ## Components
 
 - **28 standard cards:** Four suits (clubs, diamonds, hearts, spades), each with 7 cards ranked low to high: Ghost, Prank, Maid, Jack, Queen, King, Ace.
-  - **4 Prank ability cards:** One per suit. Each Prank card has a special ability that triggers when played.
+  - **4 Prank cards:** One per suit. Each Prank card has a special ability that triggers when played.
   - **4 Ghost cards:** One per suit. Each Ghost has a fixed word count: clubs (4), diamonds (3), hearts (2), spades (1). When you play a Ghost, you may speak that many words.
 - **2 wild cards:** The Joker and the Fox. These cards have no suit and no rank.
 - **6 challenge sets:** Each with unique challenges for the players.
