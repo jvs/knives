@@ -143,6 +143,10 @@ After all 10 tricks are played, count tricks. The Agent's tricks are counted aga
 1. **Deal** — 10 cards to each player, 5 face-down to the Stash.
 2. **Badges** — Deal one Badge face-down to each player.
 3. **Play** — 10 tricks. The Agent may snark while undercover.
-4. **Cards on the Table** — Triggered by the Agent's third win, a Double Cross, or the Snitch. All Badges flip. Agent raids the Stash. Hunters Gear Up.
-5. **Final Shoot-Out** — Remaining tricks played openly. Agent follows suit normally.
+4. **Cards on the Table** — Triggered by the Agent's third win, a Double Cross, or the Snitch.
+  - Show Your Badge. All players flip their Badges face-up.
+  - Agent raids the Stash.
+  - Hunters Gear Up.
+  - Agent leads next trick.
+5. **Final Shoot-Out** — Play all remaining tricks. Agent follows suit normally.
 6. **Score** — Agent wins on ties. Award points to the winning side.
