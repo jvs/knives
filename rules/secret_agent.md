@@ -8,7 +8,7 @@ A trick-taking card game for 4 players.
 
 Each hand, one player is secretly **the Agent**. The other three are **Spy Hunters**. The Agent wins by taking at least as many tricks as the Hunters. The Hunters win by taking more tricks than the Agent.
 
-While undercover, the Agent can **snark** — playing cards without following suit. Once the Agent is unmasked, both sides rearm: the Agent **raids the Stash**, and the Hunters **gear up**. Then they duke it out in the final shoot-out.
+While undercover, the Agent can **snark** — playing cards without following suit. Once the Agent is unmasked, both sides rearm: the Agent **raids the Stash**, and the Hunters **gear up**. Then they settle things once and for all in the final shoot-out.
 
 ---
 
