@@ -25,7 +25,7 @@ Three players compete across multiple hands. Each hand, one player becomes **the
 
 Rank order within a suit (low to high): Prank, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace.
 
-**Quests (4 cards)** — The greater trump suit. Quests always beat any card from a traditional suit, including lesser trump.
+**Quests (5 cards)** — The greater trump suit. Quests always beat any card from a traditional suit, including lesser trump.
 
 | Card | Rank |
 |------|------|
