@@ -120,7 +120,7 @@ Prank cards are the **lowest-ranked card** in their suit.
 | **Snitch** | Spades | Choose a target: another player or the Stash. If you target a player whose Badge is face-down, flip their Badge face-up. If the Agent is unmasked this way, proceed to **Cards on the Table**. If you target a Hunter, nothing happens (their Badge is simply revealed). If you target the Stash, look at all cards in the Stash, then return them face-down. |
 | **Devil** | Diamonds | Choose a target: another player or the Stash. You and the target each exchange a card face-down. If the target is the Stash, place a card from your hand face-down in the Stash, then draw a card from the Stash at random. |
 | **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Stash face-up. It remains face-up in the Stash for the rest of the hand. |
-| **Cat** | Clubs | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
+| **Cat** | Clubs | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. You may choose youself. *(Takes effect after the trick resolves.)* |
 | **Prank Shot** | Shots | No one wins this trick. All cards are discarded face-down. The player who led this trick leads again. |
 
 Snitch vs Double Cross: The Agent can only use the Double Cross during trick resolution. The Agent cannot try to Double Cross as soon as another player targets them with the Snitch. It's too late, they've got you!

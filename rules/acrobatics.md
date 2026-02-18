@@ -45,7 +45,7 @@ Each suit's Prank card has a special ability. Prank cards are also normal suited
 
 | Suit | Name | Ability |
 |------|------|---------|
-| Clubs | The Cat | You lead the next trick, regardless of who wins the current trick. |
+| Clubs | The Cat | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. (You may choose yourself.) |
 | Diamonds | The Devil | Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately. |
 | Hearts | The Hound | Select another player. They reveal one card of their choice to all players, keeping it in hand. |
 | Spades | The Snitch | Name a card (e.g., "King of Hearts"). If any player holds it, they must reveal it to all players, keeping it in hand. |
