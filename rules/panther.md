@@ -12,7 +12,7 @@ Three players compete across multiple hands. Each hand, one player becomes **the
 
 ## Components
 
-### The Deck (46 cards)
+### The Deck (45 cards)
 
 **Traditional Suits (40 cards)** — Four suits of 10 cards each:
 
@@ -27,23 +27,15 @@ Rank order within a suit (low to high): Prank, 5, 6, 7, 8, 9, 10, Jack, Queen, K
 
 **Quests (4 cards)** — The greater trump suit. Quests always beat any card from a traditional suit, including lesser trump.
 
-| Card |
-|------|
-| Goblin |
-| Ogre |
-| Dragon |
-| Witch |
+| Card | Rank |
+|------|------|
+| Goblin | 21 |
+| Ogre | 22 |
+| Dragon | 23 |
+| Witch | 24 |
+| Death | 25 |
 
-Rank order (low to high): Goblin, Ogre, Dragon, Witch.
-
-**Wild Cards (2 cards)** — Wild cards have no suit and no rank. They may be played on any trick, even if you have cards in the led suit.
-
-| Card | Effect |
-|------|--------|
-| **Joker** | Always wins the trick. |
-| **Child** | Always loses the trick. Cannot win under any circumstances. |
-
-Wild cards cannot be led. If you must lead and hold only wild cards, reveal your hand. The player to your left leads instead.
+Rank order (low to high): Goblin, Ogre, Dragon, Witch, Death.
 
 ---
 
@@ -52,7 +44,7 @@ Wild cards cannot be led. If you must lead and hold only wild cards, reveal your
 1. Shuffle the deck.
 2. Deal **10 cards** to each player.
 3. Deal **10 cards face-up** to the center of the table. This is the **Crow hand** (or just "the Crow").
-4. Deal **6 cards face-down** to the side. These are **the Woods** — out of play and not revealed until the hand is over.
+4. Deal **5 cards face-down** to the side. These are **the Woods** — out of play and not revealed until the hand is over.
 5. The dealer sorts the Crow by suit and rank, so all players can read it easily.
 
 All players may examine the Crow before bidding begins.
@@ -75,13 +67,12 @@ When two players have passed, the remaining bidder becomes **the Panther**. The 
 
 Cards from strongest to weakest:
 
-1. **Joker** — always wins the trick
-2. **Quests** (greater trump) — Witch > Dragon > Ogre > Goblin
-3. **Lesser trump** (the suit named in the winning bid) — normal rank order within the suit
-4. **Led suit** — the suit of the first card played in a trick
-5. **Off-suit cards and the Child** — cannot win a trick
+1. **Quests** (greater trump) — Death > Witch > Dragon > Ogre > Goblin
+2. **Lesser trump** (the suit named in the winning bid) — normal rank order within the suit
+3. **Led suit** — the suit of the first card played in a trick
+4. **Off-suit cards** — cannot win a trick
 
-Quests are always the top trump. Lesser trump beats non-trump suits. If no Quest or trump is played, the highest card of the led suit wins.
+Quests are always the greater trump. Lesser trump beats non-trump suits. If no Quest or trump is played, the highest card of the led suit wins.
 
 If "Quests Only" was declared, there is no lesser trump — only Quests outrank the led suit.
 
@@ -97,17 +88,12 @@ The Panther leads the first trick. After that, the winner of each trick leads th
 
 - Players must follow the led suit if able.
 - If a player cannot follow suit, they may play any card.
-- Wild cards may be played on any trick, even if you have cards in the led suit.
 - The Panther's own hand and the Crow follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
 
 ### Leading Quests
 
 - **Leading with a Quest:** Other players must play a Quest if able. If they have no Quests, they may play any card. *(Quests are their own suit.)*
 
-### Leading Restrictions
-
-- Wild cards cannot be led. If you must lead and hold only wild cards, reveal your hand. The player to your left leads instead.
-- If the Crow must lead and holds only wild cards, the player to the Crow's left leads instead.
 
 ---
 
@@ -153,7 +139,7 @@ If multiple players cross 250 on the same hand, the player with the higher score
 
 ## Turn Summary
 
-1. **Deal** — 10 to each player, 10 face-up to the Crow, 6 face-down to the Woods.
+1. **Deal** — 10 to each player, 10 face-up to the Crow, 5 face-down to the Woods.
 2. **Auction** — Bid a number of tricks and a trump declaration. First bidder may not pass. Highest bidder becomes the Panther.
 3. **Setup** — Crow placed across from the Panther.
 4. **Play** — 10 tricks, normal clockwise play. Panther leads first.
