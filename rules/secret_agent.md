@@ -115,15 +115,27 @@ Each suit's Prank card has a unique ability. Prank abilities take effect **immed
 
 Prank cards are the **lowest-ranked card** in their suit.
 
-| Prank | Suit | Ability |
-|-------|------|---------|
-| **Snitch** | Spades | Choose a target: another player or the Stash. If you target a player whose Badge is face-down, flip their Badge face-up. If the Agent is unmasked this way, proceed to **Cards on the Table**. If you target a Hunter, nothing happens (their Badge is simply revealed). If you target the Stash, look at all cards in the Stash, then return them face-down. |
-| **Devil** | Diamonds | Choose a target: another player or the Stash. You and the target each exchange a card face-down. If the target is the Stash, place a card from your hand face-down in the Stash, then draw a card from the Stash at random. |
-| **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Stash face-up. It remains face-up in the Stash for the rest of the hand. |
-| **Cat** | Clubs | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. You may choose youself. *(Takes effect after the trick resolves.)* |
-| **Prank Shot** | Shots | No one wins this trick. All cards are discarded face-down. The player who led this trick leads again. |
+### The Cat (Clubs)
+Choose who leads the next trick. The chosen player leads regardless of who wins this trick. You may choose yourself. *(Takes effect after the trick resolves.)*
 
-Snitch vs Double Cross: The Agent can only use the Double Cross during trick resolution. The Agent cannot try to Double Cross right when a player targets them with the Snitch. It's too late, they've got you!
+### The Devil (Diamonds)
+Choose a target: another player or the Stash. You and the target each exchange a card face-down. If the target is the Stash, place a card from your hand face-down in the Stash, then draw a card from the Stash at random.
+
+### The Hound (Hearts)
+Choose one:
+- Name one player. That player reveals one card of their choice to all players, keeping it in hand.
+- Name one player. If their badge is face-down, reveal their badge to all players. Then put the badge back face-down. This does not unmask the Agent, and they can continue snarking. But now everyone knows whether or not they are the Agent.
+
+### The Snitch (Spades)
+Choose one effect:
+- Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
+- Name one player. If their Badge is face-down, flip it face-up. If the Agent is unmasked this way, proceed to **Cards on the Table**. If you target a Hunter, nothing happens (their Badge is simply flipped face-up).
+
+Snitch vs Double Cross: Remember, the Agent can only use the Double Cross during trick resolution. The Agent cannot try to Double Cross right when a player targets them with the Snitch. It's too late, they've got you!
+
+### Prank Shot (Shots)
+No one wins this trick. All cards are discarded face-down. The player who would have won this trick leads the next one.
+
 
 ---
 
