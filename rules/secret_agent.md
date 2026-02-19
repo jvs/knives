@@ -131,10 +131,13 @@ Choose one effect:
 - Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
 - Name one player. If their Badge is face-down, flip it face-up. If the Agent is unmasked this way, proceed to **Cards on the Table**. If you target a Hunter, nothing happens (their Badge is simply flipped face-up).
 
-Snitch vs Double Cross: Remember, the Agent can only use the Double Cross during trick resolution. The Agent cannot try to Double Cross right when a player targets them with the Snitch. It's too late, they've got you!
-
 ### Prank Shot (Shots)
 No one wins this trick. All cards are discarded face-down. The player who would have won this trick leads the next one.
+
+
+### Timing
+
+Prank Cards vs Double Cross: Remember, the Agent can only use the Double Cross during trick resolution. The Agent cannot try to Double Cross right when a player targets them with the Hound or the Snitch. It's too late, they've got you!
 
 
 ---
