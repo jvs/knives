@@ -43,14 +43,20 @@ Ghosts are the lowest-ranked cards in their suit and follow all standard trick-t
 
 Each suit's Prank card has a special ability. Prank cards are also normal suited cards with a rank (between Ghost and Maid) and must follow all standard trick-taking rules.
 
-| Suit | Name | Ability |
-|------|------|---------|
-| Clubs | The Cat | Choose who leads the next trick. The chosen player leads regardless of who wins this trick. (You may choose yourself.) |
-| Diamonds | The Devil | Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately. |
-| Hearts | The Hound | Select another player. They reveal one card of their choice to all players, keeping it in hand. |
-| Spades | The Snitch | Name a card (e.g., "King of Hearts"). If any player holds it, they must reveal it to all players, keeping it in hand. |
+#### The Cat (Clubs)
+Choose who leads the next trick. The chosen player leads regardless of who wins this trick. (You may choose yourself.)
 
-**Prank timing:** Prank abilities take effect when the card is played (before the trick resolves), except for the Cat, which takes effect after the trick resolves.
+#### The Devil (Diamonds)
+Select another player to swap cards with. Each of you selects a card from your hand and exchanges them face-down. Both players add the received card to their hand immediately.
+
+#### The Hound (Hearts)
+Select another player. They show one card of their choice to all players (keeping it in hand).
+
+#### The Snitch (Spades)
+Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
+
+#### Prank Timing
+Prank abilities take effect when the card is played (before the trick resolves), except for the Cat, which takes effect after the trick resolves.
 
 ### The Joker and the Fox
 
