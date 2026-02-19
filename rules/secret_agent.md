@@ -6,7 +6,7 @@ A trick-taking card game for 4 players.
 
 ## Overview
 
-Each hand, one player is secretly **the Agent**. The other three are **Spy Hunters**. The Agent wins by taking at least as many tricks as the Hunters. The Hunters win by taking more tricks than the Agent.
+Each hand, one player is secretly **the Agent**. The other three are **Hunters**. The Agent wins by taking at least as many tricks as the Hunters. The Hunters win by taking more tricks than the Agent.
 
 While undercover, the Agent can **snark** — playing cards without following suit. Once the Agent is unmasked, both sides rearm: the Agent **raids the Stash**, and the Hunters **gear up**. Then they settle things once and for all in the final shoot-out.
 
@@ -20,13 +20,15 @@ While undercover, the Agent can **snark** — playing cards without following su
 
 Prank, 2, 3, 4, 5, 6, 7, 8, Ace
 
-**Shots (9 cards)** — The trump suit. Shots beat all other suits. Shots can only be played if you have no cards of the led suit (unless you are the Agent — see Snarking).
+- Prank is the lowest card in each suit and Ace is the highest.
+
+**Shots (9 cards)** — The trump suit. 
 
 Prank Shot, 2, 3, 4, 5, 6, 7, 8, Clean Shot
 
-Rank order within a suit (low to high): Prank, 2, 3, 4, 5, 6, 7, 8, Ace.
-
-Rank order for Shots (low to high): Prank Shot, 2, 3, 4, 5, 6, 7, 8, Clean Shot.
+- Prank Shot is the lowest Shot card, and Clean Shot is the highest.
+- Shots beat all other suits.
+- Shots can only be played if you have no cards of the led suit (unless you are the Agent — see Snarking).
 
 **4 Badges** — 1 Agent badge and 3 Hunter badges.
 
@@ -46,7 +48,7 @@ Rank order for Shots (low to high): Prank Shot, 2, 3, 4, 5, 6, 7, 8, Clean Shot.
 The leader plays any card face-up. Each subsequent player must follow the led suit if able.
 
 - If you have no cards of the led suit, you may play any card, including Shots.
-- **Snarking:** While undercover, the Agent may ignore all follow-suit rules (see Agent Powers).
+- **Snarking:** While their badge is face-down, the Agent may ignore all follow-suit rules (see Agent Powers).
 - **Clean Shot**: The Clean Shot card may be played on any trick, instead of following suit. The Clean Shot counts as the highest Shot card and always wins the trick.
 
 ### Winning a Trick
