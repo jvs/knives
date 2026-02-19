@@ -103,12 +103,23 @@ Each suit's Prank card has a unique ability. Prank abilities take effect **immed
 
 Prank cards are the **lowest-ranked card** in their suit — playing one means you're almost certainly losing the trick. The ability is the trade-off.
 
-| Prank | Suit | Ability |
-|-------|------|---------|
-| **Snitch** | Spades | Look at all cards in the Woods. Shuffle them and return them face-down. |
-| **Devil** | Diamonds | Choose a target: another player, the Crow, or the Woods. You and the target each exchange a card face-down. If the target is the Crow, the Panther chooses which Crow card to exchange, and both cards are revealed (since the Crow is face-up). If the target is the Woods, place a card from your hand face-down in the Woods, then draw a card from the Woods at random. |
-| **Hound** | Hearts | Choose one: (a) Choose a player — that player reveals one card of their choice to all players, keeping it in hand. (b) Flip one card from the Woods face-up. It remains face-up in the Woods for the rest of the hand. |
-| **Cat** | Clubs | Choose who leads the next trick: yourself, another player, or the Crow. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)* |
+### The Cat (Clubs)
+Choose who leads the next trick: yourself, another player, or the Crow. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)*
+
+### The Devil (Diamonds)
+Choose a target: another player, the Crow, or the Woods. You and the target each exchange a card face-down.
+- If the target is the Crow, the Panther chooses which Crow card to exchange, and both cards are revealed (since the Crow is face-up).
+- If the target is the Woods, place a card from your hand face-down in the Woods, then draw a card from the Woods at random.
+
+### The Hound (Hearts)
+Choose one:
+- Choose a player — that player reveals one card of their choice to all players, keeping it in hand.
+- Flip one card from the Woods face-up. It remains face-up in the Woods for the rest of the hand.
+
+### The Snitch (Spades)
+Choose one:
+- Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
+- Look at all cards in the Woods. Shuffle them and return them face-down.
 
 ---
 

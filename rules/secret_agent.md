@@ -129,7 +129,7 @@ Choose one:
 - Name another player. If their badge is face-down, reveal their badge to all players. Then put the badge back face-down. This does not unmask the Agent, and they can continue snarking. But now everyone knows whether or not they are the Agent.
 
 ### The Snitch (Spades)
-Choose one effect:
+Choose one:
 - Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
 - Name another player. If their Badge is face-down, flip it face-up. If the Agent is unmasked this way, proceed to **Cards on the Table**. If you target a Hunter, nothing happens (their Badge is simply flipped face-up).
 
