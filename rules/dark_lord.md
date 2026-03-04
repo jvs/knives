@@ -50,6 +50,7 @@ Starting with the Leader, players take turns playing cards from their hand. On y
 
 **Rules for playing cards:**
 - A player may play **at most one Fighter** per battle.
+- Each player may have at most **one Fighter** on the field at a time. You may not summon a new Fighter while you have one in play.
 - Spells can be played freely (unless restricted by an event or monster effect).
 - Items must be assigned to a Fighter when played. A Fighter can hold items up to its **Slots** stat.
 - Squires must be assigned to a Fighter. A Fighter can have at most **one Squire**.
