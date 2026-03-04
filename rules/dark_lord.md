@@ -75,7 +75,7 @@ If a monster or event says "at the start of battle," resolve those effects now. 
 - Subtract Attack from the target's Health. If Health drops to 0, the card is destroyed and discarded (along with its items and squire).
 - Each combatant attacks **once** per battle.
 
-### 6. Resolution
+### 7. Resolution
 
 **If all Monsters are destroyed — Players win the battle!**
 
