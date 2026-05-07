@@ -8,7 +8,7 @@ A trick-taking card game for 4 players.
 
 Each hand, one player is secretly **the Agent**. The other three are **Hunters**. The Agent wins by taking at least as many tricks as the Hunters. The Hunters win by taking more tricks than the Agent.
 
-While undercover, the Agent can **snark** — playing cards without following suit. Once the Agent is unmasked, both sides rearm: the Agent **raids the Stash**, and the Hunters **gear up**. Then they settle things once and for all in the final shoot-out.
+While undercover, the Agent can **snipe** — playing cards without following suit. Once the Agent is unmasked, both sides rearm: the Agent **raids the Stash**, and the Hunters **gear up**. Then they settle things once and for all in the final shoot-out.
 
 ---
 
@@ -28,7 +28,7 @@ Prank Shot, 2, 3, 4, 5, 6, 7, 8, Clean Shot
 
 - Prank Shot is the lowest Shot card, and Clean Shot is the highest.
 - Shots beat all other suits.
-- Shots can only be played if you have no cards of the led suit (unless you are the Agent — see Snarking).
+- Shots can only be played if you have no cards of the led suit (unless you are the Agent — see Sniping).
 
 **4 Badges** — 1 Agent badge and 3 Hunter badges.
 
@@ -48,7 +48,7 @@ Prank Shot, 2, 3, 4, 5, 6, 7, 8, Clean Shot
 The leader plays any card face-up. Each subsequent player must follow the led suit if able.
 
 - If you have no cards of the led suit, you may play any card, including Shots.
-- **Snarking:** While their badge is face-down, the Agent may ignore all follow-suit rules (see Agent Powers).
+- **Sniping:** While their badge is face-down, the Agent may ignore all follow-suit rules (see Agent Powers).
 - **Clean Shot**: The Clean Shot card may be played on any trick, instead of following suit. The Clean Shot counts as the highest Shot card and always wins the trick.
 
 ### Winning a Trick
@@ -63,11 +63,11 @@ If you win three tricks while your Badge is still face-down, flip your badge fac
 
 ## Agent Powers
 
-### Snarking (Undercover Only)
+### Sniping (Undercover Only)
 
 While their Badge is face-down, the Agent can play any card on any trick, ignoring all follow-suit rules. This includes playing Shots while holding the led suit, or playing off-suit when they could follow.
 
-Only the Agent can snark. If you notice someone not following suit, you know who the Agent is — but as long as their Badge is face-down, they can keep snarking.
+Only the Agent can snipe. If you notice someone not following suit, you know who the Agent is — but as long as their Badge is face-down, they can keep sniping.
 
 **Once the Agent's Badge is face-up, they must follow suit like everyone else.**
 
@@ -105,7 +105,7 @@ The remaining cards are removed from the play area. They are not needed anymore.
 
 ### 4. The Final Shoot-Out
 
-The remaining tricks are played with all Badges face-up. The Agent must follow suit like everyone else. No more snarking.
+The remaining tricks are played with all Badges face-up. The Agent must follow suit like everyone else. No more sniping.
 
 The Agent leads the first trick after the Hunters finish gearing up.
 
@@ -126,7 +126,7 @@ Choose a target: another player or the Stash. You and the target each exchange a
 ### The Hound (Hearts)
 Choose one:
 - Name another player. That player reveals one card of their choice to all players, keeping it in hand.
-- Name another player. If their badge is face-down, reveal their badge to all players. Then put the badge back face-down. This does not unmask the Agent, and they can continue snarking. But now everyone knows whether or not they are the Agent.
+- Name another player. If their badge is face-down, reveal their badge to all players. Then put the badge back face-down. This does not unmask the Agent, and they can continue sniping. But now everyone knows whether or not they are the Agent.
 
 ### The Snitch (Spades)
 Choose one:
@@ -161,7 +161,7 @@ Shuffle and deal new Badges each round.
 
 1. **Deal** — 10 cards to each player, 5 face-down to the Stash.
 2. **Badges** — Deal one Badge face-down to each player.
-3. **Play** — 10 tricks. The Agent may snark while undercover.
+3. **Play** — 10 tricks. The Agent may snipe while undercover.
 4. **Cards on the Table** — Triggered by the Agent's third win, a Double Cross, or the Snitch.
   - Show Your Badge. All players flip their Badges face-up.
   - Agent raids the Stash.
