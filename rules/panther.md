@@ -55,7 +55,7 @@ All players may examine the Crow before bidding begins.
 
 The player to the dealer's left bids first and **may not pass**.
 
-Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Quests Only." For example: "4 and Hearts" or "5 and Quests Only."
+Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Quests Only." For example: "4 with Hearts" or "5 with Quests Only."
 
 Bidding proceeds clockwise. Each bid must have a **higher number of tricks** than the previous bid, regardless of the trump declaration. A player may **pass** instead of bidding. Once you pass, you are done with bidding for this hand.
 
@@ -107,19 +107,13 @@ Prank cards are the **lowest-ranked card** in their suit — playing one means y
 Choose who leads the next trick: yourself, another player, or the Crow. The chosen player leads regardless of who wins this trick. *(Takes effect after the trick resolves.)*
 
 ### The Devil (Diamonds)
-Choose a target: another player, the Crow, or the Woods. You and the target each exchange a card face-down.
-- If the target is the Crow, the Panther chooses which Crow card to exchange, and both cards are revealed (since the Crow is face-up).
-- If the target is the Woods, place a card from your hand face-down in the Woods, then draw a card from the Woods at random.
+Choose a target: another player or the Crow. You and the target each exchange a card face-down. If the target is the Crow, the Panther chooses which Crow card to exchange, and both cards are revealed (since the Crow is face-up).
 
 ### The Hound (Hearts)
-Choose one:
-- Choose a player — that player reveals one card of their choice to all players, keeping it in hand.
-- Flip one card from the Woods face-up. It remains face-up in the Woods for the rest of the hand.
+Look at all cards in the Woods.
 
 ### The Snitch (Spades)
-Choose one:
-- Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
-- Look at all cards in the Woods. Shuffle them and return them face-down.
+Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
 
 ---
 
