@@ -18,17 +18,16 @@ While undercover, the Agent can **snipe** — playing cards without following su
 
 **Four Suits (36 cards)** — Spades, Diamonds, Hearts, Clubs — 9 cards each:
 
-Prank, 7, 8, 9, 10, Kid, Dame, Chief, Ace
+Prank, 7, 8, 9, 10, Kid, Doll, Chief, Ace
 
 - Prank is the lowest card in each suit and Ace is the highest.
 
 **Shots (9 cards)** — The trump suit. 
 
-Blank Shot, 7, 8, 9, 10, Cheap Shot (11), Long Shot (12), Hot Shot (13), Big Shot (A)
+Blank Shot (0), 1, 2, 3, 4, 5, 6, 7, Big Shot (8)
 
 - Blank Shot is the lowest Shot card, and Big Shot is the highest.
-- Shots beat all other suits. Big Shot always wins the trick.
-- Shots can only be played if you have no cards of the led suit (unless you are the Agent — see Sniping).
+- Shots beat all other suits.
 
 **4 Badges** — 1 Agent badge and 3 Hunter badges.
 
@@ -49,6 +48,8 @@ The leader plays any card face-up. Each subsequent player must follow the led su
 
 - If you have no cards of the led suit, you may play any card, including Shots.
 - **Sniping:** While their badge is face-down, the Agent may ignore all follow-suit rules (see Agent Powers).
+- **Big Shot**: Big Shot may be played on any trick, even if you could follow suit. Big Shot counts as the highest Shot card and always wins the trick (but watch out for Blank Shot).
+
 
 ### Winning a Trick
 
@@ -100,7 +101,7 @@ The Agent picks up all 5 cards in the Stash and adds them to their hand. The Age
 
 Each Hunter places one card from their hand face-up on the table, alongside the Agent's discards. Then, starting with the player to the Agent's left, each Hunter picks up any one card from the combined pool.
 
-The remaining cards are flipped face-down, forming a new Stash. This is unused, except optionally by the Devil (see Prank Cards).
+The remaining cards are removed from the play area. They are not needed anymore.
 
 ### 4. The Final Shoot-Out
 
@@ -120,15 +121,15 @@ Prank cards are the **lowest-ranked card** in their suit.
 Choose who leads the next trick. The chosen player leads regardless of who wins this trick. You may choose yourself. *(Takes effect after the trick resolves.)*
 
 ### The Devil (Diamonds)
-Choose a target: another player or the Stash. You and the target each exchange a card face-down. If the target is the Stash, place a card from your hand face-down in the Stash, then draw a card from the Stash at random.
+Choose another player. Exchange a card face-down with them.
 
 ### The Hound (Hearts)
-Name another player. That player reveals one card of their choice to all players, keeping it in hand. If their badge is still face-down, they may choose to flip their Badge face-up instead of revealing a card from their hand.
+Choose one: Look at the Stash. OR: Name another player and a suit; they must reveal their highest card in that suit (or reveal that they have none).
 
 ### The Snitch (Spades)
 Choose one:
 - Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
-- Name another player. If their Badge is face-down, flip it face-up.
+- Name another player. If their Badge is face-down, flip it face-up. See Timing.
 
 ### Blank Shot (Shots)
 No one wins this trick. All cards are discarded face-down. The player who would have won this trick leads the next one.
@@ -136,9 +137,9 @@ No one wins this trick. All cards are discarded face-down. The player who would 
 
 ### Timing
 
-Prank Cards vs Double Cross: Remember, the Agent can only use the Double Cross during trick resolution. The Agent cannot try to Double Cross right when a player targets them with the Hound or the Snitch. It's too late, they've got you!
+Prank Cards vs Double Cross: Remember, the Agent can only use the Double Cross during trick resolution. The Agent cannot try to Double Cross right when a player targets them with the Snitch. It's too late, they've got you!
 
-If the Agent is unmasked by The Hound or The Snitch, continue playing the trick. After resovling the trick, immediately proceed to **Cards on the Table**.
+If the Agent is unmasked by The Snitch, continue playing the trick. After resolving the trick, immediately proceed to **Cards on the Table**.
 
 Blank Shot vs Big Shot: If Blank Shot and Big Shot are played in the same trick, the Blank Shot still takes effect. The trick is a wash, and no one wins it. The player who played the Big Shot leads the next trick, since they would have won this trick.
 
