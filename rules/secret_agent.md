@@ -126,7 +126,7 @@ Choose another player. Exchange a card face-down with them.
 ### The Hound (Hearts)
 Choose one:
 - Look at the Stash.
-- Look through one of your won tricks. Swap any one card in it with any one card from your hand. The swap is face-down; do not reveal either card. The trick's winner does not change.
+- Look through one of your won tricks. Swap any one card in it with any one card from your hand. The swap is face-down; do not reveal either card. The trick's winner does not change. (Requires that you have won at least one trick.)
 
 ### The Snitch (Spades)
 Choose one:
