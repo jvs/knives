@@ -48,7 +48,6 @@ The leader plays any card face-up. Each subsequent player must follow the led su
 
 - If you have no cards of the led suit, you may play any card, including Shots.
 - **Sniping:** While their badge is face-down, the Agent may ignore all follow-suit rules (see Agent Powers).
-- **Dead Shot**: Dead Shot may be played on any trick, even if you could follow suit. Dead Shot counts as the highest Shot card and always wins the trick (but watch out for Blank Shot).
 
 
 ### Winning a Trick

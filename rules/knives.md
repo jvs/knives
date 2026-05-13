@@ -142,12 +142,6 @@ Before looking at the bank cards, the banker may declare "going for broke" — a
 - The banker and shadow banker score nothing.
 
 
-| Result | Points Each |
-|--------|-------------|
-| Going for Broke (success) | +1 each (+2 solo) |
-| Going for Broke (fail) | Defenders +1 each |
-
-
 ## Winning the Game
 
 Choose a target before starting:
