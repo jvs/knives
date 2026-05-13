@@ -105,6 +105,12 @@ The winner of the trick collects the played cards and places them face-down in f
 
 After all 7 tricks have been played, check whether the challenge objective was met. If so, the players win. If not, they may try again with a new deal, or select a new challenge. Rotate the dealer clockwise for the next round.
 
+
+### Note on Reneging
+
+If a player fails to follow suit when they could have, and it's caught immediately, replay the trick with the correct card. If it's caught later, the table decides how to handle it: unwind the hand to the point of error, accept the result as-is, or if no agreement can be reached, then shuffle and redeal the hand.
+
+
 ## Challenge Cards
 
 Players can approach challenges however they like — pick one at random, try one that looks fun, or work through them in order. There is no required campaign or progression. (But if this is your first time playing, start with #1 Appetizers.)

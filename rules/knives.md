@@ -151,6 +151,10 @@ Choose a target before starting:
 - **Long:** First to 10 points
 
 
+## Note on Reneging
+
+If a player fails to follow suit when they could have, and it's caught immediately, replay the trick with the correct card. If it's caught later, the table decides how to handle it: unwind the hand to the point of error, accept the result as-is, or if no agreement can be reached, then the offending player and any partners lose the hand.
+
 
 ## Quick Reference
 
