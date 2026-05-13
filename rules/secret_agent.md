@@ -24,9 +24,9 @@ Prank, 7, 8, 9, 10, Kid, Doll, Chief, Ace
 
 **Shots (9 cards)** — The trump suit. 
 
-Blank Shot (0), 1, 2, 3, 4, 5, 6, 7, Big Shot (8)
+Blank Shot (0), 1, 2, 3, 4, 5, 6, 7, Dead Shot (8)
 
-- Blank Shot is the lowest Shot card, and Big Shot is the highest.
+- Blank Shot is the lowest Shot card, and Dead Shot is the highest.
 - Shots beat all other suits.
 
 **4 Badges** — 1 Agent badge and 3 Hunter badges.
@@ -48,7 +48,7 @@ The leader plays any card face-up. Each subsequent player must follow the led su
 
 - If you have no cards of the led suit, you may play any card, including Shots.
 - **Sniping:** While their badge is face-down, the Agent may ignore all follow-suit rules (see Agent Powers).
-- **Big Shot**: Big Shot may be played on any trick, even if you could follow suit. Big Shot counts as the highest Shot card and always wins the trick (but watch out for Blank Shot).
+- **Dead Shot**: Dead Shot may be played on any trick, even if you could follow suit. Dead Shot counts as the highest Shot card and always wins the trick (but watch out for Blank Shot).
 
 
 ### Winning a Trick
@@ -124,12 +124,14 @@ Choose who leads the next trick. The chosen player leads regardless of who wins 
 Choose another player. Exchange a card face-down with them.
 
 ### The Hound (Hearts)
-Choose one: Look at the Stash. OR: Name another player and a suit; they must reveal their highest card in that suit (or reveal that they have none).
+Choose one:
+- Look at the Stash.
+- Look through one of your won tricks. Swap any one card in it with any one card from your hand. The swap is face-down; do not reveal either card. The trick's winner does not change.
 
 ### The Snitch (Spades)
 Choose one:
-- Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
 - Name another player. If their Badge is face-down, flip it face-up. See Timing.
+- Ask one player a single yes-or-no question about the cards currently in their hand. They must answer immediately and truthfully, and all players hear the answer.
 
 ### Blank Shot (Shots)
 No one wins this trick. All cards are discarded face-down. The player who would have won this trick leads the next one.
@@ -141,7 +143,7 @@ Prank Cards vs Double Cross: Remember, the Agent can only use the Double Cross d
 
 If the Agent is unmasked by The Snitch, continue playing the trick. After resolving the trick, immediately proceed to **Cards on the Table**.
 
-Blank Shot vs Big Shot: If Blank Shot and Big Shot are played in the same trick, the Blank Shot still takes effect. The trick is a wash, and no one wins it. The player who played the Big Shot leads the next trick, since they would have won this trick.
+Blank Shot vs Dead Shot: If Blank Shot and Dead Shot are played in the same trick, the Blank Shot still takes effect. The trick is a wash, and no one wins it. The player who played the Dead Shot leads the next trick, since they would have won this trick.
 
 ---
 

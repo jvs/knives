@@ -25,7 +25,7 @@ Three players compete across multiple hands. Each hand, one player becomes **the
 
 Rank order within a suit (low to high): Prank, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace.
 
-**Quests (5 cards)** — The greater trump suit. Quests always beat any card from a traditional suit, including lesser trump.
+**Perils (5 cards)** — The greater trump suit. Perils always beat any card from a traditional suit, including lesser trump.
 
 | Card | Rank |
 |------|------|
@@ -55,7 +55,7 @@ All players may examine the Crow before bidding begins.
 
 The player to the dealer's left bids first and **may not pass**.
 
-Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Quests Only." For example: "4 with Hearts" or "5 with Quests Only."
+Each bid consists of a **number of tricks** and a **trump declaration** — either a lesser trump suit or "Perils Only." For example: "4 with Hearts" or "5 with Perils Only."
 
 Bidding proceeds clockwise. Each bid must have a **higher number of tricks** than the previous bid, regardless of the trump declaration. A player may **pass** instead of bidding. Once you pass, you are done with bidding for this hand.
 
@@ -67,14 +67,14 @@ When two players have passed, the remaining bidder becomes **the Panther**. The 
 
 Cards from strongest to weakest:
 
-1. **Quests** (greater trump) — Death > Witch > Dragon > Ogre > Goblin
+1. **Perils** (greater trump) — Death > Witch > Dragon > Ogre > Goblin
 2. **Lesser trump** (the suit named in the winning bid) — normal rank order within the suit
 3. **Led suit** — the suit of the first card played in a trick
 4. **Off-suit cards** — cannot win a trick
 
-Quests are always the greater trump. Lesser trump beats non-trump suits. If no Quest or trump is played, the highest card of the led suit wins.
+Perils are always the greater trump. Lesser trump beats non-trump suits. If no Peril or trump is played, the highest card of the led suit wins.
 
-If "Quests Only" was declared, there is no lesser trump — only Quests outrank the led suit.
+If "Perils Only" was declared, there is no lesser trump — only Perils outrank the led suit.
 
 ---
 
@@ -90,9 +90,9 @@ The Panther leads the first trick. After that, the winner of each trick leads th
 - If a player cannot follow suit, they may play any card.
 - The Panther's own hand and the Crow follow suit **independently**. Each must follow the led suit using only the cards available in that hand.
 
-### Leading Quests
+### Leading Perils
 
-- **Leading with a Quest:** Other players must play a Quest if able. If they have no Quests, they may play any card. *(Quests are their own suit.)*
+- **Leading with a Peril:** Other players must play a Peril if able. If they have no Perils, they may play any card. *(Perils are their own suit.)*
 
 
 ---
@@ -113,7 +113,7 @@ Choose a target: another player or the Crow. You and the target each exchange a 
 Look at all cards in the Woods.
 
 ### The Snitch (Spades)
-Name one card (e.g., "King of Hearts"). If any player holds it, they must show it to all players (keeping it in hand).
+Ask one player a single yes-or-no question about the cards currently in their hand. They must answer immediately and truthfully, and all players hear the answer.
 
 ---
 
@@ -124,13 +124,13 @@ After all 10 tricks have been played, count the Panther's tricks. Tricks won by 
 ### Panther Succeeds (meets or exceeds bid)
 
 - Panther gains **bid × 10** points.
-- If "Quests Only" was declared: double the Panther's points for this hand.
+- If "Perils Only" was declared: double the Panther's points for this hand.
 
 ### Panther Fails (fewer tricks than bid)
 
 - Panther gains **nothing**.
 - Each Hunter gains **bid × 5** points.
-- If "Quests Only" was declared: double the Hunters' points for this hand.
+- If "Perils Only" was declared: double the Hunters' points for this hand.
 
 ---
 

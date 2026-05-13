@@ -24,16 +24,16 @@ Acrobatics is a cooperative trick-taking game. Each round, the players face a ch
 
 Each of the four suits contains seven cards. From lowest to highest rank:
 
-Ghost — Prank — Maid — Jack — Queen — King — Ace
+Ghost, Prank, Maid, Jack, Queen, King, Ace
 
 ### Ghost Cards
 
-Each suit's Ghost card has a word count printed on it. **When you play a Ghost, you may speak that many words before the next player plays their card.** For example, if you play the Ghost of Diamonds (3 words), you may say up to three words (e.g., "I have spades" or "Lead clubs next"). Contractions count as one word. You can say anything — there are no restrictions on content.
+Each suit's Ghost card has a word count printed on it. **When you play a Ghost, you may speak that many words before the next player plays their card.** For example, if you play the Ghost of Clubs (3 words), you may say up to three words (e.g., "I have spades" or "Lead hearts next"). Contractions count as one word. You can say anything — there are no restrictions on content.
 
 | Suit | Words |
 |------|-------|
-| Clubs | 4 |
-| Diamonds | 3 |
+| Diamonds | 4 |
+| Clubs | 3 |
 | Hearts | 2 |
 | Spades | 1 |
 
@@ -56,7 +56,7 @@ The Joker and the Fox are wild cards with no suit and no rank. They may be playe
 
 **The Joker** always wins the trick.
 
-**The Fox** lets you ask one player a single yes-or-no question about their hand. They answer immediately, and all players hear the answer. The Fox has no rank and cannot win a trick.
+**The Fox** lets you ask one player a single yes-or-no question about the cards currently in their hand. They answer immediately, and all players hear the answer. The Fox has no rank and cannot win a trick.
 
 Rule Lawyers: The question should be about the player's hand. You may not ask a question that would reveal information about your own hand or intentions, (e.g., "Do you have exactly one spade, since I'm also down to my last spade?").
 
