@@ -112,6 +112,17 @@ Name one card (e.g., "King of Hearts"). If any player holds it, they must show i
 - Exception: If The Cat was played, that player leads instead
 
 
+## Scoring
+
+After all 7 tricks, count coins. The team with the most coins wins, with ties going to the defenders.
+
+| Result | Points Each |
+|--------|-------------|
+| Banker + Shadow win (13+ coins) | +1 each |
+| Solo Banker win (13+ coins, no Shadow) | +2 |
+| Defenders win (12+ coins) | +1 each |
+
+
 ## Going for Broke
 
 Before looking at the bank cards, the banker may declare "going for broke" — attempting to take zero coins.
@@ -124,20 +135,15 @@ Before looking at the bank cards, the banker may declare "going for broke" — a
 **If the banker takes 0 coins:**
 - Banker + Shadow: +1 points each
 - Solo Banker: +2 points
+- The defenders score nothing.
 
 **If the banker takes 1 or more coins:**
 - Each defender: +1 points
+- The banker and shadow banker score nothing.
 
-
-## Scoring
-
-After all 7 tricks, count coins. The team with the most coins wins, with ties going to the defenders.
 
 | Result | Points Each |
 |--------|-------------|
-| Banker + Shadow win (13+ coins) | +1 each |
-| Banker wins alone (13+ coins, no Shadow) | +2 |
-| Defenders win (12+ coins) | +1 each |
 | Going for Broke (success) | +1 each (+2 solo) |
 | Going for Broke (fail) | Defenders +1 each |
 
@@ -169,7 +175,7 @@ A = 3 | K = 2 | Q = 1
 4. Banker takes 2 bank cards, banks 2 back (count toward coins)
 
 ### Shadow Banker
-Worst of Knives = secret partner (revealed when played). If banker plays Worst = solo, double points.
+Worst of Knives = secret partner (revealed when played). If banker plays Worst = solo.
 
 ### Tricks
 - Knives are always trump
@@ -184,6 +190,7 @@ Worst of Knives = secret partner (revealed when played). If banker plays Worst =
 - **The Snitch (Spades):** Name a card; if held, must be revealed
 
 ### Scoring
+
 | Situation | Points |
 |-----------|--------|
 | Banker + Shadow win (13+) | +1 each |
